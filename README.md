@@ -1,5 +1,12 @@
 # GATE Computer Science & Information Technology Complete PYQ Archive (1983–2026)
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-0284c7?style=for-the-badge&logo=github)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
+[![Coverage](https://img.shields.io/badge/Coverage-1983--2026_(44_Years)-success?style=for-the-badge)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
+[![Questions](https://img.shields.io/badge/Questions-2%2C798_Verified-blue?style=for-the-badge)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
+
+🌐 **Live Study Application**: [GATE CSE Complete PYQ Archive (1983–2026)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
+
+
 ## 1. Project Overview
 This repository contains a comprehensive, archival-grade Previous Year Question (PYQ) database and interactive single-page web study platform for **GATE Computer Science and Information Technology (CS/IT)**, spanning the complete 44-year historical target period from **1983 through 2026**.
 
@@ -68,7 +75,13 @@ gate_cse_archive/
 
 ---
 
-## 5. How to Run the Study Platform
+## 5. How to Run & Access the Study Platform
+
+### 🌐 Live Web Access
+The platform is hosted live on GitHub Pages:  
+👉 **[GATE CSE Complete PYQ Archive (1983–2026)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)**
+
+### 💻 Local Run
 
 Because `questions.json` is loaded via browser `fetch()`, open the application via a local HTTP server:
 
