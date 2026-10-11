@@ -1,0 +1,553 @@
+[
+  {
+    "id": 1100401,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The Boolean expression [latex]A \\oplus B \\oplus A[/latex] is equivalent to\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/82556/gate1987-12-a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "[latex]AB + \\bar {A}\\bar B[/latex]",
+      "[latex]\\bar{A}B+A\\bar{B}[/latex]",
+      "B",
+      "[latex]\\bar{A}[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100402,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The below figure shows four D-type flip-flops connected as a shift register using a XOR gate. The initial state and three subsequent states for three clock pulses are also given.<br><img src=\"/wp-content/uploads/GATE/CS/19871/q13-a.jpg\" /><br><br>[latex]\\begin{array}{|c|c|c|c|c|} \\hline \\text{State} & Q_{A} & Q_{B} & Q_{C} & Q_{D} \\\\\\hline \\text{Initial} & 1 & 1 & 1 & 1 \\\\\\hline \\text{After the first clock} & 0 & 1 & 1 & 1 \\\\\\hline \\text{After the second clock} & 0 & 0 & 1 & 1 \\\\\\hline \\text{After the third clock} & 0 & 0 & 0 & 1 \\\\\\hline \\end{array}[/latex]<br><br>The state [latex]Q_{A} Q_{B} Q_{C} Q_{D}[/latex] after the fourth clock pulse is",
+    "solution": "<a href=\"https://gateoverflow.in/82607/gate1987-13-a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Sequential Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/sequential-circuit",
+    "options": [
+      "0000",
+      "1111",
+      "1001",
+      "1000"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1100403,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Fig. below shows the circuit diagram of a wien bridge oscillator using an op-amp.<br><img src=\"/wp-content/uploads/GATE/CS/19871/q15a.jpg\" /><br>The frequency of oscillation is given by [latex]f= 1/2 \\pi[/latex] CR. To have the system oscillate the ratio [latex]R_{2}/R_{1}[/latex] should be",
+    "solution": "<a href=\"https://gateoverflow.in/82656/gate1987-15a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "0.5",
+      "29",
+      "2",
+      "Any value"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1100404,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A Boolean function f is to be realized only by NOR gates. Its K-map is given below:<br><img src=\"/wp-content/uploads/GATE/CS/19871/q16-aa.jpg\" /><br>The realization is<br><img src=\"/wp-content/uploads/GATE/CS/19871/q16-ab.jpg\" /><br>",
+    "solution": "<a href=\"https://gateoverflow.in/82698/gate1987-16-a\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1100405,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The refreshing rate of dynamic RAMs is in the range of\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80278/gate1987-1-ix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Memory Chip Design",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-chip-design",
+    "options": [
+      "2 microseconds",
+      "2 milliseconds.",
+      "50 milli seconds",
+      "500 milliseconds"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100406,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The data transfer rate of a double-density floppy disk system is about:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80281/gate1987-1-x\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Secondary Storage",
+    "tag2_url": "https://practicepaper.in/gate-cse/secondary-storage",
+    "options": [
+      "5K bits/sec",
+      "50K bits/sec",
+      "500K bits/sec",
+      "5000K bits/sec"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100407,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a compiler the module that checks every character of the source text is called:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Lexical Analysis",
+    "tag2_url": "https://practicepaper.in/gate-cse/lexical-analysis",
+    "options": [
+      "The code generator.",
+      "The code optimiser.",
+      "The lexical analyser.",
+      "The syntax analyser."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100408,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A context-free grammar is ambiguous if:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80291/gate1987-1-xii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-grammar",
+    "options": [
+      "The grammar contains useless non-terminals.",
+      "It produces more than one parse tree for some sentence.",
+      "Some production has two non terminals side by side on the right-hand side.",
+      "None of the above."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100409,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "FORTRAN is a:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80293/gate1987-1-xiii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "",
+    "tag1_url": "https://practicepaper.in/gate-cse/",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-cse/",
+    "options": [
+      "Regular language.",
+      "Context-free language.",
+      "Context-senstive language.",
+      "None of the above."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100410,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "An operator precedence parser is a\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80295/gate1987-1-xiv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "Bottom-up parser.",
+      "Top-down parser.",
+      "Back tracking parser.",
+      "None of the above."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100411,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a circular linked list oraganisation, insertion of a record involves modification of\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80298/gate1987-1-xv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Link List",
+    "tag2_url": "https://practicepaper.in/gate-cse/link-list",
+    "options": [
+      "One pointer.",
+      "Two pointers.",
+      "Multiple pointers.",
+      "No pointer."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100412,
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A critical region is\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80362/gate1987-1-xvi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Process Synchronization",
+    "tag2_url": "https://practicepaper.in/gate-cse/process-synchronization",
+    "options": [
+      "One which is enclosed by a pair of P and V operations on semaphores.",
+      "A program segment that has not been proved bug-free.",
+      "A program segment that often causes unexpected system crashes.",
+      "A program segment where shared resources are accessed."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1100413,
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let P be a quicksort program to sort numbers in ascending order. Let [latex]t_{1}[/latex] and [latex]t_{2}[/latex] be the time taken by the program for the inputs [latex]\\left[1 \\ 2 \\ 3 \\ 4\\right][/latex] and [latex]\\left[5 \\ 4 \\ 3 \\ 2 \\ 1\\right][/latex], respectively. Which of the following holds?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80366/gate1987-1-xviii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Sorting",
+    "tag2_url": "https://practicepaper.in/gate-cse/sorting",
+    "options": [
+      "[latex]t_{1} = t_{2}[/latex]",
+      "[latex]t_{1} \\gt t_{2}[/latex]",
+      "[latex]t_{1} \\lt t_{2}[/latex]",
+      "[latex]t_{1}=t_{2}+5 \\log 5[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100414,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Study the following program written in a block-structured language:<br>\r\n<pre><code> Var x, y:interger; \r\nprocedure P(n:interger);\r\nbegin\r\n     x:=(n+2)/(n-3);\r\nend;\r\n\r\nprocedure Q \r\nVar x, y:interger;\r\nbegin   \r\n    x:=3;\r\n    y:=4; \r\n    P(y);\r\n    Write(x)          __(1)\r\nend;\r\n \r\nbegin\r\n    x:=7;\r\n    y:=8;\r\n    Q; \r\nWrite(x);             __(2) \r\nend.</pre></code> <br>\r\nWhat will be printed by the write statements marked (1) and (2) in the program if the variables are statically scoped?",
+    "solution": "<a href=\"https://gateoverflow.in/80373/gate1987-1-xix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      "3, 6",
+      "6, 7",
+      "3, 7",
+      "None of the above."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100415,
+    "number": 15,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "For the program given below what will be printed by the write statements marked (1) and (2) in the program if the variables are dynamically scoped?<br>\r\n<pre><code> Var x, y:interger; \r\nprocedure P(n:interger);\r\nbegin\r\n     x := (n+2)/(n-3);\r\nend;\r\n\r\nprocedure Q \r\nVar x, y:interger;\r\nbegin   \r\n    x:=3;\r\n    y:=4; \r\n    P(y);\r\n    Write(x);           __(1)\r\nend;\r\n \r\nbegin\r\n    x:=7;\r\n    y:=8;\r\n    Q; \r\n    Write(x);           __(2)\r\nend.</pre></code> ",
+    "solution": "<a href=\"https://gateoverflow.in/80374/gate1987-1-xx\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      "3, 6",
+      "6, 7",
+      "3, 7",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100416,
+    "number": 16,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "If a, b, and c are constants, which of the following is a linear inequality?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80377/gate1987-1-xxi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "[latex]ax+bcy=0[/latex]",
+      "[latex]ax^{2}+cy^{2}=21[/latex]",
+      "[latex]abx+a^{2}y \\geq 15[/latex]",
+      "[latex]xy+ax \\geq 20[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100417,
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The equation<br>[latex]7x^{7}+14x^{6}+12x^{5}+3x^{4}+12x^{3}+10x^{2}+5x+7=0 [/latex] has\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/80379/gate1987-1-xxii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "All complex roots",
+      "At least one real root",
+      "Four pairs of imaginary roots",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100418,
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A square matrix is singular whenever \n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80380/gate1987-1-xxiii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "The rows are linearly independent",
+      "The columns are linearly independent",
+      "The row are linearly dependent",
+      "None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100419,
+    "number": 19,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The simplex method is so named because \n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80559/gate1987-1-xxiv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Numerical Method",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-method",
+    "options": [
+      "It is simple.",
+      "It is based on the theory of algebraic complexes.",
+      "The simple pendulum works on this method.",
+      "No one thought of a better name."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100420,
+    "number": 20,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following statements is true in respect of the convergence of the Newton-Rephson procedure?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80562/gate1987-1-xxv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Numerical Method",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-method",
+    "options": [
+      "It converges always under all circumstances.",
+      "It does not converge to a tool where the second differential coefficient changes sign.",
+      "It does not converge to a root where the second differential coefficient vanishes.",
+      "None of the above."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1100421,
+    "number": 21,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "If [latex]f(x_{i}).f(x_{i+1}) \\lt 0[/latex] then\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/80571/gate1987-1-xxvi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Functions",
+    "tag2_url": "https://practicepaper.in/gate-cse/functions",
+    "options": [
+      "There must be a root of f(x) between [latex]x_i[/latex] and [latex]x_{i+1}[/latex]",
+      "There need not be a root of f(x) between [latex]x_{i}[/latex] and [latex]x_{i+1}[/latex].",
+      "There fourth derivative of f(x) with respect to x vanishes at [latex]x_{i}[/latex].",
+      "The fourth derivative of f(x) with respect to x vanishes at [latex]x_{i+1}[/latex]."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100422,
+    "number": 22,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Microprogrammed control unit:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/166/gate1987-1-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "ALU Data Path and Control Unit",
+    "tag2_url": "https://practicepaper.in/gate-cse/alu-data-path-and-control-unit",
+    "options": [
+      "is faster than a hardwired control unit",
+      "facilitates easy implementation of new instructions",
+      "is useful when very small programs are to be run",
+      "usually refers to control unit of a microprocessor"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100423,
+    "number": 23,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The total number of Boolean functions which can be realised with four variables is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80032/gate1987-1-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "4",
+      "17",
+      "256",
+      "65, 536"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1100424,
+    "number": 24,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "<br><img src=\"/wp-content/uploads/GATE/CS/19871/q1-IIIa.jpg\" /><br><br><img src=\"/wp-content/uploads/GATE/CS/19871/q1-IIIb.jpg\" /><br>The above circuit produces the output sequence:",
+    "solution": "<a href=\"https://gateoverflow.in/80034/gate1987-1-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Sequential Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/sequential-circuit",
+    "options": [
+      "1111       1111       0000       0000",
+      "1111       0000      1111        000",
+      "1111       0001      0011       010",
+      "1010      1010      1010       1010"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100425,
+    "number": 25,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The output F of the below multiplexer circuit can be represented by <br><img src=\"/wp-content/uploads/GATE/CS/19871/q1-IV.jpg\" /><br>",
+    "solution": "<a href=\"https://gateoverflow.in/80193/gate1987-1-iv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "[latex]AB+B\\bar{C}+\\bar{C}A+\\bar{B}\\bar{C}[/latex]",
+      "[latex]A\\oplus B\\oplus C[/latex]",
+      "[latex]A \\oplus B[/latex]",
+      "[latex]\\bar{A} \\bar{B} C+ \\bar{A} B \\bar{C}+A \\bar{B} \\bar{C}[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100426,
+    "number": 26,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The most relevant addressing mode to write position-independent codes is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80194/gate1987-1-v\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Machine Instruction",
+    "tag2_url": "https://practicepaper.in/gate-cse/machine-instruction",
+    "options": [
+      "Direct mode",
+      "Indirect mode",
+      "Relative mode",
+      "Indexed mode"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100427,
+    "number": 27,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A microprogrammed control unit\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80199/gate1987-1-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "ALU Data Path and Control Unit",
+    "tag2_url": "https://practicepaper.in/gate-cse/alu-data-path-and-control-unit",
+    "options": [
+      "Is faster than a hard-wired control unit.",
+      "Facilitates easy implementation of new instruction.",
+      "Is useful when very small programs are to be run.",
+      "Usually refers to the control unit of a microprocessor."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100428,
+    "number": 28,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The exponent of a floating-point number is represented in excess-N code so that:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80201/gate1987-1-vii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Number System",
+    "tag2_url": "https://practicepaper.in/gate-cse/number-system",
+    "options": [
+      "The dynamic range is large.",
+      "The precision is high.",
+      "The smallest number is represented by all zeros.",
+      "Overflow is avoided."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100429,
+    "number": 29,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "On receiving an interrupt from a I/O device the CPU:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/80274/gate1987-1-viii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Interrupt",
+    "tag2_url": "https://practicepaper.in/gate-cse/interrupt",
+    "options": [
+      "Halts for a predetermined time.",
+      "Hands over control of address bus and data bus to the interrupting device.",
+      "Branches off to the interrupt service routine immediately.",
+      "Branches off to the interrupt service routine after completion of the current instruction."
+    ],
+    "correct": 3
+  }
+]

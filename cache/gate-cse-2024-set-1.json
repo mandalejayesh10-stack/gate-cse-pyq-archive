@@ -1,0 +1,1211 @@
+[
+  {
+    "id": 1124101,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R} [/latex] be a function such that [latex]f(x)=\\max \\left\\{x, x^3\\right\\}, x \\in \\mathbb{R} [/latex], where [latex]\\mathbb{R} [/latex] is the set of all real numbers. The set of all points where [latex]f(x) [/latex] is NOT differentiable is",
+    "solution": "<a href=\"https://gateoverflow.in/422841/gate-cse-2024-set-1-question-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Functions",
+    "tag2_url": "https://practicepaper.in/gate-cse/functions",
+    "options": [
+      "[latex]-1,1,2 [/latex]",
+      "[latex]-2,-1,1 [/latex]",
+      "[latex]0,1 [/latex]",
+      "[latex]-1,0,1[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1124102,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The product of all eigenvalues of the matrix [latex]\\begin{bmatrix}\n1 & 2 & 3\\\\ \n4 & 5 &6 \\\\ \n7 &8  & 9\n\\end{bmatrix}[/latex] is ",
+    "solution": "<a href=\"https://gateoverflow.in/422840/gate-cse-2024-set-1-question-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "[latex]-1[/latex]",
+      "[latex]0[/latex]",
+      "[latex]1[/latex]",
+      "[latex]2[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1124103,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a system that uses 5 bits for representing signed integers in 2's complement format. In this system, two integers [latex]A [/latex] and [latex]B [/latex] are represented as [latex]A=01010 [/latex] and [latex]B=11010 [/latex]. Which one of the following operations will result in either an arithmetic overflow or an arithmetic underflow?",
+    "solution": "<a href=\"https://gateoverflow.in/422839/gate-cse-2024-set-1-question-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Number System",
+    "tag2_url": "https://practicepaper.in/gate-cse/number-system",
+    "options": [
+      "[latex]A+B [/latex]",
+      "[latex]A-B [/latex]",
+      "[latex]B-A [/latex]",
+      "[latex]2 * B [/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1124104,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a permutation sampled uniformly at random from the set of all permutations of [latex]\\{1,2,3, \\cdots, n\\} [/latex] for some [latex]n \\geq 4 [/latex]. Let [latex]X [/latex] be the event that 1 occurs before 2 in the permutation, and [latex]Y [/latex] the event that 3 occurs before 4 . Which one of the following statements is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422838/gate-cse-2024-set-1-question-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "options": [
+      "The events [latex]X [/latex] and [latex]Y [/latex] are mutually exclusive",
+      "The events [latex]X [/latex] and [latex]Y [/latex] are independent",
+      "Either event [latex]X [/latex] or [latex]Y [/latex] must occur",
+      "Event [latex]X [/latex] is more likely than event [latex]Y [/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1124105,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which one of the following statements is FALSE?",
+    "solution": "<a href=\"https://gateoverflow.in/422837/gate-cse-2024-set-1-question-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "IO Interface",
+    "tag2_url": "https://practicepaper.in/gate-cse/io-interface",
+    "options": [
+      "In the cycle stealing mode of DMA, one word of data is transferred between an I/O\ndevice and main memory in a stolen cycle",
+      "For bulk data transfer, the burst mode of DMA has a higher throughput than the\ncycle stealing mode",
+      "Programmed I/O mechanism has a better CPU utilization than the interrupt driven\nI/O mechanism",
+      "The CPU can start executing an interrupt service routine faster with vectored\ninterrupts than with non-vectored interrupts"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124106,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A user starts browsing a webpage hosted at a remote server. The browser opens a\nsingle TCP connection to fetch the entire webpage from the server. The webpage\nconsists of a top-level index page with multiple embedded image objects. Assume\nthat all caches (e.g., DNS cache, browser cache) are all initially empty. The\nfollowing packets leave the user's computer in some order.<br><br>\n(i) HTTP GET request for the index page<br>\n(ii) DNS request to resolve the web server's name to its IP address<br>\n(iii) HTTP GET request for an image object<br>\n(iv) TCP SYN to open a connection to the web server<br><br>\nWhich one of the following is the CORRECT chronological order (earliest in time\nto latest) of the packets leaving the computer ?",
+    "solution": "<a href=\"https://gateoverflow.in/422836/gate-cse-2024-set-1-question-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Application Layer Protocols",
+    "tag2_url": "https://practicepaper.in/gate-cse/application-layer-protocols",
+    "options": [
+      "(iv), (ii), (iii), (i)",
+      "(ii), (iv), (iii), (i)",
+      "(ii), (iv), (i), (iii)",
+      "(iv), (ii), (i), (iii)"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124107,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Given an integer array of size [latex]N[/latex], we want to check if the array is sorted (in either\nascending or descending order). An algorithm solves this problem by making a\nsingle pass through the array and comparing each element of the array only with its\nadjacent elements. The worst-case time complexity of this algorithm is",
+    "solution": "<a href=\"https://gateoverflow.in/422835/gate-cse-2024-set-1-question-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Asymptotic Notation",
+    "tag2_url": "https://practicepaper.in/gate-cse/asymptotic-notation",
+    "options": [
+      "both [latex]\\mathrm{O}(N) [/latex] and [latex]\\Omega(N) [/latex]",
+      "[latex]\\mathrm{O}(N) [/latex] but not [latex]\\Omega(N) [/latex]",
+      "[latex]\\Omega(N) [/latex] but not [latex]\\mathrm{O}(N) [/latex]",
+      "neither [latex]\\mathrm{O}(N) [/latex] nor [latex]\\Omega(N) [/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124108,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following C program:<pre><code>\n#include < stdio.h >\nint main(){\nint a = 6;\nint b = 0;\nwhile(a < 10) {\na = a / 12 + 1;\na += b;}\nprintf(\"%d\", a);\nreturn 0;}\n</pre></code>Which one of the following statements is CORRECT?",
+    "solution": "<a href=\"https://gateoverflow.in/422834/gate-cse-2024-set-1-question-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Arithmetic Operation",
+    "tag2_url": "https://practicepaper.in/gate-cse/arithmetic-operation",
+    "options": [
+      "The program prints 9 as output",
+      "The program prints 10 as output",
+      "The program gets stuck in an infinite loop",
+      "The program prints 6 as output"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124109,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following C program:<pre><code>\n#include < stdio.h >\nvoid fX();\nint main(){\nfX();\nreturn 0;}\n\nvoid fX(){\nchar a;\nif((a=getchar()) != '\\n')\nfX();\nif(a != '\\n')\nputchar(a);}</pre></code>\nAssume that the input to the program from the command line is 1234 followed by\na newline character. Which one of the following statements is CORRECT?",
+    "solution": "<a href=\"https://gateoverflow.in/422833/gate-cse-2024-set-1-question-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      "The program will not terminate",
+      "The program will terminate with no outpu",
+      "The program will terminate with 4321 as output",
+      "The program will terminate with 1234 as output"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124110,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let S be the specification: \"Instructors teach courses. Students register for courses.\nCourses are allocated classrooms. Instructors guide students.\" Which one of the\nfollowing ER diagrams CORRECTLY represents S? <br><img src=\"/wp-content/uploads/GATE/CS/20241/q10.webp\" /><br>",
+    "solution": "<a href=\"https://gateoverflow.in/422832/gate-cse-2024-set-1-question-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "ER Model",
+    "tag2_url": "https://practicepaper.in/gate-cse/er-model",
+    "options": [
+      "(i)",
+      "(ii)",
+      "(iii)",
+      "(iv)"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1124111,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a B+ tree, the requirement of at least half-full (50%) node occupancy is relaxed\nfor which one of the following cases?",
+    "solution": "<a href=\"https://gateoverflow.in/422831/gate-cse-2024-set-1-question-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "B plus Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/b-plus-tree",
+    "options": [
+      "Only the root node",
+      "All leaf nodes",
+      "All internal nodes",
+      "Only the leftmost leaf node"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124112,
+    "number": 12,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Which of the following statements about a relation R in first normal form (1NF)\nis/are TRUE ?",
+    "solution": "<a href=\"https://gateoverflow.in/422830/gate-cse-2024-set-1-question-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Normal Form",
+    "tag2_url": "https://practicepaper.in/gate-cse/normal-form",
+    "options": [
+      "R can have a multi-attribute key",
+      "R cannot have a foreign key",
+      "R cannot have a composite attribute",
+      "R cannot have more than one candidate key"
+    ],
+    "correctSet": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": 1124113,
+    "number": 13,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Let [latex]L_1, L_2 [/latex] be two regular languages and [latex]L_3 [/latex] a language which is not regular. Which of the following statements is/are always TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422829/gate-cse-2024-set-1-question-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-language",
+    "options": [
+      "[latex]L_1=L_2 [/latex] if and only if [latex]L_1 \\cap \\overline{L_2}=\\phi [/latex]",
+      "[latex]L_1 \\cup L_3 [/latex] is not regular",
+      "[latex]\\overline{L_3} [/latex] is not regular",
+      "[latex]\\overline{L_1} \\cup \\overline{L_2} [/latex] is regular"
+    ],
+    "correctSet": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1124114,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following statements about threads is/are TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422828/gate-cse-2024-set-1-question-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Thread",
+    "tag2_url": "https://practicepaper.in/gate-cse/thread",
+    "options": [
+      "Threads can only be implemented in kernel space",
+      "Each thread has its own file descriptor table for open files",
+      "All the threads belonging to a process share a common stack",
+      "Threads belonging to a process are by default not protected from each other"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1124115,
+    "number": 15,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Which of the following process state transitions is/are NOT possible?",
+    "solution": "<a href=\"https://gateoverflow.in/422827/gate-cse-2024-set-1-question-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Process",
+    "tag2_url": "https://practicepaper.in/gate-cse/process",
+    "options": [
+      "Running to Ready",
+      "Waiting to Running",
+      "Ready to Waiting",
+      "Running to Terminated"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1124116,
+    "number": 16,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Which of the following is/are Bottom-Up Parser(s)?",
+    "solution": "<a href=\"https://gateoverflow.in/422826/gate-cse-2024-set-1-question-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "Shift-reduce Parser",
+      "Predictive Parser",
+      "LL(1) Parser",
+      "LR Parser"
+    ],
+    "correctSet": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": 1124117,
+    "number": 17,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Let [latex]A [/latex] and [latex]B [/latex] be two events in a probability space with [latex]P(A)=0.3, P(B)=0.5 [/latex], and [latex]P(A \\cap B)=0.1 [/latex]. Which of the following statements is/are TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422825/gate-cse-2024-set-1-question-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "options": [
+      "The two events [latex]A [/latex] and [latex]B [/latex] are independent",
+      "[latex]P(A \\cup B)=0.7[/latex]",
+      "[latex]P\\left(A \\cap B^c\\right)=0.2 [/latex], where [latex]B^c [/latex] is the complement of the event [latex]B [/latex]",
+      "[latex]P\\left(A^c \\cap B^c\\right)=0.4 [/latex], where [latex]A^c [/latex] and [latex]B^c [/latex] are the complements of the events [latex]A [/latex] and [latex]B [/latex], respectively"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1124118,
+    "number": 18,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Consider the circuit shown below where the gates may have propagation delays.\nAssume that all signal transitions occur instantaneously and that wires have no\ndelays. Which of the following statements about the circuit is/are CORRECT?<br><img src=\"/wp-content/uploads/GATE/CS/20241/q18.webp\" /><br>",
+    "solution": "<a href=\"https://gateoverflow.in/422824/gate-cse-2024-set-1-question-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "With no propagation delays, the output Y is always logic Zero",
+      "With no propagation delays, the output Y is always logic One",
+      "With propagation delays, the output Y can have a transient logic One after X\ntransitions from logic Zero to logic One",
+      "With propagation delays, the output Y can have a transient logic Zero after X\ntransitions from logic One to logic Zero"
+    ],
+    "correctSet": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": 1124119,
+    "number": 19,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "TCP client P successfully establishes a connection to TCP server [latex]\\mathrm{Q} [/latex]. Let [latex]N_P [/latex] denote the sequence number in the SYN sent from [latex]\\mathrm{P} [/latex] to [latex]\\mathrm{Q} [/latex]. Let [latex]N_Q [/latex] denote the acknowledgement number in the SYN ACK from Q to P. Which of the following statements is/are CORRECT?",
+    "solution": "<a href=\"https://gateoverflow.in/422823/gate-cse-2024-set-1-question-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Transport Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/transport-layer-protocol",
+    "options": [
+      "The sequence number [latex]N_P [/latex] is chosen randomly by [latex]\\mathrm{P} [/latex]",
+      "The sequence number [latex]N_P [/latex] is always 0 for a new connection",
+      "The acknowledgement number [latex]N_Q [/latex] is equal to [latex]N_P [/latex]",
+      "The acknowledgement number [latex]N_Q [/latex] is equal to [latex]N_P+1 [/latex]"
+    ],
+    "correctSet": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": 1124120,
+    "number": 20,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Consider a 5-stage pipelined processor with Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), Memory Access (MEM), and Register Writeback (WB) stages. Which of the following statements about forwarding is/are CORRECT?",
+    "solution": "<a href=\"https://gateoverflow.in/422822/gate-cse-2024-set-1-question-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Pipeline Processor",
+    "tag2_url": "https://practicepaper.in/gate-cse/pipeline-processor",
+    "options": [
+      "In a pipelined execution, forwarding means the result from a source stage of an\nearlier instruction is passed on to the destination stage of a later instruction",
+      "In forwarding, data from the output of the MEM stage can be passed on to the\ninput of the EX stage of the next instruction",
+      "Forwarding cannot prevent all pipeline stalls",
+      "Forwarding does not require any extra hardware to retrieve the data from the\npipeline stages"
+    ],
+    "correctSet": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1124121,
+    "number": 21,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Which of the following fields is/are modified in the IP header of a packet going out\nof a network address translation (NAT) device from an internal network to an\nexternal network?",
+    "solution": "<a href=\"https://gateoverflow.in/422821/gate-cse-2024-set-1-question-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Network Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/network-layer-protocol",
+    "options": [
+      "Source IP",
+      "Destination IP",
+      "Header Checksum",
+      "Total Length"
+    ],
+    "correctSet": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": 1124122,
+    "number": 22,
+    "type": "NAT",
+    "marks": 1,
+    "text": "Let [latex]A [/latex] and [latex]B [/latex] be non-empty finite sets such that there exist one-to-one and onto functions (i) from [latex]A [/latex] to [latex]B [/latex] and (ii) from [latex]A \\times A [/latex] to [latex]A \\cup B [/latex]. The number of possible values of [latex]|A| [/latex] is ___",
+    "solution": "<a href=\"https://gateoverflow.in/422820/gate-cse-2024-set-1-question-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Functions",
+    "tag2_url": "https://practicepaper.in/gate-cse/functions",
+    "ansMin": 2,
+    "ansMax": 2
+  },
+  {
+    "id": 1124123,
+    "number": 23,
+    "type": "NAT",
+    "marks": 1,
+    "text": "Consider the operator precedence and associativity rules for the integer arithmetic operators given in the table below.<br>\n[latex]\\begin{array}{|c|l|l|}\n\\hline Operator & Precedence & Associativity \\\\\n\\hline+ & Highest & Left \\\\\n\\hline- & High & Right \\\\\n\\hline* & Medium & Right \\\\\n\\hline  /  & Low & Right \\\\\n\\hline\n\\end{array}\n[/latex]<br>\nThe value of the expression [latex]3+1+5 * 2 / 7+2-4-7-6 / 2 [/latex] as per the above rules is _____",
+    "solution": "<a href=\"https://gateoverflow.in/422819/gate-cse-2024-set-1-question-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Stack",
+    "tag2_url": "https://practicepaper.in/gate-cse/stack",
+    "ansMin": 6,
+    "ansMax": 6
+  },
+  {
+    "id": 1124124,
+    "number": 24,
+    "type": "NAT",
+    "marks": 1,
+    "text": "The number of spanning trees in a complete graph of 4 vertices labelled A, B, C,\nand D is _________",
+    "solution": "<a href=\"https://gateoverflow.in/422818/gate-cse-2024-set-1-question-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Minimum Spanning Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/minimum-spanning-tree",
+    "ansMin": 16,
+    "ansMax": 16
+  },
+  {
+    "id": 1124125,
+    "number": 25,
+    "type": "NAT",
+    "marks": 1,
+    "text": "Consider the following two relations, [latex]R(A, B) [/latex] and [latex]S(A, C) [/latex] :<br>[latex]\\boldsymbol{R} \n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  & \\boldsymbol{B}  \\\\\n\\hline 10 & 20 \\\\\n\\hline 20 & 30 \\\\\n\\hline 30 & 40 \\\\\n\\hline 30 & 50 \\\\\n\\hline 50 & 95 \\\\\n\\hline\n\\end{array}[/latex]<br><br> <br>[latex]\\boldsymbol{S}\n\\begin{array}{|c|c|}\n\\hline \\boldsymbol{A}  & \\boldsymbol{C}  \\\\\n\\hline 10 & 90 \\\\\n\\hline 30 & 45 \\\\\n\\hline 40 & 80 \\\\\n\\hline\n\\end{array}\n[/latex]<br>\nThe total number of tuples obtained by evaluating the following expression [latex] \\sigma_{B \\lt C}\\left(R \\bowtie_{R . A=S . A} S\\right) [/latex]\nis ____",
+    "solution": "<a href=\"https://gateoverflow.in/422817/gate-cse-2024-set-1-question-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Tuple Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/tuple-calculus",
+    "ansMin": 2,
+    "ansMax": 2
+  },
+  {
+    "id": 1124126,
+    "number": 26,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider a network path [latex]\\mathrm{P}-\\mathrm{Q}-\\mathrm{R} [/latex] between nodes [latex]\\mathrm{P} [/latex] and [latex]\\mathrm{R} [/latex] via router [latex]\\mathrm{Q} [/latex]. Node [latex]\\mathrm{P} [/latex] sends a file of size [latex]10^6 [/latex] bytes to [latex]R [/latex] via this path by splitting the file into chunks of [latex]10^3 [/latex] bytes each. Node [latex]P [/latex] sends these chunks one after the other without any wait time between the successive chunk transmissions. Assume that the size of extra headers added to these chunks is negligible, and that the chunk size is less than the MTU.\n<br>\nEach of the links [latex]\\mathrm{P}-\\mathrm{Q} [/latex] and [latex]\\mathrm{Q}-\\mathrm{R} [/latex] has a bandwidth of [latex]10^6 \\mathrm{bits} / \\mathrm{sec} [/latex], and negligible propagation latency. Router [latex]Q [/latex] immediately transmits every packet it receives from [latex]P [/latex] to [latex]R [/latex], with negligible processing and queueing delays. Router [latex]Q [/latex] can simultaneously receive on link [latex]P-Q [/latex] and transmit on [latex]\\operatorname{link} Q-R [/latex].\n<br>\nAssume P starts transmitting the chunks at time [latex]t=0 [/latex].\nWhich one of the following options gives the time (in seconds, rounded off to 3 decimal places) at which [latex]\\mathrm{R} [/latex] receives all the chunks of the file?",
+    "solution": "<a href=\"https://gateoverflow.in/422816/gate-cse-2024-set-1-question-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Data Link Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/data-link-layer",
+    "options": [
+      "8",
+      "8.008",
+      "15.992",
+      "16"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1124127,
+    "number": 27,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the following syntax-directed definition (SDD).<br><br>[latex]\n\\begin{array}{|l|l|}\n\\hline S \\rightarrow  DHTU & \\{ S.val = D.val + H.val + T.val + U.val; \\} \\\\\n\\hline D \\rightarrow \"M\"D_1 &  \\{ D.val =5+D_1 . val; \\} \\\\\n\\hline D \\rightarrow \\epsilon  & \\{ D.val =-5 ;\\} \\\\\n\\hline H \\rightarrow \"L\" H_1 & \\{ H.val =5 * 10+H_1 . val; \\} \\\\\n\\hline H \\rightarrow \\epsilon  &  \\{ H.val =-10 ;\\} \\\\\n\\hline T \\rightarrow  \"C\"  T_1  &  \\{T . v a l=5 * 100+T_1 . val; \\} \\\\\n\\hline T \\rightarrow \\epsilon  &  \\{T . v a l=-5 ;\\}  \\\\\n\\hline U \\rightarrow  \"K\" &  \\{  U.val =5 ;\\}  \\\\\n\\hline\n\\end{array}\n[/latex]<br><br>\nGiven \"MMLK\" as the input, which one of the following options is the CORRECT value computed by the SDD (in the attribute S.val)?",
+    "solution": "<a href=\"https://gateoverflow.in/422815/gate-cse-2024-set-1-question-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Syntax-directed Translation",
+    "tag2_url": "https://practicepaper.in/gate-cse/syntax-directed-translation",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "65"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124128,
+    "number": 28,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the following grammar [latex]G [/latex], with [latex]S [/latex] as the start symbol. The grammar [latex]G [/latex] has three incomplete productions denoted by (1), (2), and (3).<br><br>\n[latex]\n\\begin{aligned}\n& S \\rightarrow d a T \\mid \\quad(1) \\\\\n& T \\rightarrow a S|b T|(2) \\\\\n& R \\rightarrow \\text { (3) } \\mid \\epsilon\n\\end{aligned}\n [/latex]\n<br><br>\nThe set of terminals is [latex]\\{a, b, c, d, f\\} [/latex]. The FIRST and FOLLOW sets of the different non-terminals are as follows.<br><br>\n[latex]\n\\begin{aligned}\n& \\operatorname{FIRST}(S)=\\{c, d, f\\}, \\operatorname{FIRST}(T)=\\{a, b, \\epsilon\\}, \\operatorname{FIRST}(R)=\\{c, \\epsilon\\} \\\\\n& \\operatorname{FOLLOW}(S)=\\operatorname{FOLLOW}(T)=\\{c, f, \\$\\}, \\operatorname{FOLLOW}(R)=\\{f\\}\n\\end{aligned}\n [/latex]\n<br><br>\nWhich one of the following options CORRECTLY fills in the incomplete productions?",
+    "solution": "<a href=\"https://gateoverflow.in/422814/gate-cse-2024-set-1-question-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "(1) [latex]S \\rightarrow R f [/latex]\n(2) [latex]T \\rightarrow \\epsilon [/latex]\n(3) [latex]R \\rightarrow c T R [/latex]",
+      "(1) [latex]S \\rightarrow f R [/latex]\n(2) [latex]T \\rightarrow \\epsilon [/latex]\n(3) [latex]R \\rightarrow c T R [/latex]",
+      "(1) [latex]S \\rightarrow f R [/latex]\n(2) [latex]T \\rightarrow c T [/latex]\n(3) [latex]R \\rightarrow c R [/latex]",
+      "(1) [latex]S \\rightarrow R f [/latex]\n(2) [latex]T \\rightarrow c T [/latex]\n(3) [latex]R \\rightarrow c R [/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124129,
+    "number": 29,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the following pseudo-code.<br>[latex]\n\\begin{array}{ll}\nL 1: & t 1=-1 \\\\\nL 2: & t 2=0 \\\\\nL 3: & t 3=0 \\\\\nL 4: & t 4=4 * t 3 \\\\\nL 5: & t 5=4 * t 2 \\\\\nL 6: & t 6=t 5 * M \\\\\nL 7: & t 7=t 4+t 6 \\\\\nL 8: & t 8=a[t 7] \\\\\nL 9: & if \\; t 8 \\lt = max  \\; goto  \\; L 11 \\\\\nL 10: & t 1=t 8 \\\\\nL 11: & t 3=t 3+1 \\\\\nL 12: & if  \\; t 3 \\lt M  \\;  goto L 4 \\\\\nL 13: & t 2=t 2+1 \\\\\nL 14: & if  \\; t 2 \\lt N  \\; goto  \\; L 3 \\\\\nL 15: & max =t 1\n\\end{array}\n[/latex]<br>\nWhich of of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively?",
+    "solution": "<a href=\"https://gateoverflow.in/422813/gate-cse-2024-set-1-question-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Intermediate Code Generation",
+    "tag2_url": "https://practicepaper.in/gate-cse/intermediate-code-generation",
+    "options": [
+      "6 and 6",
+      "6 and 7",
+      "7 and 7",
+      "7 and 6"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1124130,
+    "number": 30,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the following two threads [latex]\\mathrm{T} 1 [/latex] and [latex]\\mathrm{T} 2 [/latex] that update two shared variables [latex]\\mathrm{a} [/latex] and [latex]\\mathrm{b} [/latex]. Assume that initially [latex]\\mathrm{a}=\\mathrm{b}=1 [/latex]. Though context switching between threads can happen at any time, each statement of [latex]\\mathrm{T} 1 [/latex] or [latex]\\mathrm{T} 2 [/latex] is executed atomically without interruption.<br><br>\n[latex]\n\\begin{array}{cc}\n\\mathrm{T} 1 & \\mathrm{~T} 2 \\\\\n\\mathrm{a}=\\mathrm{a}+1 ; & \\mathrm{b}=2*\\mathrm{b} ; \\\\\n\\mathrm{b}=\\mathrm{b}+1 ; & \\mathrm{a}=2*\\mathrm{a} ;\n\\end{array}\n [/latex]\n<br><br>\nWhich one of the following options lists all the possible combinations of values of [latex]\\mathrm{a} [/latex] and [latex]\\mathrm{b} [/latex] after both [latex]\\mathrm{T} 1 [/latex] and [latex]\\mathrm{T} 2 [/latex] finish execution?",
+    "solution": "<a href=\"https://gateoverflow.in/422812/gate-cse-2024-set-1-question-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Process Synchronization",
+    "tag2_url": "https://practicepaper.in/gate-cse/process-synchronization",
+    "options": [
+      "(a=4, b=4) ;(a=3, b=3) ;(a=4, b=3) ",
+      "(a=3, b=4) ;(a=4, b=3) ;(a=3, b=3) ",
+      "(a=4, b=4) ;(a=4, b=3) ;(a=3, b=4) ",
+      "(a=2, b=2) ;(a=2, b=3) ;(a=3, b=4)"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124131,
+    "number": 31,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "An array [latex][82,101,90,11,111,75,33,131,44,93] [/latex] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+    "solution": "<a href=\"https://gateoverflow.in/422811/gate-cse-2024-set-1-question-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Heap Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/heap-tree",
+    "options": [
+      "[latex]82,90,101 [/latex]",
+      "[latex]82,11,93 [/latex]",
+      "[latex]131,11,93 [/latex]",
+      "[latex]131,111,90 [/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1124132,
+    "number": 32,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the following recurrence relation:\n<br> [latex]\nT(n)=\\left\\{\\begin{array}{c}\n\\sqrt{n} T(\\sqrt{n})+n \\text { for } n \\geq 1, \\\\\n1 \\quad \\text { for } n=1 .\n\\end{array}\\right.\n [/latex] <br>\n\nWhich one of the following options is CORRECT?",
+    "solution": "<a href=\"https://gateoverflow.in/422810/gate-cse-2024-set-1-question-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Recurrence Relation",
+    "tag2_url": "https://practicepaper.in/gate-cse/recurrence-relation",
+    "options": [
+      "[latex]T(n)=\\Theta(n \\log \\log n) [/latex]",
+      "[latex]T(n)=\\Theta(n \\log n) [/latex]",
+      "[latex]T(n)=\\Theta\\left(n^2 \\log n\\right) [/latex]",
+      "[latex]T(n)=\\Theta\\left(n^2 \\log \\log n\\right) [/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124133,
+    "number": 33,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider a binary min-heap containing 105 distinct elements. Let [latex]k[/latex]  be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of [latex]k[/latex] is",
+    "solution": "<a href=\"https://gateoverflow.in/422809/gate-cse-2024-set-1-question-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Heap Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/heap-tree",
+    "options": [
+      "53",
+      "52",
+      "27",
+      "1"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124134,
+    "number": 34,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "The symbol [latex] \\rightarrow [/latex] indicates functional dependency in the context of a relational database. Which of the following options is/are TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422808/gate-cse-2024-set-1-question-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Relational Schema",
+    "tag2_url": "https://practicepaper.in/gate-cse/relational-schema",
+    "options": [
+      "[latex] (X, Y) \\rightarrow(Z, W) \\text { implies } X \\rightarrow(Z, W)  [/latex]",
+      "[latex] (X, Y) \\rightarrow(Z, W) \\text { implies }(X, Y) \\rightarrow Z  [/latex]",
+      "[latex] ((X, Y) \\rightarrow Z \\text { and } W \\rightarrow Y) \\text { implies }(X, W) \\rightarrow Z  [/latex]",
+      "[latex] (X \\rightarrow Y \\text { and } Y \\rightarrow Z) \\text { implies } X \\rightarrow Z [/latex]"
+    ],
+    "correctSet": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1124135,
+    "number": 35,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex] G [/latex] be a directed graph and [latex] T [/latex] a depth first search (DFS) spanning tree in [latex] G [/latex] that is rooted at a vertex [latex] v [/latex]. Suppose [latex] T [/latex] is also a breadth first search (BFS) tree in [latex] G [/latex], rooted at [latex] v [/latex]. Which of the following statements is/are TRUE for every such graph [latex] G [/latex] and tree [latex] T [/latex] ?",
+    "solution": "<a href=\"https://gateoverflow.in/422807/gate-cse-2024-set-1-question-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "There are no back-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+      "There are no cross-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+      "There are no forward-edges in [latex] G [/latex] with respect to the tree [latex] T [/latex]",
+      "The only edges in [latex] G [/latex] are the edges in [latex] T [/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124136,
+    "number": 36,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the following read-write schedule [latex] S [/latex] over three transactions [latex] T_1, T_2 [/latex], and [latex] T_3 [/latex], where the subscripts in the schedule indicate transaction IDs:\n<br> <br>[latex]\nS: r_1(z) ; w_1(z) ; r_2(x) ; r_3(y) ; w_3(y) ; r_2(y) ; w_2(x) ; w_2(y) ;\n [/latex] <br><br>\n\nWhich of the following transaction schedules is/are conflict equivalent to [latex] S [/latex] ?",
+    "solution": "<a href=\"https://gateoverflow.in/422806/gate-cse-2024-set-1-question-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Transaction",
+    "tag2_url": "https://practicepaper.in/gate-cse/transaction",
+    "options": [
+      "[latex] T_1 T_2 T_3 [/latex]",
+      "[latex] T_1 T_3 T_2 [/latex]",
+      "[latex] T_3 T_2 T_1 [/latex]",
+      "[latex] T_3 T_1 T_2 [/latex]"
+    ],
+    "correctSet": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1124137,
+    "number": 37,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider a Boolean expression given by [latex] F(X, Y, Z)=\\Sigma(3,5,6,7) [/latex].<br>\nWhich of the following statements is/are CORRECT?",
+    "solution": "<a href=\"https://gateoverflow.in/422805/gate-cse-2024-set-1-question-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "[latex]F(X, Y, Z)=\\Pi(0,1,2,4)[/latex] ",
+      "[latex]F(X, Y, Z)=X Y+Y Z+X Z[/latex] ",
+      "[latex] F(X, Y, Z) [/latex] is independent of input [latex] Y [/latex]",
+      "[latex] F(X, Y, Z) [/latex] is independent of input [latex] X [/latex]"
+    ],
+    "correctSet": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": 1124138,
+    "number": 38,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the following C function definition.<pre><code>\nint f(int x, int y) {\nfor (int i=0; i < y; i++) {\nx=x+x+y;\n}\nreturn x;\n}</pre></code>\nWhich of the following statements is/are TRUE about the above function?",
+    "solution": "<a href=\"https://gateoverflow.in/422804/gate-cse-2024-set-1-question-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Loop",
+    "tag2_url": "https://practicepaper.in/gate-cse/loop",
+    "options": [
+      "If the inputs are [latex] x=20, y=10 [/latex], then the return value is greater than [latex] 2^{20} [/latex]",
+      "If the inputs are [latex] x=20, y=20 [/latex], then the return value is greater than [latex] 2^{20} [/latex]",
+      "If the inputs are [latex] x=20, y=10 [/latex], then the return value is less than [latex] 2^{10} [/latex]",
+      "If the inputs are [latex] x=10, y=20 [/latex], then the return value is greater than [latex] 2^{20} [/latex]"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1124139,
+    "number": 39,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex] A [/latex] be any [latex] n \\times m [/latex] matrix, where [latex] m > n [/latex]. Which of the following statements is/are TRUE about the system of linear equations [latex] A x=0 [/latex] ?",
+    "solution": "<a href=\"https://gateoverflow.in/422803/gate-cse-2024-set-1-question-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "There exist at least [latex] m-n [/latex] linearly independent solutions to this system",
+      "There exist [latex] m-n [/latex] linearly independent vectors such that every solution is a linear combination of these vectors",
+      "There exists a non-zero solution in which at least [latex] m-n [/latex] variables are 0",
+      "There exists a solution in which at least [latex] n [/latex] variables are non-zero"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124140,
+    "number": 40,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the 5 -state DFA [latex] M [/latex] accepting the language [latex] L(M) \\subset(0+1)^* [/latex] shown below. For any string [latex] w \\in(0+1)^* [/latex] let [latex] n_0(w) [/latex] be the number of [latex] 0^{\\prime} s [/latex] in [latex] w [/latex] and [latex] n_1(w) [/latex] be the number of 1 's in [latex] w [/latex].\n<br><img src=\"/wp-content/uploads/GATE/CS/20241/q40.webp\" /><br>\nWhich of the following statements is/are FALSE?",
+    "solution": "<a href=\"https://gateoverflow.in/422802/gate-cse-2024-set-1-question-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Finite Automata",
+    "tag2_url": "https://practicepaper.in/gate-cse/finite-automata",
+    "options": [
+      "States 2 and 4 are distinguishable in [latex] M [/latex]",
+      "States 3 and 4 are distinguishable in [latex] M [/latex]",
+      "States 2 and 5 are distinguishable in [latex] M [/latex]",
+      "Any string [latex] w [/latex] with [latex] n_0(w)=n_1(w) [/latex] is in [latex] L(M) [/latex]"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1124141,
+    "number": 41,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let [latex] G [/latex] be any graph with [latex] n [/latex] vertices and chromatic number [latex] k [/latex]. Which of the following statements is/are always TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422801/gate-cse-2024-set-1-question-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "[latex]G[/latex] contains a complete subgraph with [latex]k[/latex] vertices",
+      "[latex]G[/latex] contains an independent set of size at least [latex]n/k[/latex]",
+      "[latex]G[/latex] contains at least [latex]k(k - 1)/2[/latex] edges",
+      "[latex]G[/latex] contains a vertex of degree at least [latex]k[/latex]"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1124142,
+    "number": 42,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the operators [latex] \\diamond [/latex] and [latex] \\square [/latex] defined by [latex] a \\diamond b=a+2 b, a \\square b=a b [/latex], for positive integers. Which of the following statements is/are TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422800/gate-cse-2024-set-1-question-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Group Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/group-theory",
+    "options": [
+      "Operator [latex] \\diamond [/latex] obeys the associative law",
+      "Operator [latex] \\square [/latex] obeys the associative law",
+      "Operator [latex] \\diamond [/latex] over the operator [latex] \\square [/latex] obeys the distributive law",
+      "Operator [latex] \\square [/latex] over the operator [latex] \\diamond [/latex] obeys the distributive law"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1124143,
+    "number": 43,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider two set-associative cache memory architectures: WBC, which uses the\nwrite back policy, and WTC, which uses the write through policy. Both of them use\nthe LRU (Least Recently Used) block replacement policy. The cache memory is\nconnected to the main memory. Which of the following statements is/are TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422799/gate-cse-2024-set-1-question-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Cache Memory",
+    "tag2_url": "https://practicepaper.in/gate-cse/cache-memory",
+    "options": [
+      "A read miss in WBC never evicts a dirty block",
+      "A read miss in WTC never triggers a write back operation of a cache block to\nmain memory",
+      "A write hit in WBC can modify the value of the dirty bit of a cache block",
+      "A write miss in WTC always writes the victim cache block to main memory\nbefore loading the missed block to the cache"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1124144,
+    "number": 44,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider a 512 GB hard disk with 32 storage surfaces. There are 4096 sectors per\ntrack and each sector holds 1024 bytes of data. The number of cylinders in the hard\ndisk is ____",
+    "solution": "<a href=\"https://gateoverflow.in/422798/gate-cse-2024-set-1-question-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Secondary Storage",
+    "tag2_url": "https://practicepaper.in/gate-cse/secondary-storage",
+    "ansMin": 4096,
+    "ansMax": 4096
+  },
+  {
+    "id": 1124145,
+    "number": 45,
+    "type": "NAT",
+    "marks": 2,
+    "text": "The baseline execution time of a program on a 2 GHz single core machine is\n100 nanoseconds (ns). The code corresponding to 90% of the execution time can be\nfully parallelized. The overhead for using an additional core is 10 ns when running\non a multicore system. Assume that all cores in the multicore system run their share\nof the parallelized code for an equal amount of time.<br>\nThe number of cores that minimize the execution time of the program is _______",
+    "solution": "<a href=\"https://gateoverflow.in/422797/gate-cse-2024-set-1-question-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Pipeline Processor",
+    "tag2_url": "https://practicepaper.in/gate-cse/pipeline-processor",
+    "ansMin": 3,
+    "ansMax": 3
+  },
+  {
+    "id": 1124146,
+    "number": 46,
+    "type": "NAT",
+    "marks": 2,
+    "text": "A given program has 25% load/store instructions. Suppose the ideal CPI (cycles per\ninstruction) without any memory stalls is 2. The program exhibits 2% miss rate on\ninstruction cache and 8% miss rate on data cache. The miss penalty is 100 cycles.\nThe speedup (rounded off to two decimal places) achieved with a perfect cache (i.e.,\nwith NO data or instruction cache misses) is _________",
+    "solution": "<a href=\"https://gateoverflow.in/422796/gate-cse-2024-set-1-question-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Cache Memory",
+    "tag2_url": "https://practicepaper.in/gate-cse/cache-memory",
+    "ansMin": 3,
+    "ansMax": 3
+  },
+  {
+    "id": 1124147,
+    "number": 47,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider the following code snippet using the fork() and wait() system calls.\nAssume that the code compiles and runs correctly, and that the system calls run\nsuccessfully without any errors.<pre><code>\nint x = 3;\nwhile(x > 0) {\nfork();\nprintf(\"hello\");\nwait(NULL);\nx--;\n}</pre></code>\nThe total number of times the printf statement is executed is ___",
+    "solution": "<a href=\"https://gateoverflow.in/422795/gate-cse-2024-set-1-question-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "System Call",
+    "tag2_url": "https://practicepaper.in/gate-cse/system-call",
+    "ansMin": 14,
+    "ansMax": 14
+  },
+  {
+    "id": 1124148,
+    "number": 48,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider the entries shown below in the forwarding table of an [latex] \\mathbb{P} [/latex] router. Each entry consists of an IP prefix and the corresponding next hop router for packets whose destination IP address matches the prefix. The notation \"[latex] \\mathrm{/N} [/latex]\" in a prefix indicates a subnet mask with the most significant [latex] \\mathrm{N} [/latex] bits set to 1. <br><br> [latex]\n\\begin{array}{|l|c|}\n\\hline Prefix & Next\\;  hop \\; router \\\\\n\\hline  10.1 .1 .0 / 24  & R1 \\\\\n\\hline 10.1 .1 .128 / 25  & R2 \\\\\n\\hline  10.1 .1 .64 / 26 & R3 \\\\\n\\hline 10.1 .1 .192 / 26  & R4 \\\\\n\\hline\n\\end{array}[/latex]\n<br><br>\nThis router forwards 20 packets each to 5 hosts. The IP addresses of the hosts are 10.1.1.16, 10.1.1.72, 10.1.1.132, 10.1.1.191, and 10.1.1.205. The number of packets forwarded via the next hop router [latex] R 2 [/latex] is",
+    "solution": "<a href=\"https://gateoverflow.in/422794/gate-cse-2024-set-1-question-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Network Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/network-layer-protocol",
+    "ansMin": 40,
+    "ansMax": 40
+  },
+  {
+    "id": 1124149,
+    "number": 49,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Let [latex] G=(V, \\Sigma, S, P) [/latex] be a context-free grammar in Chomsky Normal Form with [latex] \\Sigma=\\{a, b, c\\} [/latex] and [latex] V [/latex] containing 10 variable symbols including the start symbol [latex] S [/latex]. The string [latex] w=a^{30} b^{30} c^{30} [/latex] is derivable from [latex] S [/latex]. The number of steps (application of rules) in the derivation [latex] S \\rightarrow^* w [/latex] is _____",
+    "solution": "<a href=\"https://gateoverflow.in/422793/gate-cse-2024-set-1-question-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-grammar",
+    "ansMin": 179,
+    "ansMax": 179
+  },
+  {
+    "id": 1124150,
+    "number": 50,
+    "type": "NAT",
+    "marks": 2,
+    "text": "The number of edges present in the forest generated by the DFS traversal of an undirected graph [latex] G [/latex] with 100 vertices is 40 . The number of connected components in [latex] G [/latex] is ____",
+    "solution": "<a href=\"https://gateoverflow.in/422792/gate-cse-2024-set-1-question-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "ansMin": 60,
+    "ansMax": 60
+  },
+  {
+    "id": 1124151,
+    "number": 51,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider the following two regular expressions over the alphabet [latex] \\{0,1\\} [/latex] :<br><br>\n[latex]\n\\begin{aligned}\n& r=0^*+1^* \\\\\n& s=01^*+10^*\n\\end{aligned}\n[/latex]\n<br><br>\nThe total number of strings of length less than or equal to 5 , which are neither in [latex] r [/latex] nor in [latex] s [/latex], is ____",
+    "solution": "<a href=\"https://gateoverflow.in/422791/gate-cse-2024-set-1-question-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Expression",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-expression",
+    "ansMin": 44,
+    "ansMax": 44
+  },
+  {
+    "id": 1124152,
+    "number": 52,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider a memory management system that uses a page size of [latex] 2 \\mathrm{~KB} [/latex]. Assume that both the physical and virtual addresses start from 0. Assume that the pages [latex] 0,1,2 [/latex], and [latex]3[/latex] are stored in the page frames [latex] 1,3,2 [/latex], and [latex]0[/latex], respectively. The physical address (in decimal format) corresponding to the virtual address [latex]2500[/latex] (in decimal format) is ____",
+    "solution": "<a href=\"https://gateoverflow.in/422790/gate-cse-2024-set-1-question-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "ansMin": 6596,
+    "ansMax": 6596
+  },
+  {
+    "id": 1124153,
+    "number": 53,
+    "type": "NAT",
+    "marks": 2,
+    "text": "A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____",
+    "solution": "<a href=\"https://gateoverflow.in/422789/gate-cse-2024-set-1-question-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "ansMin": 0.37,
+    "ansMax": 0.38
+  },
+  {
+    "id": 1124154,
+    "number": 54,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. [latex] X 1 [/latex] and [latex] X 2 [/latex] are inputs of [latex] M 1 [/latex]. [latex] X 3 [/latex] and [latex] X 4 [/latex] are inputs of [latex] M 2 [/latex]. [latex] A, B [/latex], and [latex] C [/latex] are select lines of [latex] M 1, M 2 [/latex], and [latex] M 3 [/latex], respectively.<br><img src=\"/wp-content/uploads/GATE/CS/20241/q54.webp\" /><br>\n\nFor an instance of inputs [latex] X \\mathbf{X l}=\\mathbf{X} \\mathbf{2}=\\mathbf{1}, \\mathrm{X} 3=\\mathbf{0} [/latex], and [latex] \\mathrm{X} 4=\\mathbf{0} [/latex], the number of combinations of [latex] A, B, C [/latex] that give the output [latex] Y=1 [/latex] is _____",
+    "solution": "<a href=\"https://gateoverflow.in/422788/gate-cse-2024-set-1-question-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "ansMin": 4,
+    "ansMax": 4
+  },
+  {
+    "id": 1124155,
+    "number": 55,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider sending an IP datagram of size 1420 bytes (including 20 bytes of IP header) from a sender to a receiver over a path of two links with a router between them. The first link (sender to router) has an MTU (Maximum Transmission Unit) size of 542 bytes, while the second link (router to receiver) has an MTU size of 360 bytes. The number of fragments that would be delivered at the receiver is _____",
+    "solution": "<a href=\"https://gateoverflow.in/422787/gate-cse-2024-set-1-question-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Network Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/network-layer-protocol",
+    "ansMin": 6,
+    "ansMax": 6
+  },
+  {
+    "id": 1124156,
+    "number": 56,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "If '[latex] \\rightarrow [/latex]' denotes increasing order of intensity, then the meaning of the words\n[dry [latex] \\rightarrow [/latex] arid [latex] \\rightarrow [/latex] parched] is analogous to [diet [latex] \\rightarrow [/latex] fast [latex] \\rightarrow [/latex] _____].\n<br>\nWhich one of the given options is appropriate to fill the blank?",
+    "solution": "<a href=\"https://gateoverflow.in/422786/gate-cse-2024-set-1-ga-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Verbal Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/verbal-ability",
+    "options": [
+      "starve",
+      "reject",
+      "feast",
+      "deny"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124157,
+    "number": 57,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "If two distinct non-zero real variables [latex] x [/latex] and [latex] y [/latex] are such that [latex] (x+y) [/latex] is proportional to [latex] (x-y) [/latex] then the value of [latex] \\frac{x}{y} [/latex]",
+    "solution": "<a href=\"https://gateoverflow.in/422785/gate-cse-2024-set-1-ga-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "depends on [latex] x y [/latex]",
+      "depends only on [latex] x [/latex] and not on [latex] y [/latex]",
+      "depends only on [latex] y [/latex] and not on [latex] x [/latex]",
+      "is a constant"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1124158,
+    "number": 58,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following sample of numbers:<br><br>\n9, 18, 11, 14, 15, 17, 10, 69, 11, 13<br><br>\nThe median of the sample is",
+    "solution": "<a href=\"https://gateoverflow.in/422784/gate-cse-2024-set-1-ga-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "13.5",
+      "14",
+      "11",
+      "18.7"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124159,
+    "number": 59,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The number of coins of Rs. 1, Rs. 5, and Rs. 10 denominations that a person has are in the\nratio 5:3:13. Of the total amount, the percentage of money in Rs. 5 coins is",
+    "solution": "<a href=\"https://gateoverflow.in/422783/gate-cse-2024-set-1-ga-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "[latex] 21\\%[/latex]",
+      "[latex]14 \\frac{2}{7} \\% [/latex]",
+      "[latex] 10\\%[/latex]",
+      "[latex] 30\\%[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124160,
+    "number": 60,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "For positive non-zero real variables [latex] p [/latex] and [latex] q [/latex], if\n<br> [latex]\n\\log \\left(p^2+q^2\\right)=\\log p+\\log q+2 \\log 3 \\text {, }\n [/latex] <br>\nthen, the value of [latex] \\frac{p^4+q^4}{p^2 q^2} [/latex] is",
+    "solution": "<a href=\"https://gateoverflow.in/422782/gate-cse-2024-set-1-ga-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "79",
+      "81",
+      "9",
+      "83"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124161,
+    "number": 61,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "In the given text, the blanks are numbered (i)-(iv). Select the best match for all the\nblanks.  <br>\nSteve was advised to keep his head ___(i)___ before heading __(ii)__ to bat;\nfor, while he had a head __(iii)__ batting, he could only do so with a cool head\ns __(iv)__ his shoulders",
+    "solution": "<a href=\"https://gateoverflow.in/422781/gate-cse-2024-set-1-ga-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Verbal Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/verbal-ability",
+    "options": [
+      "(i) down (ii) down (iii) on (iv) for",
+      "(i) on (ii) down (iii) for (iv) on",
+      "(i) down (ii) out (iii) for (iv) on",
+      "(i) on (ii) out (iii) on (iv) for"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124162,
+    "number": 62,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "A rectangular paper sheet of dimensions 54cm x 4cm is taken. The two longer\nedges of the sheet are joined together to create a cylindrical tube. A cube whose\nsurface area is equal to the area of the sheet is also taken.<br>\nThen, the ratio of the volume of the cylindrical tube to the volume of the cube is",
+    "solution": "<a href=\"https://gateoverflow.in/422780/gate-cse-2024-set-1-ga-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "[latex]1/\\pi[/latex]",
+      "[latex]2/\\pi[/latex]",
+      "[latex]3/\\pi[/latex]",
+      "[latex]4/\\pi[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124163,
+    "number": 63,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "The pie chart presents the percentage contribution of different macronutrients to a\ntypical 2,000 kcal diet of a person.<br><img src=\"/wp-content/uploads/GATE/CS/20241/q63.webp\" /><br>\nThe typical energy density (kcal/g) of these macronutrients is given in the table.\n<br>[latex]\n\\begin{array}{|l|c|}\n\\hline Macronutrient & Energy density (kcal/g) \\\\\n\\hline Carbohydrates &4\\\\\n\\hline Proteins &4 \\\\\n\\hline Unsaturated fat &9 \\\\\n\\hline Saturated fat &9 \\\\\n\\hline Trans fat &9 \\\\\n\\hline\n\\end{array}[/latex]<br>\n\nThe total fat (all three types), in grams, this person consumes is",
+    "solution": "<a href=\"https://gateoverflow.in/422779/gate-cse-2024-set-1-ga-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "44.4",
+      "77.8",
+      "100",
+      "3600"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1124164,
+    "number": 64,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "A rectangular paper of 20cm x 8cm is folded 3 times. Each fold is made along the\nline of symmetry, which is perpendicular to its long edge. The perimeter of the final\nfolded sheet (in cm) is",
+    "solution": "<a href=\"https://gateoverflow.in/422778/gate-cse-2024-set-1-ga-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "18",
+      "24",
+      "20",
+      "21"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1124165,
+    "number": 65,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "The least number of squares to be added in the figure to make AB a line of\nsymmetry is <br><img src=\"/wp-content/uploads/GATE/CS/20241/q65.webp\" /><br>",
+    "solution": "<a href=\"https://gateoverflow.in/422777/gate-cse-2024-set-1-ga-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "correct": 0
+  }
+]

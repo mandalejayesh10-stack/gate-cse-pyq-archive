@@ -1,0 +1,348 @@
+{
+  "General Aptitude": {
+    "Verbal Aptitude": [
+      "Basic English Grammar",
+      "Sentence Completion",
+      "Vocabulary & Synonyms/Antonyms",
+      "Analogy",
+      "Reading Comprehension",
+      "Verbal Deductions"
+    ],
+    "Quantitative Aptitude": [
+      "Data Interpretation",
+      "Permutation and Combination",
+      "Probability",
+      "Elementary Statistics",
+      "Ratio and Proportion",
+      "Percentages & Profit-Loss",
+      "Mensuration and Geometry"
+    ],
+    "Analytical Aptitude": [
+      "Logic and Syllogism",
+      "Venn Diagrams",
+      "Analogical Reasoning",
+      "Blood Relations",
+      "Direction Sense",
+      "Seating Arrangement"
+    ],
+    "Spatial Aptitude": [
+      "Transformation of Shapes",
+      "Paper Folding and Cutting",
+      "Patterns in 2D and 3D",
+      "Mirror and Water Images",
+      "Cubes and Dices"
+    ]
+  },
+  "Engineering Mathematics": {
+    "Linear Algebra": [
+      "Matrix Algebra",
+      "Systems of Linear Equations",
+      "Eigenvalues and Eigenvectors",
+      "LU Decomposition",
+      "Determinant and Rank"
+    ],
+    "Calculus": [
+      "Functions of Single Variable",
+      "Limit, Continuity and Differentiability",
+      "Mean Value Theorems",
+      "Definite and Indefinite Integrals",
+      "Evaluation of Definite and Improper Integrals",
+      "Partial Derivatives",
+      "Maxima and Minima"
+    ],
+    "Probability and Statistics": [
+      "Sampling Theorems",
+      "Conditional Probability",
+      "Mean, Median, Mode and Standard Deviation",
+      "Random Variables",
+      "Discrete and Continuous Distributions",
+      "Poisson Distribution",
+      "Normal Distribution",
+      "Exponential Distribution"
+    ]
+  },
+  "Discrete Mathematics": {
+    "Propositional and First Order Logic": [
+      "Propositional Equivalences",
+      "Predicates and Quantifiers",
+      "Inference Rules"
+    ],
+    "Sets, Relations, Functions": [
+      "Set Operations",
+      "Equivalence Relations and Partitions",
+      "Partial Orders and Lattices",
+      "Functions and Bijections"
+    ],
+    "Combinatorics": [
+      "Counting Principles",
+      "Pigeonhole Principle",
+      "Permutations and Combinations",
+      "Inclusion-Exclusion",
+      "Generating Functions",
+      "Recurrence Relations"
+    ],
+    "Graph Theory": [
+      "Connectivity and Components",
+      "Matching and Coloring",
+      "Planarity and Euler Graphs",
+      "Hamiltonian Cycles",
+      "Trees and Spanning Trees"
+    ]
+  },
+  "Digital Logic": {
+    "Boolean Algebra": [
+      "Boolean Functions",
+      "Canonical and Standard Forms",
+      "Karnaugh Maps",
+      "Minimization of Boolean Functions"
+    ],
+    "Combinational Circuits": [
+      "Multiplexers and Demultiplexers",
+      "Decoders and Encoders",
+      "Adders and Subtractors",
+      "Arithmetic Logic Units"
+    ],
+    "Sequential Circuits": [
+      "Latches and Flip-Flops",
+      "Counters (Synchronous and Asynchronous)",
+      "Shift Registers",
+      "Finite State Machines"
+    ]
+  },
+  "Computer Organization and Architecture": {
+    "Machine Instructions and Addressing Modes": [
+      "Instruction Formats",
+      "Addressing Modes",
+      "Instruction Cycle and Flow"
+    ],
+    "ALU, Data Path and Control Unit": [
+      "Data Path Design",
+      "Hardwired vs Microprogrammed Control",
+      "Arithmetic Circuits"
+    ],
+    "Instruction Pipelining": [
+      "Pipeline Hazards (Structural, Data, Control)",
+      "Branch Prediction and Delay Slots",
+      "Pipelined Performance and Speedup"
+    ],
+    "Memory Hierarchy": [
+      "Cache Memory (Direct, Associative, Set-Associative)",
+      "Cache Replacement Policies",
+      "Cache Write Policies",
+      "Average Memory Access Time",
+      "Main Memory and Secondary Storage"
+    ],
+    "I/O Organization": [
+      "Interrupt Driven I/O",
+      "Vectored and Non-Vectored Interrupts",
+      "DMA (Cycle Stealing, Burst Mode)",
+      "Programmed I/O"
+    ]
+  },
+  "Programming and Data Structures": {
+    "Programming in C": [
+      "Data Types and Operators",
+      "Control Flow Statements",
+      "Functions and Parameter Passing",
+      "Recursion",
+      "Pointers and Pointer Arithmetic",
+      "Structures and Unions",
+      "Scope and Storage Classes"
+    ],
+    "Linear Data Structures": [
+      "Arrays and Matrices",
+      "Stacks and Applications",
+      "Queues and Circular Queues",
+      "Linked Lists (Singly, Doubly, Circular)"
+    ],
+    "Non-linear Data Structures": [
+      "Binary Trees and Traversals",
+      "Binary Search Trees",
+      "Balanced Trees (AVL, B, B+ Trees)",
+      "Binary Heaps and Priority Queues",
+      "Disjoint Sets"
+    ]
+  },
+  "Algorithms": {
+    "Asymptotic Analysis": [
+      "Big-O, Omega, Theta Notations",
+      "Recurrence Relations Analysis"
+    ],
+    "Searching and Sorting": [
+      "Linear and Binary Search",
+      "Comparison-based Sorts (Merge, Quick, Heap)",
+      "Linear-time Sorts (Counting, Radix)"
+    ],
+    "Algorithm Design Techniques": [
+      "Divide and Conquer",
+      "Greedy Algorithms",
+      "Dynamic Programming",
+      "Backtracking and Branch & Bound"
+    ],
+    "Graph Algorithms": [
+      "BFS and DFS Traversals",
+      "Minimum Spanning Trees (Prim, Kruskal)",
+      "Shortest Paths (Dijkstra, Bellman-Ford, Floyd-Warshall)",
+      "Topological Sort"
+    ],
+    "NP-Completeness": [
+      "P and NP Classes",
+      "NP-Complete and NP-Hard Reductions"
+    ]
+  },
+  "Theory of Computation": {
+    "Regular Languages and Automata": [
+      "Finite Automata (DFA, NFA, epsilon-NFA)",
+      "Regular Expressions",
+      "Equivalence and Minimization of DFA",
+      "Pumping Lemma for Regular Languages",
+      "Closure and Decision Properties"
+    ],
+    "Context-Free Languages and Pushdown Automata": [
+      "Context-Free Grammars",
+      "Chomsky Normal Form",
+      "Pushdown Automata (DPDA, NPDA)",
+      "Ambiguity in Grammars",
+      "Pumping Lemma for CFLs",
+      "Closure and Decision Properties"
+    ],
+    "Turing Machines and Undecidability": [
+      "Turing Machine Models",
+      "Halting Problem",
+      "Undecidable Problems",
+      "Rice's Theorem",
+      "Recursively Enumerable and Recursive Languages"
+    ]
+  },
+  "Compiler Design": {
+    "Lexical Analysis": [
+      "Token Recognition",
+      "Regular Expressions to DFA"
+    ],
+    "Syntax Analysis": [
+      "Context-Free Grammars",
+      "Top-Down Parsing (LL(1))",
+      "Bottom-Up Parsing (LR(0), SLR(1), LALR(1), CLR(1))",
+      "Parser Conflict Resolution"
+    ],
+    "Syntax-Directed Translation": [
+      "Synthesized and Inherited Attributes",
+      "S-Attributed and L-Attributed Definitions",
+      "Syntax Trees and Translation Schemes"
+    ],
+    "Intermediate Code Generation": [
+      "Three-Address Code",
+      "Quadruples, Triples and Indirect Triples",
+      "Control Flow Translation",
+      "Backpatching"
+    ],
+    "Code Optimization and Code Generation": [
+      "Basic Blocks and Flow Graphs",
+      "Data Flow Analysis (Live Variables, Reaching Definitions)",
+      "Loop Optimization",
+      "Register Allocation and Assignment"
+    ]
+  },
+  "Operating Systems": {
+    "Process Management": [
+      "Process Lifecycle and State Transitions",
+      "Threads and Multithreading",
+      "CPU Scheduling Algorithms (FCFS, SJF, SRTF, Round Robin, Priority)"
+    ],
+    "Process Synchronization": [
+      "Critical Section Problem",
+      "Peterson's Solution",
+      "Semaphores and Mutexes",
+      "Classical Synchronization Problems (Dining Philosophers, Readers-Writers)"
+    ],
+    "Deadlocks": [
+      "Deadlock Necessary Conditions",
+      "Resource Allocation Graphs",
+      "Deadlock Prevention, Avoidance (Banker's Algorithm)",
+      "Deadlock Detection and Recovery"
+    ],
+    "Memory Management": [
+      "Contiguous Allocation and Fragmentation",
+      "Paging and Page Tables (Single-level, Hierarchical, Inverted)",
+      "Segmentation",
+      "Virtual Memory and Demand Paging",
+      "Page Replacement Algorithms (FIFO, LRU, Optimal)"
+    ],
+    "Storage and File Systems": [
+      "Disk Scheduling (FCFS, SSTF, SCAN, C-SCAN)",
+      "File Allocation Methods (Contiguous, Linked, Indexed)",
+      "Free Space Management"
+    ]
+  },
+  "Database Management Systems": {
+    "ER Model and Relational Model": [
+      "Entity-Relationship Diagrams",
+      "Relational Model Constraints",
+      "Integrity Rules"
+    ],
+    "Relational Algebra and Calculus": [
+      "Relational Algebra Operations",
+      "Tuple Relational Calculus",
+      "Domain Relational Calculus"
+    ],
+    "SQL": [
+      "DDL and DML Commands",
+      "SELECT Queries with Aggregation",
+      "Subqueries and Joins",
+      "Views and Integrity Constraints"
+    ],
+    "Database Design and Normalization": [
+      "Functional Dependencies",
+      "Candidate Keys and Superkeys",
+      "Attribute Closure",
+      "Normal Forms (1NF, 2NF, 3NF, BCNF)",
+      "Lossless Join and Dependency Preservation Decomposition"
+    ],
+    "Transactions and Concurrency Control": [
+      "ACID Properties",
+      "Schedule Serializability (Conflict and View)",
+      "Recoverable and Cascadeless Schedules",
+      "Two-Phase Locking (2PL)",
+      "Timestamp Ordering Protocol"
+    ],
+    "File Organization and Indexing": [
+      "File Structures (Heap, Sorted)",
+      "Indexing Techniques (B-Tree, B+ Tree)",
+      "Hashing (Static, Dynamic)"
+    ]
+  },
+  "Computer Networks": {
+    "Network Fundamentals & Physical Layer": [
+      "OSI and TCP/IP Reference Models",
+      "Data Transmission and Delays",
+      "Channel Capacity (Nyquist, Shannon)"
+    ],
+    "Data Link Layer": [
+      "Framing and Error Detection (CRC, Checksum, Parity)",
+      "Flow and Error Control (Stop-and-Wait, Go-Back-N, Selective Repeat)",
+      "MAC Protocols (CSMA/CD, Pure/Slotted ALOHA)",
+      "Ethernet and Collision Detection"
+    ],
+    "Network Layer": [
+      "IPv4 and IPv6 Addressing",
+      "Subnetting and CIDR",
+      "Routing Algorithms (Distance Vector / Bellman-Ford, Link State / Dijkstra)",
+      "IP Fragmentation and Reassembly",
+      "Network Address Translation (NAT)",
+      "ARP and ICMP Protocols"
+    ],
+    "Transport Layer": [
+      "UDP and TCP Protocols",
+      "TCP Connection Establishment (3-way Handshake) and Termination",
+      "Flow Control (Sliding Window)",
+      "Congestion Control (Slow Start, Congestion Avoidance, AIMD)",
+      "TCP Header Flags and Options"
+    ],
+    "Application Layer": [
+      "DNS (Domain Name System)",
+      "HTTP and HTTPS",
+      "Email Protocols (SMTP, POP3, IMAP)",
+      "Socket Programming"
+    ]
+  }
+}

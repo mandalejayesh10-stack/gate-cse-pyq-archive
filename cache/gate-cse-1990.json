@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1100701,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>Two NAND gates having open collector outputs are tied together as shown in below figure.<br><img src=\"/wp-content/uploads/GATE/CS/19901/q1.jpg\" /><br>The logic function Y, implemented by the circuit is,",
+    "solution": "<a href=\"https://gateoverflow.in/84051/gate1990-3-i\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "Y=ABC + DE",
+      "[latex]Y=\\overline{ABC + DE}[/latex]",
+      "Y=ABC.DE",
+      "[latex]Y=\\overline{ABC.DE}[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100702,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>Indicate which of the following statements are true:\n<br>\nA relational database which is in 3NF may still have undesirable data redundancy because there may exist:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84054/gate1990-3-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Normal Form",
+    "tag2_url": "https://practicepaper.in/gate-cse/normal-form",
+    "options": [
+      "Transitive functional dependencies",
+      "Non-trivial functional dependencies involving prime attributes on the right-side.",
+      "Non-trivial functional dependencies involving prime attributes only on the left-side.",
+      "Non-trivial functional dependencies involving only prime attributes."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100703,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>The number of rooted binary trees with n nodes is,\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84060/gate1990-3-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "Equal to the number of ways of multiplying (n+1) matrices.",
+      "Equal to the number of ways of arranging n out of 2 n distinct elements.",
+      "Equal to [latex]\\frac{1}{(n+1)}\\binom{2n}{n}[/latex].",
+      "Equal to n!."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100704,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>The total external path length, EPL, of a binary tree with n external nodes is, [latex]\\Sigma _w=Iw[/latex], where [latex]I_{w}[/latex] is the path length of external node w),\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84828/gate1990-3-iv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "[latex]\\leq n^{2}[/latex] always.",
+      "[latex]\\geq n \\log_{2}[/latex] n always.",
+      "Equal to [latex]n^{2}[/latex] always.",
+      "O(n) for some special trees."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100705,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>The complexity of comparision based sorting algorithms is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84830/gate1990-3-v\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Sorting",
+    "tag2_url": "https://practicepaper.in/gate-cse/sorting",
+    "options": [
+      "[latex]\\Theta (n \\log n)[/latex]",
+      "[latex]\\Theta (n)[/latex]",
+      "[latex]\\Theta \\left(n^2\\right)[/latex]",
+      "[latex]\\Theta (n\\sqrt n)[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100706,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>Recursive languages are:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84833/gate1990-3-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Recursive Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/recursive-language",
+    "options": [
+      "A proper superset of context free languages.",
+      "Always recognizable by pushdown automata.",
+      "Also called type 0 languages.",
+      "Recognizable by Turing machines."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100707,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>It is undecidable whether:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84835/gate1990-3-vii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Undecidability",
+    "tag2_url": "https://practicepaper.in/gate-cse/undecidability",
+    "options": [
+      "An arbitrary Turing machine halts after 100 steps.",
+      "A Turing machine prints a specific letter.",
+      "A Turing machine computes the products of two numbers",
+      "None of the above."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100708,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>Let [latex]R_{1}[/latex] and [latex]R_{2}[/latex] be regular sets defined over the alphabet [latex]\\Sigma[/latex] Then:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84837/gate1990-3-viii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-grammar",
+    "options": [
+      "[latex]R_{1} \\cap R_{2}[/latex] is not regular.",
+      "[latex]R_{1} \\cup R_{2}[/latex] is regular.",
+      "[latex]\\Sigma^{*}-R_{1}[/latex] is regular.",
+      "[latex]R_{1}^{*}[/latex] is not regular."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100709,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>The number of ways in which 5 A's, 5 B's and 5 C's can be arranged in a row is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84841/gate1990-3-ix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Combination",
+    "tag2_url": "https://practicepaper.in/gate-cse/combination",
+    "options": [
+      "[latex]15!/(5!)^{3}[/latex]",
+      "15!",
+      "[latex]\\left(\\frac{15}{5}\\right)[/latex]",
+      "[latex]15!(5!3!).[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100710,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>Indicate which of the following well-formed formulae are valid:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/84861/gate1990-3-x\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Propositional Logic",
+    "tag2_url": "https://practicepaper.in/gate-cse/propositional-logic",
+    "options": [
+      "[latex]\\left(P\\Rightarrow Q\\right) {\\wedge} \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(P \\Rightarrow R\\right)[/latex]",
+      "[latex]\\left(P\\Rightarrow Q\\right) \\Rightarrow \\left( \\neg P \\Rightarrow \\neg Q\\right)[/latex]",
+      "[latex]\\left(P{\\wedge} \\left(\\neg P \\vee \\neg Q\\right)\\right) \\Rightarrow Q[/latex]",
+      "[latex]\\left(P \\Rightarrow R\\right) \\vee \\left(Q \\Rightarrow R\\right) \\Rightarrow \\left(\\left(P \\vee Q \\right) \\Rightarrow R\\right)[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100711,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (More than one may be correct).<br>\nA graph is planar if and only if,\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/85384/gate1990-3-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "It does not contain subgraphs homeomorphic to [latex]k_{5}[/latex] and [latex]k_{3, 3}[/latex].",
+      "It does not contain subgraphs isomorphic to [latex]k_{5}[/latex] or [latex]k_{3, 3}[/latex].",
+      "It does not contain a subgraph isomorphic to [latex]k_{5}[/latex] or [latex]k_{3, 3}[/latex]",
+      "It does not contain a subgraph homeomorphic to [latex]k_{5}[/latex] or [latex]k_{3, 3}[/latex]."
+    ],
+    "correct": 3
+  }
+]

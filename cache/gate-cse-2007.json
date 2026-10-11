@@ -1,0 +1,1617 @@
+[
+  {
+    "id": 1107101,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following two statements about the function f(x)=|x|:<br><br>\r\nP.  f(x) is continuous for all real values of x <br>\r\nQ. f(x) is differentiable for all real values of x <br><br>\r\nWhich of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1200/gate2007-1#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/calculus",
+    "options": [
+      "P is true and Q is false.",
+      "P is false and Q is true.",
+      "Both P and Q are true.",
+      "Both P and Q are false."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107102,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let S be a set of n elements. The number of ordered pairs in the largest and the\nsmallest equivalence relations on S are:",
+    "solution": "<a href=\"https://gateoverflow.in/1201/gate2007-2#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Set Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/set-theory",
+    "options": [
+      "n and n",
+      "[latex]n^{2} \\; and \\; n[/latex]",
+      "[latex]n^{2}  \\; and \\;  0[/latex]",
+      "n and 1"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107103,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "What is the maximum number of different Boolean functions involving n Boolean\nvariables?",
+    "solution": "<a href=\"https://gateoverflow.in/1202/gate2007-3#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "[latex]n^{2}[/latex]",
+      "[latex]2^{n}[/latex]",
+      "[latex]2^{2^{n}}[/latex]",
+      "[latex]2^{n^{2}}[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107104,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let G be the non-planar graph with the minimum possible number of edges. Then G has",
+    "solution": "<a href=\"https://gateoverflow.in/1203/gate2007-4#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Planar Graph",
+    "tag2_url": "https://practicepaper.in/gate-cse/planar-graph",
+    "options": [
+      "9 edges and 5 vertices",
+      "9 edges and 6 vertices",
+      "10 edges and 5 vertices",
+      "10 edges and 6 vertices"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107105,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the DAG with V = {1,2,3,4,5,6}, shown below. <br><img src=\"/wp-content/uploads/GATE/CS/20071/q5.jpg\"/><br> Which of the following is NOT a topological ordering?",
+    "solution": "<a href=\"https://gateoverflow.in/31821/gate2007-5#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Graph Traversal",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-traversal",
+    "options": [
+      "1 2 3 4 5 6",
+      "1 3 2 4 5 6",
+      "1 3 2 4 6 5",
+      "3 2 4 1 6 5"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107106,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following problems is undecidable?",
+    "solution": "<a href=\"https://gateoverflow.in/1204/gate2007-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Undecidability",
+    "tag2_url": "https://practicepaper.in/gate-cse/undecidability",
+    "options": [
+      "Membership problem for CFGs.",
+      "Ambiguity problem for CFGs.",
+      "Finiteness problem for FSAs.",
+      "Equivalence problem for FSAs."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107107,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1205/gate2007-7#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Set Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/set-theory",
+    "options": [
+      "Every subset of a regular set is regular.",
+      "Every finite subset of a non-regular set is regular.",
+      "The union of two non-regular sets is not regular.",
+      "Infinite union of finite sets is regular."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107108,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "How many 3-to-8 line decoders with an enable input are needed to construct a 6-\nto-64 line decoder without using any other logic gates?",
+    "solution": "<a href=\"https://gateoverflow.in/1206/gate2007-8#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107109,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following Boolean function of four variables: <br>\nf (w, x, y, z)=[latex]\\Sigma[/latex](1,3,4,6,9,11,12,14) <br>\nThe function is:",
+    "solution": "<a href=\"https://gateoverflow.in/1207/gate2007-9#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "independent of one variables",
+      "independent of two variables.",
+      "independent of three variables.",
+      "dependent on all the variables"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107110,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a 4-way set associative cache consisting of 128 lines with a line size of\n64 words. The CPU generates a 20-bit address of a word in main memory. The\nnumber of bits in the TAG, LINE and WORD fields are respectively:",
+    "solution": "<a href=\"https://gateoverflow.in/1208/gate2007-10#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Cache Memory",
+    "tag2_url": "https://practicepaper.in/gate-cse/cache-memory",
+    "options": [
+      "9, 6, 5",
+      "7, 7, 6",
+      "7, 5, 8",
+      "9, 5, 6"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107111,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a disk pack with 16 surfaces, 128 tracks per surface and 256 sectors per track. 512 bytes of data are stored in a bit serial manner in a sector. The capacity of the disk pack and the number of bits required to specify a particular sector in the disk are respectively:",
+    "solution": "<a href=\"https://gateoverflow.in/1209/gate2007-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Secondary Storage",
+    "tag2_url": "https://practicepaper.in/gate-cse/secondary-storage",
+    "options": [
+      "256 Mbyte, 19 bits",
+      "256 Mbyte, 28 bits",
+      "512 Mbyte, 20 bits",
+      "64 Gbyte, 28 bits"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107112,
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The height of a binary tree is the maximum number of edges in any root to leaf\npath. The maximum number of nodes in a binary tree of height h is:",
+    "solution": "<a href=\"https://gateoverflow.in/1210/gate2007-12#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "[latex]2^{h}-1[/latex]",
+      "[latex]2^{h-1}-1[/latex]",
+      "[latex]2^{h+1}-1[/latex]",
+      "[latex]2^{h+1}[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107113,
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The maximum number of binary trees that can be formed with three unlabeled nodes is:",
+    "solution": "<a href=\"https://gateoverflow.in/1211/gate2007-13#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "1",
+      "5",
+      "4",
+      "3"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107114,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following sorting algorithms has the lowest worst-case complexity?",
+    "solution": "<a href=\"https://gateoverflow.in/1212/gate2007-14#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Sorting",
+    "tag2_url": "https://practicepaper.in/gate-cse/sorting",
+    "options": [
+      "Merge sort",
+      "Bubble sort",
+      "Quick sort",
+      "Selection sort"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107115,
+    "number": 15,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following segment of C-code:\n<pre><code> int j, n;\n   j = 1;\n   while (j <=n)\n   j=j*2; </pre></code>\nThe number of comparisons made in the execution of the loop for any [latex]n \\gt 0[/latex] is:",
+    "solution": "<a href=\"https://gateoverflow.in/56129/gate2007-15#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Loop",
+    "tag2_url": "https://practicepaper.in/gate-cse/loop",
+    "options": [
+      "[latex]\\left \\lceil log_{2}n \\right \\rceil +1[/latex]\r\n",
+      "n",
+      "[latex]\\left \\lceil log_{2}n \\right \\rceil [/latex]",
+      "[latex]\\left \\lfloor log_{2}n \\right \\rfloor +1[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107116,
+    "number": 16,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Group 1 contains some CPU scheduling algorithms and Group 2 contains some\napplications. Match entries in Group 1 to entries in Group 2. Group I Group II \n<br><img src=\"/wp-content/uploads/GATE/CS/20071/q16.jpg\"/>",
+    "solution": "<a href=\"https://gateoverflow.in/1214/gate2007-16#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "CPU Scheduling",
+    "tag2_url": "https://practicepaper.in/gate-cse/cpu-scheduling",
+    "options": [
+      "P - 3 Q - 2 R - 1",
+      "P - 1 Q - 2 R - 3",
+      "P - 2 Q - 3 R - 1",
+      "P - 1 Q - 3 R - 2"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107117,
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following statements about user level threads and kernel level\nthreads. Which one of the following statements is FALSE?",
+    "solution": "<a href=\"https://gateoverflow.in/1215/gate2007-17#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Thread",
+    "tag2_url": "https://practicepaper.in/gate-cse/thread",
+    "options": [
+      "Context switch time is longer for kernel level threads than for user level threads.",
+      "User level threads do not need any hardware support.",
+      "Related kernel level threads can be scheduled on different processors in a\nmulti-processor system.",
+      "Blocking one kernel level thread blocks all related threads."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107118,
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which one of the following is a top-down parser?",
+    "solution": "<a href=\"https://gateoverflow.in/1216/gate2007-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "Recursive descent parser.",
+      "Operator precedence parser",
+      "An LR(k) parser",
+      "An LALR(k) parser"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107119,
+    "number": 19,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In Ethernet when Manchester encoding is used, the bit rate is:",
+    "solution": "<a href=\"https://gateoverflow.in/1217/gate2007-19#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Physical Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/physical-layer",
+    "options": [
+      "Half the baud rate.",
+      "Twice the baud rate",
+      "Same as the baud rate",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107120,
+    "number": 20,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which one of the following uses UDP as the transport protocol?",
+    "solution": "<a href=\"https://gateoverflow.in/1218/gate2007-20#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Transport Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/transport-layer-protocol",
+    "options": [
+      "HTTP",
+      "Telnet",
+      "DNS",
+      "SMTP"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107121,
+    "number": 21,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "How many different non-isomorphic Abelian groups of order 4 are there?",
+    "solution": "<a href=\"https://gateoverflow.in/1219/gate2007-21#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Group Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/group-theory",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107122,
+    "number": 22,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let Graph(x) be a predicate which denotes that x is a graph. Let Connected(x) be\na predicate which denotes that x is connected. Which of the following first order\nlogic sentences DOES NOT represent the statement: \"Not every graph is connected\"?",
+    "solution": "<a href=\"https://gateoverflow.in/1220/gate2007-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Propositional Logic",
+    "tag2_url": "https://practicepaper.in/gate-cse/propositional-logic",
+    "options": [
+      "[latex]\\neg \\forall x (Graph(x)\\Rightarrow Connected(x))[/latex]",
+      "[latex]\\exists  x(Graph(x) \\Rightarrow \\neg Connected(x))[/latex]",
+      "[latex]\\neg \\forall  x(\\neg Graph(x) \\vee Connected(x))[/latex]",
+      "[latex]\\forall x(Graph(x) \\Rightarrow \\neg Connected(x))[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107123,
+    "number": 23,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following graphs has an Eulerian circuit?",
+    "solution": "<a href=\"https://gateoverflow.in/1221/gate2007-23#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "Any k-regular graph where k is an even number.",
+      "A complete graph on 90 vertices.",
+      "The complement of a cycle on 25 vertices.",
+      "None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107124,
+    "number": 24,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Suppose we uniformly and randomly select a permutation from the 20!\nPermutations of 1, 2,3 ,...,20. What is the probability that 2 appears at an\nearlier position than any other even number in the selected permutation?",
+    "solution": "<a href=\"https://gateoverflow.in/1222/gate2007-24#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "options": [
+      "[latex]\\frac{1}{2}[/latex]",
+      "[latex]\\frac{1}{10}[/latex]",
+      "[latex]\\frac{9!}{20!}[/latex]",
+      "None of these"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107125,
+    "number": 25,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let A be a 4 x 4 matrix with eigenvalues -5, -2, 1, 4. Which of the following is an\neigenvalue of <br>[latex]\\begin{bmatrix} A & I\\\\ I&A \\end{bmatrix}[/latex]<br>  where I is the 4 x 4 identity matrix?",
+    "solution": "<a href=\"https://gateoverflow.in/1223/gate2007-25#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "-5",
+      "-7",
+      "2",
+      "1"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107126,
+    "number": 26,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "<img src=\"/wp-content/uploads/GATE/CS/20071/q26a.jpg\"/>  <br><img src=\"/wp-content/uploads/GATE/CS/20071/q26b.jpg\"/> ",
+    "solution": "<a href=\"https://gateoverflow.in/1224/gate2007-26#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Set Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/set-theory",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107127,
+    "number": 27,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the set of (column) vectors defined by <br> [latex]X=\\{x\\in R^{3}|x_{1}+x_{2}+x_{3}=0, \\; where \\; x^{T}=[x_{1},x_{2},x_{3}]^{T}\\}.[/latex]<br> Which of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1225/gate2007-27#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/calculus",
+    "options": [
+      "[latex]\\{[1,-1,0]^{T},[1,0,-1]^{T}\\}[/latex] is a basis for the subspace X.",
+      "[latex]\\{[1,-1,0]^{T},[1,0,-1]^{T}\\}[/latex] is a linearly independent set, but it does not span X and therefore is not a basis of X.",
+      "X is not a subspace of [latex]R^{3}[/latex]",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107128,
+    "number": 28,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the series [latex]x_{n+1}=\\frac{x_{n}}{2}+\\frac{9}{8x_{n}},x_{0}=0.5[/latex] obtained from the Newton-Raphson method. The series converges to",
+    "solution": "<a href=\"https://gateoverflow.in/1226/gate2007-28#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Numerical Method",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-method",
+    "options": [
+      "1.5",
+      "[latex]\\sqrt{2}[/latex]",
+      "1.6",
+      "1.4"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107129,
+    "number": 29,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A minimum state deterministic finite automaton accepting the language L={w|w[latex]\\in[/latex] {0,1}*} , number of 0s and 1s in w are divisible by 3 and 5, respectively has",
+    "solution": "<a href=\"https://gateoverflow.in/1227/gate2007-29#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Finite Automata",
+    "tag2_url": "https://practicepaper.in/gate-cse/finite-automata",
+    "options": [
+      "15 states",
+      "11 states",
+      "10 states",
+      "9 states"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107130,
+    "number": 30,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The language [latex]L=\\{0^{i}21^{i}|i\\geq 0\\}[/latex] over the alphabet {0,1,2} is:",
+    "solution": "<a href=\"https://gateoverflow.in/1228/gate2007-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-language",
+    "options": [
+      "not recursive",
+      "is recursive and is a deterministic CFL.",
+      "is a regular language.",
+      "is not a deterministic CFL but a CFL."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107131,
+    "number": 31,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following languages is regular?",
+    "solution": "<a href=\"https://gateoverflow.in/1229/gate2007-31#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-language",
+    "options": [
+      "{[latex]{ww^{R}|w \\in \\{0,1\\}^{+}}[/latex]}",
+      "{[latex]{ww^{R}x|x,w \\in \\{0,1\\}^{+}}[/latex]}",
+      "{[latex]{wxw^{R}|x,w\\in \\{0,1\\}^{+}}[/latex]}",
+      "{[latex]{xww^{R}|x,w\\in \\{0,1\\}^{+}}[/latex]}"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107132,
+    "number": 32,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let f(w,x,y,z)=[latex]\\Sigma[/latex](0,4,5,7,8,9,13,15). Which of the following expressions are\r\nNOT equivalent to f ? <br> (P) x'y'z' + w'xy' + wy'z + xz <br>\r\n(Q) w'y'z' + wx'y' + xz <br> \r\n(R) w'y'z' + wx'y' + xyz + xy'z <br> \r\n(S) x'y'z' + wx'y' + w'y <br> ",
+    "solution": "<a href=\"https://gateoverflow.in/1230/gate2007-32#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "P only",
+      "Q and S",
+      "R and S",
+      "S only"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107133,
+    "number": 33,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Define the connective * for the Boolean variables X and Y as: X * Y = XY + X'Y'.  Let Z= X *Y. Consider the following expressions P, Q and R. <br>\nP : X = Y * Z   <br> Q :Y = X * Z  <br> R : X *Y * Z = 1 <br>\nWhich of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1231/gate2007-33#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "Only P and Q are valid.",
+      "Only Q and R are valid.",
+      "Only P and R are valid.",
+      "All P, Q, R are valid."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107134,
+    "number": 34,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Suppose only one multiplexer and one inverter are allowed to be used to implement any Boolean function of n variables. What is the minimum size of the multiplexer needed?",
+    "solution": "<a href=\"https://gateoverflow.in/1232/gate2007-34#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "[latex]2^{n}[/latex] line to 1 line",
+      "[latex]2^{n+1}[/latex] line to 1 line",
+      "[latex]2^{n-1}[/latex] line to 1 line",
+      "[latex]2^{n-2}[/latex] line to 1 line"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107135,
+    "number": 35,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a look-ahead carry generator, the carry generate function i G and the carry\r\npropagate function [latex]P_{i}[/latex] for inputs [latex]A_{i}[/latex] and [latex]B_{i}[/latex] are given by: <br><br>\r\n[latex]P_{i}=A_{i}\\bigoplus B_{i} \\; and \\; G_{i}=A_{i}B_{i}[/latex] <br><br>\r\nThe expressions for the sum bit [latex]S_{i}[/latex] and the carry bit [latex]C_{i+1}[/latex] of the look-ahead carry\r\nCombinational Circuit are given by:\r\n<br><br> [latex]S_{i}=P_{i}\\bigoplus C_{i} \\; and \\; C_{i+1}=G_{i}+P_{i}C_{i}[/latex] <br><br> Consider a two-level logic implementation of the look-ahead carry generator. Assume that all [latex]P_{i}[/latex] and [latex]G_{i}[/latex] are available for the carry generator circuit and that\r\nthe AND and OR gates can have any number of inputs. The number of AND gates\r\nand OR gates needed to implement the look-ahead carry generator for a 4-bit\r\nCombinational Circuit with and [latex]S_{3},S_{2},S_{1},S_{0}[/latex] as [latex]C_{4}[/latex]  its outputs are respectively:",
+    "solution": "<a href=\"https://gateoverflow.in/1233/gate2007-35#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "6, 3",
+      "10, 4",
+      "6, 4",
+      "10, 5"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107136,
+    "number": 36,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The control signal functions of a 4-bit binary counter are given below (where X is \"don't care\"):  <br><img src=\"/wp-content/uploads/GATE/CS/20071/q36.jpg\"/> <br>  Assume that the counter and gate delays are negligible. If the counter starts at 0, then it cycles through the following sequence:",
+    "solution": "<a href=\"https://gateoverflow.in/1234/gate2007-36#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Combinational Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/combinational-circuit",
+    "options": [
+      "0, 3, 4",
+      "0, 3, 4, 5",
+      "0, 1, 2, 3, 4",
+      "0, 1, 2, 3, 4, 5"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107137,
+    "number": 37,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a pipelined processor with the following four stages: <br>\r\nIF: Instruction Fetch <br>\r\nID: Instruction Decode and Operand Fetch <br>\r\nEX: Execute <br>\r\nWB: Write Back <br><br>\r\nThe IF, ID and WB stages take one clock cycle each to complete the operation.\r\nThe number of clock cycles for the EX stage depends on the instruction. The ADD\r\nand SUB instructions need 1 clock cycle and the MUL instruction needs 3 clock\r\ncycles in the EX stage. Operand forwarding is used in the pipelined processor.\r\nWhat is the number of clock cycles taken to complete the following sequence of\r\ninstructions? <br>\r\nADD R2, R1, R0              (R2 [latex]\\leftarrow[/latex]  R1 + R0) <br>\r\nMUL R4, R3, R2              (R4 [latex]\\leftarrow[/latex]  R3 * R2)<br>\r\nSUB R6, R5, R4               (R6 [latex]\\leftarrow[/latex]  R5 - R4)<br>",
+    "solution": "<a href=\"https://gateoverflow.in/1235/gate2007-37#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Pipeline Processor",
+    "tag2_url": "https://practicepaper.in/gate-cse/pipeline-processor",
+    "options": [
+      "7",
+      "8",
+      "10",
+      "14"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107138,
+    "number": 38,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The following postfix expression with single digit operands is evaluated using a\nstack:<pre><code>\n8 2 3 ^ / 2 3 * + 5 1 * -  </pre></code>\nNote that ^ is the exponentiation operator. The top two elements of the stack\nafter the first * is evaluated are:",
+    "solution": "<a href=\"https://gateoverflow.in/1236/gate2007-38#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Stack",
+    "tag2_url": "https://practicepaper.in/gate-cse/stack",
+    "options": [
+      "6,1",
+      "5, 7",
+      "3, 2",
+      "1, 5"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107139,
+    "number": 39,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The inorder and preorder traversal of a binary tree are\nd b e a f c g and a b d e c f g, respectively\nThe postorder traversal of the binary tree is:",
+    "solution": "<a href=\"https://gateoverflow.in/1237/gate2007-39#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "d e b f g c a",
+      "e d b g f c a",
+      "e d b f g c a",
+      "d e f g b c a"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107140,
+    "number": 40,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a hash table of size seven, with starting index zero, and a hash function\n(3x + 4)mod7. Assuming the hash table is initially empty, which of the following\nis the contents of the table when the sequence 1, 3, 8, 10 is inserted into the\ntable using closed hashing? Note that '-' denotes an empty location in the table.",
+    "solution": "<a href=\"https://gateoverflow.in/1238/gate2007-40#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Hashing",
+    "tag2_url": "https://practicepaper.in/gate-cse/hashing",
+    "options": [
+      "8, -, -, -, -, -, 10",
+      "1, 8, 10, -, -, -, 3",
+      "1, -, -, -, -, -, 3",
+      "1, 10, 8, -, -, -, 3"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107141,
+    "number": 41,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In an unweighted, undirected connected graph, the shortest path from a node S\nto every other node is computed most efficiently, in terms of time complexity, by",
+    "solution": "<a href=\"https://gateoverflow.in/1239/gate2007-41#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Shortest Path",
+    "tag2_url": "https://practicepaper.in/gate-cse/shortest-path",
+    "options": [
+      "Dijkstra's algorithm starting from S.",
+      "Warshall's algorithm",
+      "Performing a DFS starting from S.",
+      "Performing a BFS starting from S."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107142,
+    "number": 42,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following C function:\r\n<pre><code> #include &lt stdio.h &gt\r\nint f(int n)\r\n{\r\n    static int r = 0;\r\n    if (n <= 0) return 1;\r\n    if (n > 3)\r\n    {\r\n        r = n;\r\n        return f(n-2)+2;\r\n    }\r\n    return f(n-1)+r;\r\n}\r\n \r\nint main()\r\n{\r\n    printf(\"%d\", f(5));\r\n} </pre></code>\r\nWhat is the value of f(5)?",
+    "solution": "<a href=\"https://gateoverflow.in/1240/gate2007-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "18"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107143,
+    "number": 43,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A complete n-ary tree is a tree in which each node has n children or no children.\nLet I be the number of internal nodes and L be the number of leaves in a\ncomplete n-ary tree. If L = 41, and I = 10, what is the value of n?",
+    "solution": "<a href=\"https://gateoverflow.in/1241/gate2007-43#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "n-ary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/n-ary-tree",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107144,
+    "number": 44,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In the following C function, let n[latex]\\geq[/latex]m.\n<pre><code>int gcd(n,m)\n{\n  if (n%m ==0) return m;  \n  n = n%m;\n  return gcd(m,n);\n}</pre></code>\nHow many recursive calls are made by this function?",
+    "solution": "<a href=\"https://gateoverflow.in/1242/gate2007-44#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Asymptotic Notation",
+    "tag2_url": "https://practicepaper.in/gate-cse/asymptotic-notation",
+    "options": [
+      "[latex]\\Theta (logn)[/latex]",
+      "[latex]\\Omega (n)[/latex]",
+      "[latex]\\Theta (log logn)[/latex]",
+      "[latex]\\Theta (\\sqrt{n})[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107145,
+    "number": 45,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "What is the Asymptotic Notation of the following recursive function:\n<pre><code> int DoSomething (int n) \n{\n  if (n <= 2)\n    return 1;\n  else \n    return (DoSomething (floor(sqrt(n))) + n);\n}</pre></code>",
+    "solution": "<a href=\"https://gateoverflow.in/1243/gate2007-45#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Asymptotic Notation",
+    "tag2_url": "https://practicepaper.in/gate-cse/asymptotic-notation",
+    "options": [
+      "[latex]\\Theta (n^{2})[/latex]",
+      "[latex]\\Theta (n log_{2} n)[/latex]",
+      "[latex]\\Theta (log_{2} n)[/latex]",
+      "[latex]\\Theta (log_{2} log_{2}n)[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107146,
+    "number": 46,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following C program segment where CellNode represents a node in a\nbinary tree:\n<pre><code> struct CellNode \n{\n  struct CellNOde *leftChild;\n  int element;\n  struct CellNode *rightChild;\n};\n \nint GetValue(struct CellNode *ptr) \n{\n  int value = 0;\n  if (ptr != NULL) \n  {\n   if ((ptr->leftChild == NULL) &&\n        (ptr->rightChild == NULL))\n      value = 1;\n   else\n      value = value + GetValue(ptr->leftChild)\n                   + GetValue(ptr->rightChild);\n  }\n  return(value);\n}</pre></code>\nThe value returned by GetValue when a pointer to the root of a binary tree is\npassed as its argument is:",
+    "solution": "<a href=\"https://gateoverflow.in/1244/gate2007-46#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "the number of nodes in the tree",
+      "the number of internal nodes in the tree",
+      "the number of leaf nodes in the tree",
+      "the height of the tree"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107147,
+    "number": 47,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the process of inserting an element into a Max Heap, where the Max\nHeap is represented by an array. Suppose we perform a binary search on the\npath from the new leaf to the root to find the position for the newly inserted\nelement, the number of comparisons performed is:",
+    "solution": "<a href=\"https://gateoverflow.in/1245/gate2007-47#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Heap Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/heap-tree",
+    "options": [
+      "[latex]\\Theta (log n)[/latex]",
+      "[latex]\\Theta (loglogn)[/latex]",
+      "[latex]\\Theta (n)[/latex]",
+      "[latex]\\Theta (n log_{2}n)[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107148,
+    "number": 48,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following is TRUE about formulae in Conjunctive Normal Form?",
+    "solution": "<a href=\"https://gateoverflow.in/1246/gate2007-48#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Normal Form",
+    "tag2_url": "https://practicepaper.in/gate-cse/normal-form",
+    "options": [
+      "For any formula, there is a truth assignment for which at least half the\nclauses evaluate to true.",
+      "For any formula, there is a truth assignment for which all the clauses\nevaluate to true.",
+      "There is a formula such that for each truth assignment, at most one-fourth of\nthe clauses evaluate to true.",
+      "None of the above."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107149,
+    "number": 49,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let w be the minimum weight among all edge weights in an undirected connected\ngraph. Let e be a specific edge of weight w . Which of the following is FALSE?",
+    "solution": "<a href=\"https://gateoverflow.in/1247/gate2007-49#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Minimum Spanning Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/minimum-spanning-tree",
+    "options": [
+      "There is a minimum spanning tree containing e.",
+      "If e is not in a minimum spanning tree T, then in the cycle formed by adding\ne to T, all edges have the same weight.",
+      "Every minimum spanning tree has an edge of weight w .",
+      "e is present in every minimum spanning tree."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107150,
+    "number": 50,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "An array of n numbers is given, where n is an even number. The maximum as well as the minimum of these n numbers needs to be determined. Which of the following is TRUE about the number of comparisons needed?",
+    "solution": "<a href=\"https://gateoverflow.in/1248/gate2007-50#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Array",
+    "tag2_url": "https://practicepaper.in/gate-cse/array",
+    "options": [
+      "At least 2n - c comparisons, for some constant c, are needed.",
+      "At most 1.5n - 2 comparisons are needed.",
+      "At least 2 nlog n comparisons are needed.",
+      "None of the above."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107151,
+    "number": 51,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following C code segment:\r\n<pre><code> int IsPrime(n)\r\n{\r\n  int i,n;\r\n  for(i=2;i<=sqrt(n);i++)\r\n     if(n%i == 0)\r\n      {printf(\"Not Primen\"); return 0;}\r\n  return 1;\r\n} </pre></code>\r\nLet T(n)denote the number of times the for loop is executed by the program on\r\ninput n. Which of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1249/gate2007-51#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Asymptotic Notation",
+    "tag2_url": "https://practicepaper.in/gate-cse/asymptotic-notation",
+    "options": [
+      "[latex]T(n)=O(\\sqrt{n}) \\; and \\; T(n)=\\Omega (\\sqrt{n})[/latex]",
+      "[latex]T(n)=O(n)  \\; and \\;  T(n)=\\Omega (\\sqrt{n})[/latex]",
+      "[latex]T(n)=O(\\sqrt{n})  \\; and \\;  T(n)=\\Omega (1)[/latex]",
+      "None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107152,
+    "number": 52,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the grammar with non-terminals N={[latex]S,C,S_1[/latex]}, terminals\r\nT={a,b,i,t,e}, with S as the start symbol, and the following set of rules: <br><br>\r\n[latex]S\\rightarrow iCtSS_{1}|a [/latex] <br> [latex]S_{1}\\rightarrow eS|\\epsilon  [/latex]<br> [latex]C \\rightarrow b[/latex]<br><br>\r\nThe grammar is NOT LL(1) because:",
+    "solution": "<a href=\"https://gateoverflow.in/1250/gate2007-52#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "it is left recursive",
+      "it is right recursive",
+      "it is ambiguous",
+      "it is not context-free."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107153,
+    "number": 53,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following two statements: <br><br>\r\nP: Every regular grammar is LL(1) <br>\r\nQ: Every regular set has a LR(1) grammar <br><br>\r\nWhich of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1251/gate2007-53#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-grammar",
+    "options": [
+      "Both P and Q are true",
+      "P is true and Q is false",
+      "P is false and Q is true",
+      "Both P and Q are false"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107154,
+    "number": 54,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a simplified computer the instructions are:\n<br><img src=\"/wp-content/uploads/GATE/CS/20071/q54a.jpg\"/> <br>\nThe computer has only two registers, and OP is either ADD or SUB. Consider the\nfollowing basic block:   <br><img src=\"/wp-content/uploads/GATE/CS/20071/q54b.jpg\"/> <br>\nAssume that all operands are initially in memory. The final value of the\ncomputation should be in memory. What is the minimum number of MOV\ninstructions in the code generated for this basic block?",
+    "solution": "<a href=\"https://gateoverflow.in/1252/gate2007-54#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Intermediate Code Generation",
+    "tag2_url": "https://practicepaper.in/gate-cse/intermediate-code-generation",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107155,
+    "number": 55,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "An operating system uses Shortest Remaining Time first (SRT) process\nscheduling algorithm. Consider the arrival times and execution times for the\nfollowing processes:\n<pre><code> Process  Execution time  Arrival time\nP1             20            0\nP2             25            15\nP3             10            30\nP4             15            45</pre></code>\nWhat is the total waiting time for process P2?",
+    "solution": "<a href=\"https://gateoverflow.in/1253/gate2007-55#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "CPU Scheduling",
+    "tag2_url": "https://practicepaper.in/gate-cse/cpu-scheduling",
+    "options": [
+      "5",
+      "15",
+      "40",
+      "55"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107156,
+    "number": 56,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A virtual memory system uses First In First Out (FIFO) page replacement policy and allocates a fixed number of frames to a process. Consider the following statements: <br><br>\r\nP: Increasing the number of page frames allocated to a process sometimes\r\nincreases the page fault rate.<br>\r\nQ: Some programs do not exhibit locality of reference. <br><br>\r\nWhich one of the following is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/1254/gate2007-56#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "Both P and Q are true, and Q is the reason for P",
+      "Both P and Q are true, but Q is not the reason for P.",
+      "P is false, but Q is true",
+      "Both P and Q are false."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107157,
+    "number": 57,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A single processor system has three resource types X, Y and Z, which are shared by three processes. There are 5 units of each resource type. Consider the following scenario, where the column alloc denotes the number of units of each resource type allocated to each process, and the column request denotes the number of units of each resource type requested by a process in order to\ncomplete execution. Which of these processes will finish LAST? <br><img src=\"/wp-content/uploads/GATE/CS/20071/q57.jpg\"/>  ",
+    "solution": "<a href=\"https://gateoverflow.in/1255/gate2007-57#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Deadlock",
+    "tag2_url": "https://practicepaper.in/gate-cse/deadlock",
+    "options": [
+      "P0",
+      "P1",
+      "P2",
+      "None of the above, since the system is in a deadlock."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107158,
+    "number": 58,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Two processes, P1 and P2, need to access a critical section of code. Consider the\nfollowing synchronization construct used by the processes: <br><img src=\"/wp-content/uploads/GATE/CS/20071/q58.jpg\"/><br> Here, wants1 and wants2 are shared variables, which are initialized to false. Which one of the following statements is TRUE about the above construct?",
+    "solution": "<a href=\"https://gateoverflow.in/1256/gate2007-58#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Process Synchronization",
+    "tag2_url": "https://practicepaper.in/gate-cse/process-synchronization",
+    "options": [
+      "It does not ensure mutual exclusion.",
+      "It does not ensure bounded waiting.",
+      "It requires that processes enter the critical section in strict alternation.",
+      "It does not prevent deadlocks, but ensures mutual exclusion."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107159,
+    "number": 59,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Information about a collection of students is given by the relation studinfo([latex]\\underline{studId}[/latex], name, sex). The relation enroll(studId, courseId) gives which student has enrolled for (or taken) what course(s). Assume that every course is taken by at least one male and at least one female student. What does the following relational algebra expression represent?<br><img src=\"/wp-content/uploads/GATE/CS/20071/q59.jpg\"/><br>",
+    "solution": "<a href=\"https://gateoverflow.in/2428/gate2007-59#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Relational Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/relational-algebra",
+    "options": [
+      "Courses in which all the female students are enrolled.",
+      "Courses in which a proper subset of female students are enrolled.",
+      "Courses in which only male students are enrolled.",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107160,
+    "number": 60,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the relation employee(name, sex, supervisorName) with name as the\nkey. supervisorName gives the name of the supervisor of the employee under\nconsideration. What does the following Tuple Relational Calculus query produce? <br><img src=\"/wp-content/uploads/GATE/CS/20071/q60.jpg\"/><br>",
+    "solution": "<a href=\"https://gateoverflow.in/1258/gate2007-60#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Tuple Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/tuple-calculus",
+    "options": [
+      "Names of employees with a male supervisor.",
+      "Names of employees with no immediate male subordinates",
+      "Names of employees with no immediate female subordinates.",
+      "Names of employees with a female supervisor"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107161,
+    "number": 61,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the table employee(empId, name, department, salary) and the two\nqueries Q1 ,Q2 below. Assuming that department 5 has more than one employee,\nand we want to find the employees who get higher salary than anyone in the department 5, which one of the statements is TRUE for any arbitrary employee table?<pre><code>Q1 : Select e.empId\n     From employee e\n     Where not exists\n        (Select * From employee s where s.department = \"5\" and \n                                        s.salary >=e.salary) <br>\nQ2 : Select e.empId\n     From employee e\n     Where e.salary > Any\n    (Select distinct salary From employee s Where s.department =\"5\"</pre></code>",
+    "solution": "<a href=\"https://gateoverflow.in/1259/gate2007-61#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "SQL",
+    "tag2_url": "https://practicepaper.in/gate-cse/sql",
+    "options": [
+      "Q1 is the correct query",
+      "Q2 is the correct query",
+      "Both Q1 and Q2 produce the same answer.",
+      "Neither Q1 nor Q2 is the correct query"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107162,
+    "number": 62,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which one of the following statements if FALSE?",
+    "solution": "<a href=\"https://gateoverflow.in/1260/gate2007-62#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Normal Form",
+    "tag2_url": "https://practicepaper.in/gate-cse/normal-form",
+    "options": [
+      "Any relation with two attributes is in BCNF",
+      "A relation in which every key has only one attribute is in 2NF",
+      "A prime attribute can be transitively dependent on a key in a 3 NF relation.",
+      "A prime attribute can be transitively dependent on a key in a BCNF relation."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107163,
+    "number": 63,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The order of a leaf node in a B+ tree is the maximum number of (value, data\nrecord pointer) pairs it can hold. Given that the block size is 1K bytes, data\nrecord pointer is 7 bytes long, the value field is 9 bytes long and a block pointer\nis 6 bytes long, what is the order of the leaf node?",
+    "solution": "<a href=\"https://gateoverflow.in/1261/gate2007-63#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "File System",
+    "tag2_url": "https://practicepaper.in/gate-cse/file-system",
+    "options": [
+      "63",
+      "64",
+      "67",
+      "68"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107164,
+    "number": 64,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following schedules involving two transactions. Which one of the\r\nfollowing statements is TRUE? <br> [latex]S_1 :r_1(X); r_1(Y); r_2(X); r_2(Y); w_2(Y); w_1(X)[/latex] <br> [latex]S_2 :r_1(X); r_2(X); r_2(Y); w_2(Y); r_1(Y); w_1(X)[/latex]",
+    "solution": "<a href=\"https://gateoverflow.in/1262/gate2007-64#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Transaction",
+    "tag2_url": "https://practicepaper.in/gate-cse/transaction",
+    "options": [
+      "Both S1 and S2 are conflict serializable.",
+      "S1 is conflict serializable and S2 is not conflict serializable.",
+      "S1 is not conflict serializable and S2 is conflict serializable.",
+      "Both S1 and S2 are not conflict serializable."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107165,
+    "number": 65,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "There are n stations in a slotted LAN. Each station attempts to transmit with a probability p in each time slot. What is the probability that ONLY one station transmits in a given time slot?",
+    "solution": "<a href=\"https://gateoverflow.in/1263/gate2007-65#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Data Link Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/data-link-layer",
+    "options": [
+      "[latex]np(1-p)^{n-1}[/latex]",
+      "[latex](1-p)^{n-1}[/latex]",
+      "[latex]p(1-p)^{n-1}[/latex]",
+      "[latex]1-(1-p)^{n-1}[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107166,
+    "number": 66,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a token ring network the transmission speed is [latex]10^{7}[/latex] bps and the propagation\nspeed is 200 metres/[latex]\\mu s[/latex]. The 1-bit delay in this network is equivalent to:",
+    "solution": "<a href=\"https://gateoverflow.in/1264/gate2007-66#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Data Link Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/data-link-layer",
+    "options": [
+      "500 metres of cable.",
+      "200 metres of cable.",
+      "50 metres of cable.",
+      "20 metres of cable."
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107167,
+    "number": 67,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet?",
+    "solution": "<a href=\"https://gateoverflow.in/1265/gate2007-67#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Network Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/network-layer-protocol",
+    "options": [
+      "62 subnets and 262142 hosts",
+      "64 subnets and 262142 hosts",
+      "62 subnets and 1022 hosts.",
+      "64 subnets and 1024 hosts."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107168,
+    "number": 68,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The message 11001001 is to be transmitted using the CRC polynomial [latex]x^{3}[/latex]+1 to\nprotect it from errors. The message that should be transmitted is:",
+    "solution": "<a href=\"https://gateoverflow.in/1266/gate2007-68#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Data Link Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/data-link-layer",
+    "options": [
+      "11001001000",
+      "11001001011",
+      "11001010",
+      "110010010011"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107169,
+    "number": 69,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The distance between two stations M and N is L kilometers. All frames are K bits long. The propagation delay per kilometer is t seconds. Let R bits/second be the channel capacity. Assuming that processing delay is negligible, the minimum number of bits for the sequence number field in a frame for maximum utilization, when the sliding window protocol is used, is:",
+    "solution": "<a href=\"https://gateoverflow.in/1267/gate2007-69#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Data Link Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/data-link-layer",
+    "options": [
+      "[latex][log_{2}\\frac{2LtR+2K}{K}][/latex]",
+      "[latex][log_{2}\\frac{2LtR}{K}][/latex]",
+      "[latex][log_{2}\\frac{2LtR+K}{K}][/latex]",
+      "[latex][log_{2}\\frac{2LtR+2K}{2K}][/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107170,
+    "number": 70,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Match the following:\n<pre><code> (P) SMTP     (1) Application layer\n(Q) BGP      (2) Transport layer\n(R) TCP      (3) Data link layer\n(S) PPP      (4) Network layer\n             (5) Physical layer </pre></code>",
+    "solution": "<a href=\"https://gateoverflow.in/1268/gate2007-70#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "OSI Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/osi-layer",
+    "options": [
+      "P - 2 Q - 1 R - 3 S - 5",
+      "P - 1 Q - 4 R - 2 S - 3",
+      "P - 1 Q - 4 R - 2 S - 5",
+      "P - 2 Q - 4 R - 1 S - 3"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107171,
+    "number": 71,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following program segment. Here R1, R2 and R3 are the general purpose registers. <br><img src=\"/wp-content/uploads/GATE/CS/20071/q71.jpg\"/><br>  Assume that the content of memory location 3000 is 10 and the content of the register R3 is 2000. The content of each of the memory locations from 2000 to 2010 is 100. The program is loaded from the memory location 1000. All the numbers are in decimal. <br><br>Assume that the memory is word addressable. The number of memory references for accessing the data in executing the program completely is:",
+    "solution": "<a href=\"https://gateoverflow.in/1269/gate2007-71#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Machine Instruction",
+    "tag2_url": "https://practicepaper.in/gate-cse/machine-instruction",
+    "options": [
+      "10",
+      "11",
+      "20",
+      "21"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107172,
+    "number": 72,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following program segment. Here R1, R2 and R3 are the general purpose registers. <br><img src=\"/wp-content/uploads/GATE/CS/20071/q71.jpg\"/><br>  Assume that the content of memory location 3000 is 10 and the content of the register R3 is 2000. The content of each of the memory locations from 2000 to 2010 is 100. The program is loaded from the memory location 1000. All the numbers are in decimal. <br><br> Assume that the memory is word addressable. After the execution of this\nprogram, the content of memory location 2010 is:",
+    "solution": "<a href=\"https://gateoverflow.in/43515/gate2007-72#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Machine Instruction",
+    "tag2_url": "https://practicepaper.in/gate-cse/machine-instruction",
+    "options": [
+      "100",
+      "101",
+      "102",
+      "110"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107173,
+    "number": 73,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following program segment. Here R1, R2 and R3 are the general purpose registers. <br><img src=\"/wp-content/uploads/GATE/CS/20071/q71.jpg\"/><br>  Assume that the content of memory location 3000 is 10 and the content of the register R3 is 2000. The content of each of the memory locations from 2000 to 2010 is 100. The program is loaded from the memory location 1000. All the numbers are in decimal. <br><br>Assume that the memory is byte addressable and the word size is 32 bits. If an interrupt occurs during the execution of the instruction \"INC R3\", what return address will be pushed on to the stack?",
+    "solution": "<a href=\"https://gateoverflow.in/43516/gate2007-73#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Machine Instruction",
+    "tag2_url": "https://practicepaper.in/gate-cse/machine-instruction",
+    "options": [
+      "1005",
+      "1020",
+      "1024",
+      "1040"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107174,
+    "number": 74,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following Finite State Automaton: <br><img src=\"/wp-content/uploads/GATE/CS/20071/q74.jpg\"/><br> The language accepted by this automaton is given by the regular expression",
+    "solution": "<a href=\"https://gateoverflow.in/1270/gate2007-74#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Finite Automata",
+    "tag2_url": "https://practicepaper.in/gate-cse/finite-automata",
+    "options": [
+      "b*ab*ab*ab*",
+      "(a+b)*",
+      "b*a(a+b)*",
+      "b*ab*ab* "
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107175,
+    "number": 75,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following Finite State Automaton: <br><img src=\"/wp-content/uploads/GATE/CS/20071/q74.jpg\"/><br>The minimum state automaton equivalent to the above FSA has the following\nnumber of states",
+    "solution": "<a href=\"https://gateoverflow.in/43514/gate2007-75#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Finite Automata",
+    "tag2_url": "https://practicepaper.in/gate-cse/finite-automata",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107176,
+    "number": 76,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively. <br><br>Which of the following is the Huffman code for the letter a, b, c, d, e, f?",
+    "solution": "<a href=\"https://gateoverflow.in/1271/gate2007-76#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Greedy Technique",
+    "tag2_url": "https://practicepaper.in/gate-cse/greedy-technique",
+    "options": [
+      "0, 10, 110, 1110, 11110, 11111",
+      "11, 10, 011, 010, 001, 000",
+      "11, 10, 01, 001, 0001, 0000",
+      "110, 100, 010, 000, 001, 111"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107177,
+    "number": 77,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Suppose the letters a, b, c, d, e, f have probabilities 1/2, 1/4, 1/8, 1/16, 1/32, 1/32 respectively.  <br><br>What is the average length of  the Huffman code for the letters a,b,c,d,e,f?",
+    "solution": "<a href=\"https://gateoverflow.in/43513/gate2007-77#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Greedy Technique",
+    "tag2_url": "https://practicepaper.in/gate-cse/greedy-technique",
+    "options": [
+      "3",
+      "2.1875",
+      "2.25",
+      "1.9375"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1107178,
+    "number": 78,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the CFG with {S, A,B} as the non-terminal alphabet, {a,b} as the terminal\nalphabet, S as the start symbol and the following set of production rules:  <br> S[latex]\\rightarrow[/latex] aB S[latex]\\rightarrow[/latex]bA <br>\nB[latex]\\rightarrow[/latex] b A [latex]\\rightarrow[/latex]a <br>\nB[latex]\\rightarrow[/latex] bS A [latex]\\rightarrow[/latex]aS <br>\nB[latex]\\rightarrow[/latex] aBB S [latex]\\rightarrow[/latex]bAA    <br> <br>    Which of the following strings is generated by the grammar?",
+    "solution": "<a href=\"https://gateoverflow.in/1272/gate2007-78#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "aaaabb",
+      "aabbbb",
+      "aabbab",
+      "abbbba"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107179,
+    "number": 79,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the CFG with {S, A,B} as the non-terminal alphabet, {a,b} as the terminal\nalphabet, S as the start symbol and the following set of production rules:  <br> S[latex]\\rightarrow[/latex] aB S[latex]\\rightarrow[/latex]bA <br>\nB[latex]\\rightarrow[/latex] b A [latex]\\rightarrow[/latex]a <br>\nB[latex]\\rightarrow[/latex] bS A [latex]\\rightarrow[/latex]aS <br>\nB[latex]\\rightarrow[/latex] aBB S [latex]\\rightarrow[/latex]bAA    <br> <br>  For the string \"aabbab\", how many derivation trees are there?",
+    "solution": "<a href=\"https://gateoverflow.in/43512/gate2007-79#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1107180,
+    "number": 80,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a machine with a byte addressable main memory of [latex]2^{16}[/latex]  bytes. Assume that a direct mapped data cache consisting of 32 lines of 64 bytes each is used in the system. A 50 x 50 two-dimensional array of bytes is stored in the main memory starting from memory location 1100H. Assume that the data cache is initially empty. The complete array is accessed twice. Assume that the contents of the data cache do not change in between the two accesses. <br><br>How many data cache misses will occur in total?",
+    "solution": "<a href=\"https://gateoverflow.in/1273/gate2007-80#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Cache Memory",
+    "tag2_url": "https://practicepaper.in/gate-cse/cache-memory",
+    "options": [
+      "48",
+      "50",
+      "56",
+      "59"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107181,
+    "number": 81,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a machine with a byte addressable main memory of [latex]2^{16}[/latex]  bytes. Assume that a direct mapped data cache consisting of 32 lines of 64 bytes each is used in the system. A 50 x 50 two-dimensional array of bytes is stored in the main memory starting from memory location 1100H. Assume that the data cache is initially empty. The complete array is accessed twice. Assume that the contents of the data cache do not change in between the two accesses. <br><br>Which of the following lines of the data cache will be replaced by new blocks in\naccessing the array for the second time?",
+    "solution": "<a href=\"https://gateoverflow.in/43511/gate2007-81#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Cache Memory",
+    "tag2_url": "https://practicepaper.in/gate-cse/cache-memory",
+    "options": [
+      "line 4 to line 11",
+      "line 4 to line 12",
+      "line 0 to line 7",
+      "line 0 to line 8"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107182,
+    "number": 82,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A process has been allocated 3 page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): 1, 2, 1, 3, 7, 4, 5, 6, 3, 1.  <br><br> If optimal page replacement policy is used, how many page faults occur for the\nabove reference string?",
+    "solution": "<a href=\"https://gateoverflow.in/1274/gate2007-82#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107183,
+    "number": 83,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A process has been allocated 3 page frames. Assume that none of the pages of the process are available in the memory initially. The process makes the following sequence of page references (reference string): 1, 2, 1, 3, 7, 4, 5, 6, 3, 1.  <br><br>  Least Recently Used (LRU) page replacement policy is a practical approximation\nto optimal page replacement. For the above reference string, how many more\npage faults occur with LRU than with the optimal page replacement policy?",
+    "solution": "<a href=\"https://gateoverflow.in/43510/gate2007-83#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1107184,
+    "number": 84,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up or one unit right, i.e., if it is at (i,j) then it can move to either (i+1,j) or (i,j+1).  <br> <br> How many distinct paths are there for the robot to reach the point (10,10)\nstarting from the initial position (0,0)?",
+    "solution": "<a href=\"https://gateoverflow.in/1275/gate2007-84#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Dynamic Programming",
+    "tag2_url": "https://practicepaper.in/gate-cse/dynamic-programming",
+    "options": [
+      "[latex]\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}[/latex]",
+      "[latex]2^{20}[/latex]",
+      "[latex]2^{10}[/latex]",
+      "None of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1107185,
+    "number": 85,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Suppose that a robot is placed on the Cartesian plane. At each step it is allowed to move either one unit up or one unit right, i.e., if it is at (i,j) then it can move to either (i+1,j) or (i,j+1).  <br> <br> Suppose that the robot is not allowed to traverse the line segment from (4,4) to\n(5,4). With this constraint, how many distinct paths are there for the robot to\nreach (10,10) starting from (0,0)?",
+    "solution": "<a href=\"https://gateoverflow.in/43509/gate2007-85#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Dynamic Programming",
+    "tag2_url": "https://practicepaper.in/gate-cse/dynamic-programming",
+    "options": [
+      "[latex]2^{9}[/latex]",
+      "[latex]2^{19}[/latex]",
+      "[latex]\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}[/latex]",
+      "[latex]\\begin{pmatrix} 20\\\\ 10 \\end{pmatrix}-\\begin{pmatrix} 8\\\\ 4 \\end{pmatrix}*\\begin{pmatrix} 11\\\\ 5 \\end{pmatrix}[/latex]"
+    ],
+    "correct": 3
+  }
+]

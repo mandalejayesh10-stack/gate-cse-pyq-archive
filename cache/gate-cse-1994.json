@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1101301,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "FORTRAN implementation do not permit recursion because\n",
+    "solution": "<a href=\"https://gateoverflow.in/2437/gate1994-1-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "",
+    "tag1_url": "https://practicepaper.in/gate-cse/",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-cse/",
+    "options": [
+      "they use static allocation for variables",
+      "they use dynamic allocation for variables",
+      "stacks are not available on all machines",
+      "it is not possible to implement recursion on all machines"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101302,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let A and B be real symmetric matrices of size [latex]n \\times n[/latex]. Then which one of the following is true?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2438/gate1994-1-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "[latex]AA'=I[/latex]",
+      "[latex]A=A^{-1}[/latex]",
+      "[latex]AB=BA[/latex]",
+      "[latex](AB)'=BA[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101303,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Backward Euler method for solving the differential equation [latex]\\frac{dy}{dx}=f(x, y)[/latex] is specified by, (choose one of the following).",
+    "solution": "<a href=\"https://gateoverflow.in/2439/gate1994-1-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/calculus",
+    "options": [
+      "[latex]y_{n+1}=y_n+hf(x_n, y_n)[/latex]",
+      "[latex]y_{n+1}=y_n+hf(x_{n+1}, y_{n+1})[/latex]",
+      "[latex]y_{n+1}=y_{n-1}+2hf(x_n, y_n)[/latex]",
+      "[latex]y_{n+1}= (1+h)f(x_{n+1}, y_{n+1})[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101304,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let A and B be any two arbitrary events, then, which one of the following is TRUE?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2441/gate1994-1-4-isro2017-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "options": [
+      "[latex]P (A \\cap B) = P(A)P(B)[/latex]",
+      "[latex]P (A \\cup B) = P(A)+P(B)[/latex]",
+      "[latex]P (A \\mid B) = P(A \\cap B)P(B)[/latex]",
+      "[latex]P (A \\cup B) \\leq P(A) + P(B)[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101305,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "An unrestricted use of the \"goto\" statement is harmful because\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2442/gate1994-1-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Conditional Statement",
+    "tag2_url": "https://practicepaper.in/gate-cse/conditional-statement",
+    "options": [
+      "it makes it more difficult to verify programs",
+      "it increases the running time of the programs",
+      "it increases the memory required for the programs",
+      "it results in the compiler generating longer machine code"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101306,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The number of distinct simple graphs with up to three nodes is\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2443/gate1994-1-6-isro2008-29\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "15",
+      "10",
+      "7",
+      "9"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101307,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The recurrence relation that arises in relation with the complexity of binary search is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2444/gate1994-1-7-isro2017-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Recurrence Relation",
+    "tag2_url": "https://practicepaper.in/gate-cse/recurrence-relation",
+    "options": [
+      "[latex]T(n) = 2T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }[/latex]",
+      "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+k, \\text{ k is a constant }[/latex]",
+      "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+\\log n[/latex]",
+      "[latex]T(n) = T\\left(\\frac{n}{2}\\right)+n[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101308,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The logic expression for the output of the circuit shown in figure below is:<br><img src=\"/wp-content/uploads/GATE/CS/19941/q1.8.jpg\" /><br>",
+    "solution": "<a href=\"https://gateoverflow.in/2445/gate1994-1-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "[latex]\\overline{AC} + \\overline{BC} +CD[/latex]",
+      "[latex]\\overline{A}C + \\overline{B}C + CD[/latex]",
+      "[latex]ABC +\\overline {C}\\; \\overline{D}[/latex]",
+      "[latex]\\overline{A}\\; \\overline{B} + \\overline{B}\\; \\overline{C} +CD[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101309,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The rank of matrix [latex]\\begin{bmatrix} 0 & 0 & -3 \\\\ 9 & 3 & 5 \\\\ 3 & 1 & 1 \\end{bmatrix}[/latex]is:",
+    "solution": "<a href=\"https://gateoverflow.in/2446/gate1994-1-9\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101310,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Some group (G, o) is known to be abelian. Then, which one of the following is true for G?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2451/gate1994-1-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Group Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/group-theory",
+    "options": [
+      "[latex]g=g^{-1} \\text{ for every } g \\in G[/latex]",
+      "[latex]g=g^2 \\text{ for every }g \\in G[/latex]",
+      "[latex](goh)^2 = g^2oh^2 \\text{ for every } g, h \\in G[/latex]",
+      "G is of finite order"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101311,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a compact single dimensional array representation for lower triangular matrices (i.e all the elements above the diagonal are zero) of size [latex]n \\times n[/latex], non-zero elements, (i.e elements of lower triangle) of each row are stored one after another, starting from the first row, the index of the [latex](i, j)^{th}[/latex] element of the lower triangular matrix in this new representation is:\n",
+    "solution": "<a href=\"https://gateoverflow.in/2452/gate1994-1-11\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Array",
+    "tag2_url": "https://practicepaper.in/gate-cse/array",
+    "options": [
+      "[latex]i+j[/latex]",
+      "[latex]i+j-1[/latex]",
+      "[latex](j-1)+\\frac{i(i-1)}{2}[/latex]",
+      "[latex]i+\\frac{j(j-1)}{2}[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101312,
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Generation of intermediate code based on an abstract machine model is useful in compilers because\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2453/gate1994-1-12\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Intermediate Code Generation",
+    "tag2_url": "https://practicepaper.in/gate-cse/intermediate-code-generation",
+    "options": [
+      "it makes implementation of lexical analysis and syntax analysis easier",
+      "syntax-directed translations can be written for intermediate code generation",
+      "it enhances the portability of the front end of the compiler",
+      "it is not possible to generate code for real machines directly from high level language programs"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101313,
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A memory page containing a heavily used variable that was initialized very early and is in constant use is removed then\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2454/gate1994-1-13\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "LRU page replacement algorithm is used",
+      "FIFO page replacement algorithm is used",
+      "LFU page replacement algorithm is used",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101314,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following permutations can be obtained in the output (in the same order) using a stack assuming that the input is the sequence 1, 2, 3, 4, 5 in that order?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2457/gate1994-1-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Stack",
+    "tag2_url": "https://practicepaper.in/gate-cse/stack",
+    "options": [
+      "3, 4, 5, 1, 2",
+      "3, 4, 5, 2, 1",
+      "1, 5, 2, 3, 4",
+      "5, 4, 3, 1, 2"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101315,
+    "number": 15,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The number of substrings (of all lengths inclusive) that can be formed from a character string of length n is\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2458/gate1994-1-15\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Combination",
+    "tag2_url": "https://practicepaper.in/gate-cse/combination",
+    "options": [
+      "[latex]n[/latex]",
+      "[latex]n^2[/latex]",
+      "[latex]\\frac{n(n-1)}{2}[/latex]",
+      "[latex]\\frac{n(n+1)}{2}[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101316,
+    "number": 16,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following conversions is not possible (algorithmically)?\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/2459/gate1994-1-16\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Push-down Automata",
+    "tag2_url": "https://practicepaper.in/gate-cse/push-down-automata",
+    "options": [
+      "Regular grammar to context free grammar",
+      "Non-deterministic FSA to deterministic FSA",
+      "Non-deterministic PDA to deterministic PDA",
+      "Non-deterministic Turing machine to deterministic Turing machine"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101317,
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Linked lists are not suitable data structures for which one of the following problems?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2460/gate1994-1-17-ugcnet-sep2013-ii-32\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Link List",
+    "tag2_url": "https://practicepaper.in/gate-cse/link-list",
+    "options": [
+      "Insertion sort",
+      "Binary search",
+      "Radix sort",
+      "Polynomial manipulation"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101318,
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following features cannot be captured by context-free grammars?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2461/gate1994-1-18\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-grammar",
+    "options": [
+      "Syntax of if-then-else statements",
+      "Syntax of recursive procedures",
+      "Whether a variable has been declared before its use",
+      "Variable names of arbitrary length"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101319,
+    "number": 19,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Algorithm design technique used in quicksort algorithm is?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2462/gate1994-1-19-isro2016-31\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Sorting",
+    "tag2_url": "https://practicepaper.in/gate-cse/sorting",
+    "options": [
+      "Dynamic programming",
+      "Backtracking",
+      "Divide and conquer",
+      "Greedy method"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101320,
+    "number": 20,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In which of the following cases is it possible to obtain different results for call-by-reference and call-by-name parameter passing methods?\n \n\n",
+    "solution": "<a href=\"https://gateoverflow.in/305/gate1994-1-20\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      " Passing a constant value as a parameter",
+      " Passing the address of an array as a parameter",
+      " Passing an array element as a parameter",
+      " Passing an array"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101321,
+    "number": 21,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which one of the following statements is true?\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/2464/gate1994-1-21\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "Macro definitions cannot appear within other macro definitions in assembly language programs",
+      "Overlaying is used to run a program which is longer than the address space of a computer",
+      "Virtual memory can be used to accommodate a program which is longer than the address space of a computer",
+      "It is not possible to write interrupt service routines in a high level language"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101322,
+    "number": 22,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following statements is false?\n",
+    "solution": "<a href=\"https://gateoverflow.in/2465/gate1994-1-22\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "Optimal binary search tree construction can be performed efficiently using dynamic programming",
+      "Breadth-first search cannot be used to find connected components of a graph",
+      "Given the prefix and postfix walks over a binary tree, the binary tree cannot be uniquely constructed.",
+      "Depth-first search can be used to find connected components of a graph"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101323,
+    "number": 23,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following two functions: <br>[latex]g_1(n) = \\begin{cases} n^3 \\text{ for } 0 \\leq n \\leq 10,000 \\\\ n^2 \\text{ for } n \\geq 10,000 \\end{cases}[/latex]<br>[latex]g_2(n) = \\begin{cases} n \\text{ for } 0 \\leq n \\leq 100 \\\\ n^3 \\text{ for } n > 100 \\end{cases}[/latex]<br>Which of the following is true?",
+    "solution": "<a href=\"https://gateoverflow.in/2466/gate1994-1-23\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Asymptotic Notation",
+    "tag2_url": "https://practicepaper.in/gate-cse/asymptotic-notation",
+    "options": [
+      "[latex]g_1(n) \\text{ is } O(g_2(n))[/latex]",
+      "[latex]g_1(n) \\text{ is } O(n^3)[/latex]",
+      "[latex]g_2(n) \\text{ is } O(g_1(n))[/latex]",
+      "[latex]g_2(n) \\text{ is } O(n)[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101324,
+    "number": 24,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following heap (figure) in which blank regions are not in use and hatched region are in use.<br><img src=\"/wp-content/uploads/GATE/CS/19941/q1.24.jpg\" /><br>The sequence of requests for blocks of sizes 300, 25, 125, 50 can be satisfied if we use",
+    "solution": "<a href=\"https://gateoverflow.in/2467/gate1994-1-24\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "either first fit or best fit policy (any one)",
+      "first fit but not best fit policy",
+      "best fit but not first fit policy",
+      "None of the above"
+    ],
+    "correct": 1
+  }
+]

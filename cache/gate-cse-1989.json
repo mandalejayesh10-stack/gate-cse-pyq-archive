@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1100601,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following problems are un-decidable?<br>[MSQ]",
+    "solution": "<a href=\"https://gateoverflow.in/87123/gate1989-3-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Undecidability",
+    "tag2_url": "https://practicepaper.in/gate-cse/undecidability",
+    "options": [
+      "Membership problem in context-free languages.",
+      "Whether a given context-free language is regular.",
+      "Whether a finite state automation halts on all inputs.",
+      "Membership problem for type 0 languages."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100602,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A hash table with ten buckets with one slot per bucket is shown in the following figure. The symbols S1 to S7 initially entered using a hashing function with linear probing. The maximum number of comparisons needed in searching an item that is not present is<br>[latex]\\begin{array}{|l|l|} \\hline 0 & \\text { S7 } \\\\ \\hline 1 & \\text { S1 } \\\\ \\hline 2 & \\\\ \\hline 3 & \\text { S4 } \\\\ \\hline 4 & \\text { S2 } \\\\ \\hline 5 & \\text { } \\\\ \\hline 6 & \\text { S5 } \\\\ \\hline 7 & \\\\ \\hline 8 & \\text { S6 } \\\\ \\hline 9 & \\text { S3 } \\\\ \\hline \\end{array}[/latex]",
+    "solution": "<a href=\"https://gateoverflow.in/10905/gate1989-1-vii-isro2015-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Hashing",
+    "tag2_url": "https://practicepaper.in/gate-cse/hashing",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100603,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In which of the following case(s) is it possible to obtain different results for call-by-reference and call-by-name parameter passing?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/37264/gate1989-3-viii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      "Passing an expression as a parameter",
+      "Passing an array as a parameter",
+      "Passing a pointer as a parameter",
+      "Passing as array element as a parameter"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100604,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "An unrestricted use of the \"go to\" statement is harmful because of which of the following reason (s):\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/87095/gate1989-3-i\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Conditional Statement",
+    "tag2_url": "https://practicepaper.in/gate-cse/conditional-statement",
+    "options": [
+      "It makes it more difficult to verify programs.",
+      "It makes programs more inefficient.",
+      "It makes it more difficult to modify existing programs.",
+      "It results in the compiler generating longer machine code."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100605,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Context-free languages and regular languages are both closed under the operation (s) of :\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/87117/gate1989-3-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-language",
+    "options": [
+      "Union",
+      "Intersection",
+      "Concatenation",
+      "Complementation"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100606,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Answer the following questions:<br>\n\nWhich of the following problems are undecidable?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/87123/gate1989-3-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Undecidability",
+    "tag2_url": "https://practicepaper.in/gate-cse/undecidability",
+    "options": [
+      "Membership problem in context-free languages.",
+      "Whether a given context-free language is regular.",
+      "Whether a finite state automation halts on all inputs.",
+      "Membership problem for type 0 languages."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100607,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Answer the following:<br>\n\nWhich of the following well-formed formulas are equivalent?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/87126/gate1989-3-v\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Propositional Logic",
+    "tag2_url": "https://practicepaper.in/gate-cse/propositional-logic",
+    "options": [
+      "[latex]P \\rightarrow Q[/latex]",
+      "[latex]\\neg Q \\rightarrow \\neg P[/latex]",
+      "[latex]\\neg P \\vee Q[/latex]",
+      "[latex]\\neg Q \\rightarrow P[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100608,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Answer the following:<br>Which of the following statements are FALSE?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/87141/gate1989-3-vii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "options": [
+      "For poisson distribution, the mean is twice the variance.",
+      "In queuing theory, if arrivals occur according to poisson distribution, then the inter-arrival time is exponentially distributed.",
+      "The distribution of waiting time is independent of the service discipline used in selecting the waiting customers for service.",
+      "If the time between successive arrivals is exponential, then the time between the occurences of every third arrival is also exponential."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100609,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Answer the following:<br>Which one of the following statements (s) is/are FALSE?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/87143/gate1989-3-ixa\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "options": [
+      "Overlaying is used to run a program, which is longer than the address space of the computer.",
+      "Optimal binary search tree construction can be performed efficiently by using dynamic programming.",
+      "Depth first search cannot be used to find connected components of a graph.",
+      "Given the prefix and postfix walls over a binary tree, the binary tree can be uniquely constructed."
+    ],
+    "correct": 0
+  }
+]

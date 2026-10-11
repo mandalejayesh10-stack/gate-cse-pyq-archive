@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1100501,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "In a compiler the module that checks every character of the source text is called:\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/80282/gate1987-1-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Lexical Analysis",
+    "tag2_url": "https://practicepaper.in/gate-cse/lexical-analysis",
+    "options": [
+      "The code generator.",
+      "The code optimiser.",
+      "The lexical analyser.",
+      "The syntax analyser."
+    ],
+    "correct": 2
+  }
+]

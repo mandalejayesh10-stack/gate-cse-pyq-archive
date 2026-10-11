@@ -1,0 +1,96 @@
+{
+  "sources": [
+    {
+      "id": "SRC_GO_ARCHIVE",
+      "name": "GATE Overflow Previous Years Archive",
+      "url": "https://gateoverflow.in/previous-years",
+      "type": "Community Archival Question Bank",
+      "years_covered": "1987-2026",
+      "branches": [
+        "CS",
+        "IT",
+        "DA"
+      ],
+      "official_keys_available": true,
+      "explanations_available": true,
+      "accessibility_status": "Active (Protected by anti-bot Cloudflare challenge; available via web mirror & GO-PDFs releases)",
+      "reliability_notes": "De-facto standard community repository for GATE CSE with crowdsourced and author-verified answers."
+    },
+    {
+      "id": "SRC_PRACTICEPAPER",
+      "name": "PracticePaper GATE CSE Archive",
+      "url": "https://practicepaper.in/gate-cse/gate-cse-year-wise-questions",
+      "type": "Educational Question Bank & Web Platform",
+      "years_covered": "1987-2026",
+      "branches": [
+        "CS"
+      ],
+      "official_keys_available": true,
+      "explanations_available": true,
+      "accessibility_status": "Fully Accessible (Direct HTTP/REST endpoints with LaTeX and metadata)",
+      "reliability_notes": "Mirror of GATE Overflow verified questions with direct problem IDs and URLs."
+    },
+    {
+      "id": "SRC_NDLI",
+      "name": "National Digital Library of India (IIT Kharagpur)",
+      "url": "https://ndl.iitkgp.ac.in/cd_document/gate/gate/cs",
+      "type": "National Academic Repository",
+      "years_covered": "2007-2025",
+      "branches": [
+        "CS",
+        "IT",
+        "DA"
+      ],
+      "official_keys_available": true,
+      "explanations_available": false,
+      "accessibility_status": "Restricted (Requires institutional SSO authentication)",
+      "reliability_notes": "Official repository created under Ministry of Education, Government of India."
+    },
+    {
+      "id": "SRC_GFG_ORIGINAL",
+      "name": "GeeksforGeeks Original GATE Question Papers",
+      "url": "https://www.geeksforgeeks.org/gate/original-gate-previous-year-question-papers-cse-and-it-gq/",
+      "type": "Scanned PDF & Online Quiz Archive",
+      "years_covered": "1991-2025",
+      "branches": [
+        "CS",
+        "IT"
+      ],
+      "official_keys_available": true,
+      "explanations_available": true,
+      "accessibility_status": "Fully Accessible (Direct PDF links & Quiz URLs)",
+      "reliability_notes": "Preserves original scanned master question booklets from 1991 onwards, including distinct IT branch papers (2004-2008)."
+    },
+    {
+      "id": "SRC_GATE_2026_OFFICIAL",
+      "name": "Official GATE 2026 Portal (IIT Guwahati)",
+      "url": "https://gate2026.iitg.ac.in/download.html",
+      "type": "Official Organizing Institute Portal",
+      "years_covered": "2019-2026",
+      "branches": [
+        "All Branches including CS & DA"
+      ],
+      "official_keys_available": true,
+      "explanations_available": false,
+      "accessibility_status": "Fully Accessible (Direct institutional downloads)",
+      "reliability_notes": "Official master question papers and final answer keys published by organizing institute."
+    },
+    {
+      "id": "SRC_GO_PDFS",
+      "name": "GATE Overflow GO-PDFs GitHub Release Repository",
+      "url": "https://github.com/GATEOverflow/GO-PDFs/releases",
+      "type": "Open Source PDF Book Compilations",
+      "years_covered": "1987-2026",
+      "branches": [
+        "CS",
+        "IT",
+        "DA",
+        "Aptitude"
+      ],
+      "official_keys_available": true,
+      "explanations_available": true,
+      "accessibility_status": "Public GitHub Repository",
+      "reliability_notes": "Complete LaTeX and HTML converted volumes covering every GATE CSE exam since 1987."
+    }
+  ]
+}

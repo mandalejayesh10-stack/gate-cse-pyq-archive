@@ -1,0 +1,19 @@
+{
+  "target_years": 44,
+  "year_range": "1983-2026",
+  "years_with_exams": 44,
+  "years_with_extracted_questions": 40,
+  "years_with_no_public_records": 4,
+  "total_unique_papers": 53,
+  "total_questions_indexed": 2798,
+  "status_breakdown": {
+    "verified_complete_papers": 45,
+    "partially_available_historical_papers": 8,
+    "unlocatable_pre_digitization_years": 4
+  },
+  "provenance_breakdown": {
+    "official_keys_matched": 2798,
+    "latex_math_formulas_preserved": true,
+    "community_reference_urls_attached": true
+  }
+}

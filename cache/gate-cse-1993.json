@@ -1,0 +1,514 @@
+[
+  {
+    "id": 1101201,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "For the below question, one or more OPTIONS are correct<br>\nThe eigen vector(s) of the matrix <br>\n[latex]\\begin{bmatrix} 0 &0 &\\alpha\\\\ 0 &0 &0\\\\ 0 &0 &0 \\end{bmatrix},\\alpha \\neq 0[/latex]<br>is (are)\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/596/gate1993-01-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "[latex](0,0,\\alpha)[/latex]",
+      "[latex](\\alpha,0,0)[/latex]",
+      "(0,0,1)",
+      "[latex](0,\\alpha,0)[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101202,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The differential equation <br>[latex]\\frac{d^2 y}{dx^2}+\\frac{dy}{dx}+\\sin y =0[/latex] is:",
+    "solution": "<a href=\"https://gateoverflow.in/597/gate1993-01-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/calculus",
+    "options": [
+      "linear",
+      "non- linear                                                                                           ",
+      "homogeneous",
+      "of degree two"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101203,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Simpson's rule for integration gives exact result when f(x) is a polynomial of degree\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/598/gate1993-01-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Numerical Method",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-method",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101204,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following is (are) valid FORTRAN 77 statement(s)?\n",
+    "solution": "<a href=\"https://gateoverflow.in/599/gate1993-01-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "",
+    "tag1_url": "https://practicepaper.in/gate-cse/",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-cse/",
+    "options": [
+      " DO 13 I = 1 ",
+      " A = DIM ***7",
+      " READ = 15.0 ",
+      " GO TO 3 = 10"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101205,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Fourier series of the periodic function (period [latex]2 \\pi [/latex]) defined by <br>\r\n[latex]f(x) = \\begin{cases} 0, -p \\lt x \\lt 0\\\\x, 0 \\lt x \\lt p \\end{cases} \\text { is }\\\\ \\frac{\\pi}{4} + \\Sigma \\left [ \\frac{1}{\\pi n^2} \\left(\\cos n\\pi - 1 \\right) \\cos nx - \\frac{1}{n} \\cos n\\pi \\sin nx \\right ][/latex] <br>\r\nBut putting [latex]x = \\pi[/latex], we get the sum of the series <br>\r\n[latex]1 + \\frac{1}{3^2} + \\frac{1}{5^2} + \\frac{1}{7^2} + \\cdots \\text { is }[/latex]\r\n \r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/262/gate1993-01-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-cse/",
+    "options": [
+      "[latex]\\frac{{\\pi }^2 }{4}[/latex]",
+      "[latex]\\frac{{\\pi }^2 }{6}[/latex]",
+      "[latex]\\frac{{\\pi }^2 }{8}[/latex]",
+      "[latex]\\frac{{\\pi }^2 }{12}[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101206,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following improper integrals is (are) convergent?\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/601/gate1993-01-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/calculus",
+    "options": [
+      "[latex]\\int ^{1} _{0} \\frac{\\sin x}{1-\\cos x}dx[/latex]",
+      "[latex]\\int ^{\\infty} _{0} \\frac{\\cos x}{1+x} dx[/latex]",
+      "[latex]\\int ^{\\infty} _{0} \\frac{x}{1+x^2} dx[/latex]",
+      "[latex]\\int ^{1} _{0} \\frac{1-\\cos x}{\\frac{x^5}{2}} dx[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101207,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The function [latex]f\\left(x,y\\right) = x^2y - 3xy + 2y +x[/latex] has\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/602/gate1993-01-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/calculus",
+    "options": [
+      "no local extremum",
+      "one local minimum but no local maximum",
+      "one local maximum but no local minimum",
+      "one local minimum and one local maximum"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101208,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Assume that each character code consists of 8 bits. The number of characters that can be transmitted per second through an asynchronous serial line at 2400 baud rate, and with two stop bits is\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2287/gate1993-6-4-isro2008-14\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Physical Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/physical-layer",
+    "options": [
+      "109",
+      "216",
+      "218",
+      "219"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101209,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Identify the logic function performed by the circuit shown in figure.<br><img src=\"/wp-content/uploads/GATE/CS/19931/q6.1.jpg\" /><br>\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/2288/gate-cse-1993-question-6-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "exclusive OR",
+      "exclusive NOR",
+      "NAND",
+      "NOR",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101210,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Refer to the PASCAL program shown below.<br>\n<pre><code> Program PARAM (input, output);\nvar m, n : integer;\nprocedure P (var, x, y : integer);\nvar m : integer;\nbegin\nm : = 1;\nx : = y + 1\nend;\nprocedure Q (x:integer; vary : integer);\nbegin\nx:=y+1;\nend;\nbegin\nm:=0; P(m,m); write (m);\nn:=0; Q(n*1,n); write (n)\nend</pre></code> <br>The value of m, output by the program PARAM is:\n",
+    "solution": "<a href=\"https://gateoverflow.in/2291/gate1993-7-1-2-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      " 1, because m is a local variable in P",
+      " 0, because m is the actual parameter that corresponds to the formal parameter in p",
+      " 0, because both x and y are just reference to m, and y has the value 0",
+      " 1, because both x and y are just references to m which gets modified in procedure P",
+      " none of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101211,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Refer to the PASCAL program shown below.<br>\r\n<pre><code>Program PARAM (input, output);\r\nvar m, n : integer;\r\nprocedure P (var, x, y : integer);\r\nvar m : integer;\r\nbegin\r\nm : = 1;\r\nx : = y + 1\r\nend;\r\nprocedure Q (x:integer; vary : integer);\r\nbegin\r\nx:=y+1;\r\nend;\r\nbegin\r\nm:=0; P(m,m); write (m);\r\nn:=0; Q(n*1,n); write (n)\r\nend</pre></code> <br>The value of n, output by the program PARAM is:\r\n",
+    "solution": "<a href=\"https://drive.google.com/file/d/0B2D2Vl5_6vK1V0p0NnMydFMxWjQ/view\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      " 0, because n is the actual parameter corresponding to x in procedure Q.",
+      " 0, because n is the actual parameter to y in procedure Q.",
+      " 1, because n is the actual parameter corresponding to x in procedure Q.",
+      " 1, because n is the actual parameter corresponding to y in procedure Q.",
+      " none of the above"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 1101212,
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Refer to the PASCAL program shown below.<br>\r\n<pre><code>Program PARAM (input, output);\r\nvar m, n : integer;\r\nprocedure P (var, x, y : integer);\r\nvar m : integer;\r\nbegin\r\nm : = 1;\r\nx : = y + 1\r\nend;\r\nprocedure Q (x:integer; vary : integer);\r\nbegin\r\nx:=y+1;\r\nend;\r\nbegin\r\nm:=0; P(m,m); write (m);\r\nn:=0; Q(n*1,n); write (n)\r\nend</pre></code> <br>What is the scope of m declared in the main program?\r\n",
+    "solution": "<a href=\"https://drive.google.com/file/d/0B2D2Vl5_6vK1V0p0NnMydFMxWjQ/view\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      " PARAM, P, Q ",
+      " PARAM, P ",
+      " PARAM, Q",
+      " P, Q (e) ",
+      "none of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101213,
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "What does the following code do?<br>\n<pre><code> var a, b: integer;\nbegin\n    a:=a+b;\n    b:=a-b;\n    a:=a-b;\nend;</pre></code> ",
+    "solution": "<a href=\"https://gateoverflow.in/2292/gate1993-7-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Arithmetic Operation",
+    "tag2_url": "https://practicepaper.in/gate-cse/arithmetic-operation",
+    "options": [
+      "exchanges a and b",
+      "doubles a and stores in b",
+      "doubles b and stores in a",
+      "leaves a and b unchanged",
+      "none of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101214,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "For the program segment given below, which of the following are true?<br>\n<pre><code> program main (output);\ntype link = ^data;\ndata = record\nd : real;\nn : link\nend;\nvar ptr : link;\nbegin\nnew (ptr);\nptr:=nil;\n.ptr^.d:=5.2;\nwrite ln(ptr)\nend.\n</pre></code> ",
+    "solution": "<a href=\"https://gateoverflow.in/2293/gate1993-7-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "",
+    "tag1_url": "https://practicepaper.in/gate-cse/",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-cse/",
+    "options": [
+      " The program leads to compile time error",
+      " The program leads to run time error",
+      " The program outputs 5.2",
+      " The program produces error relating to nil pointer dereferencing",
+      " None of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101215,
+    "number": 15,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A simple two-pass assembler does the following in the first pass:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2294/gate1993-7-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Lexical Analysis",
+    "tag2_url": "https://practicepaper.in/gate-cse/lexical-analysis",
+    "options": [
+      "It allocates space for the literals.",
+      "It computes the total length of the program.",
+      "It builds the symbol table for the symbols and their values.",
+      "It generates code for all the load and store register instructions.",
+      "None of the above."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1101216,
+    "number": 16,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A part of the system software which under all circumstances must reside in the main memory is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2295/gate1993-7-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Runtime Environment",
+    "tag2_url": "https://practicepaper.in/gate-cse/runtime-environment",
+    "options": [
+      "text editor",
+      "assembler",
+      "linker",
+      "loader",
+      "none of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101217,
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The root directory of a disk should be placed\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2296/gate1993-7-8\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "File Systems",
+    "tag2_url": "https://practicepaper.in/gate-cse/file-systems",
+    "options": [
+      "at a fixed address in main memory",
+      "at a fixed location on the disk",
+      "anywhere on the disk",
+      "at a fixed location on the system disk",
+      "anywhere on the system disk"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101218,
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a system having m resources of the same type. These resources are shared by 3 processes A,B, and C which have peak demands of 3, 4 and 6 respectively.  For what value of m deadlock will not occur?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2297/gate1993-7-9-ugcnet-dec2012-iii-41\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Deadlock",
+    "tag2_url": "https://practicepaper.in/gate-cse/deadlock",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "13",
+      "15"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1101219,
+    "number": 19,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Assume that  the following jobs are to be executed on a single processor system <br>[latex]\\begin{array}{|c|c|} \\hline \\textbf{Job Id} & \\textbf{CPU Burst Time} \\\\\\hline \\text{p} & 4 \\\\\\hline \\text{q} & 1 \\\\\\hline \\text{r} & 8 \\\\\\hline \\text{s} & 1 \\\\\\hline \\text{t} & 2 \\\\\\hline \\end{array}[/latex]<br>\nThe jobs are assumed to have arrived at time [latex]0^+[/latex] and in the order p,q,r,s,t. Calculate the departure time (completion time) for job p if scheduling is round robin with time slice 1\n",
+    "solution": "<a href=\"https://gateoverflow.in/2298/gate1993-7-10\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "CPU Scheduling",
+    "tag2_url": "https://practicepaper.in/gate-cse/cpu-scheduling",
+    "options": [
+      "4",
+      "10",
+      "11",
+      "12",
+      "None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101220,
+    "number": 20,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a simple connected graph G with n vertices and n edges (n > 2). Then, which of the following statements are true?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2299/gate1993-8-1\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "G has no cycles",
+      "The graph obtained by removing any edge from G is not connected",
+      "G has at least one cycle",
+      "The graph obtained by removing any two edges from G is not connected",
+      "None of the above "
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101221,
+    "number": 21,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The proposition [latex]p \\wedge (\\sim p \\vee q)[/latex] is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2300/gate1993-8-2\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Propositional Logic",
+    "tag2_url": "https://practicepaper.in/gate-cse/propositional-logic",
+    "options": [
+      "a tautology",
+      "logically equivalent to [latex]p \\wedge q[/latex]",
+      "logically equivalent to [latex]p \\vee q[/latex]",
+      "a contradiction",
+      "none of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101222,
+    "number": 22,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let S be an infinite set and [latex]S_1 \\dots , S_n[/latex] be sets such that [latex]S_1 \\cup S_2 \\cup \\dots \\cup S_n = S[/latex]. Then\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2301/gate1993-8-3\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Set Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/set-theory",
+    "options": [
+      "at least one of the set [latex]S_i[/latex] is a finite set",
+      "not more than one of the set [latex]S_i[/latex] can be finite",
+      "at least one of the sets [latex]S_i[/latex] is an infinite",
+      "not more than one of the sets [latex]S_i[/latex] can be infinite",
+      "None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1101223,
+    "number": 23,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let A be a finite set of size n. The number of elements in the power set of [latex]A\\times A[/latex] is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/2302/gate1993-8-4\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Set Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/set-theory",
+    "options": [
+      "[latex]2^{2^n}[/latex]",
+      "[latex]2^{n^2}[/latex]",
+      "[latex](2^n)^2[/latex]",
+      "[latex](2^2)^n[/latex]",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101224,
+    "number": 24,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The less-than relation, [latex]\\lt[/latex], on reals is\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/2303/gate1993-8-5\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Relation",
+    "tag2_url": "https://practicepaper.in/gate-cse/relation",
+    "options": [
+      "a partial ordering since it is asymmetric and reflexive",
+      "a partial ordering since it is antisymmetric and reflexive",
+      "not a partial ordering because it is not asymmetric and not reflexive",
+      "not a partial ordering because it is not antisymmetric and reflexive",
+      "none of the above"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 1101225,
+    "number": 25,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Let A and B be sets with cardinalities m and n respectively. The number of one-one mappings from A to B, when [latex]m \\lt n[/latex], is\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/2304/gate1993-8-6\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Functions",
+    "tag2_url": "https://practicepaper.in/gate-cse/functions",
+    "options": [
+      "[latex]m^n[/latex]",
+      "[latex]^nP_m[/latex]",
+      "[latex]^mC_n[/latex]",
+      "[latex]^nC_m[/latex]",
+      "[latex]^mP_n[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1101226,
+    "number": 26,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "[latex] \\sum_{1\\leq k\\leq n} O(n)[/latex],  where [latex]O(n)[/latex] stands for order [latex]n[/latex] is:\r\n\r\n",
+    "solution": "<a href=\"https://gateoverflow.in/2305/gate1993-8-7\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Asymptotic Notation",
+    "tag2_url": "https://practicepaper.in/gate-cse/asymptotic-notation",
+    "options": [
+      "O(n)",
+      "[latex]O(n^2)[/latex]",
+      "[latex]O(n^3)[/latex]",
+      "[latex]O(3n^2)[/latex]",
+      "[latex]O(1.5n^2)[/latex]"
+    ],
+    "correct": 1
+  }
+]

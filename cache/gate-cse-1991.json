@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1100801,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The advantages of CMOS technology over a MOS is:\n",
+    "solution": "<a href=\"https://gateoverflow.in/515/gate1991-03-i\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Memory Chip Design",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-chip-design",
+    "options": [
+      " lower power dissipation",
+      " greater speed",
+      " smaller chip size",
+      " fewer masks for fabrication",
+      "none of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100802,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nAdvantage of synchronous sequential circuits over asynchronous ones is:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/516/gate1991-03-ii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Sequential Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/sequential-circuit",
+    "options": [
+      "faster operation",
+      "ease of avoiding problems due to hazards",
+      "lower hardware requirement",
+      "better noise immunity",
+      "none of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100803,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nThe total size of address space in a virtual memory system is limited by:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/517/gate1991-03-iii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "the length of MAR",
+      "the available secondary storage",
+      "the available main memory",
+      "all of the above",
+      "none of the above"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100804,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nThe TRAP interrupts mechanism of the 8085 microprocessor:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/518/gate1991-03-iv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Interrupt",
+    "tag2_url": "https://practicepaper.in/gate-cse/interrupt",
+    "options": [
+      " executes an RST by hardware",
+      " executes an instruction supplied by an external device through the INTA signal",
+      " executes an instruction from memory location 20H",
+      " executes a NOP",
+      " none of the above"
+    ],
+    "correct": 4
+  },
+  {
+    "id": 1100805,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct ) and write the corresponding letters only<br>\n\nA \"link editor\" is a program that:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/519/gate1991-03-ix\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Runtime Environment",
+    "tag2_url": "https://practicepaper.in/gate-cse/runtime-environment",
+    "options": [
+      "matches the parameters of the macro-definition with locations of the parameters of the macro call",
+      "matches external names of one program with their location in other programs",
+      "matches the parameters of subroutine definition with the location of parameters of subroutine call.",
+      "acts as a link between text editor and the user",
+      "acts as a link between compiler and the user program"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100806,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>The ALE line of  an 8085 microprocessor is used to:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/520/gate1991-03-v\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-cse/",
+    "options": [
+      " Latch the output of an I/O instruction into an external latch.",
+      " Deactivate the chip-select signal from memory devices.",
+      " Latch the 8 bits of address lines AD7-AD0 into  an external latch.",
+      " Find the interrupt enable status of the TRAP interrupt.",
+      " None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100807,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Kruskal's algorithm for finding a minimum spanning tree of a weighted graph G with n vertices and m edges has the time complexity of:\n \n\n",
+    "solution": "<a href=\"https://gateoverflow.in/521/gate1991-03-vi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Minimum Spanning Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/minimum-spanning-tree",
+    "options": [
+      "[latex]O(n^{2})[/latex]",
+      "O(mn)",
+      "O(m+n)",
+      "[latex]O(m \\log n)[/latex]",
+      "[latex]O(m^2)[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100808,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>The following sequence of operations is performed on a stack:<br>\nPUSH  (10), PUSH (20), POP, PUSH (10), PUSH (20), POP, POP, POP, PUSH (20), POP<br>\nThe sequence of values popped out is<br>\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/522/gate1991-03-vii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Stack",
+    "tag2_url": "https://practicepaper.in/gate-cse/stack",
+    "options": [
+      "20,10,20,10,20",
+      "20,20,10,10,20",
+      "10,20,20,10,20",
+      "20,20,10,20,10"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100809,
+    "number": 9,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Consider the following Pascal function:<br><pre><code>Function X(M:integer):integer;\nVar i:integer;\nBegin\n    i := 0;\n    while i*i < M\n    do i:= i+1\n    X := i\n end </pre></code> <br>The function call X(N), if N is positive, will return\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/523/gate1991-03-viii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "C Programming",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "options": [
+      "[latex]\\lfloor\\sqrt N \\rfloor[/latex]",
+      "[latex]\\lfloor\\sqrt N \\rfloor[/latex]",
+      "[latex]\\lceil \\sqrt N \\rceil[/latex]",
+      "[latex]\\lceil \\sqrt N \\rceil +1[/latex]",
+      "None of the above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1100810,
+    "number": 10,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>Which of the following is the strongest correct statement about a finite language over some finite alphabet [latex]\\Sigma[/latex]?\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/528/gate1991-03-xiv\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-language",
+    "options": [
+      "It could be undecidable",
+      "It is Turing-machine recognizable",
+      "It is a context sensitive language.",
+      "It is a regular language.",
+      "None of the above,"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100811,
+    "number": 11,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:<br>\n\nIndicate all the true statements from the following:\n\n",
+    "solution": "<a href=\"https://gateoverflow.in/524/gate1991-03-x\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Intermediate Code Generation",
+    "tag2_url": "https://practicepaper.in/gate-cse/intermediate-code-generation",
+    "options": [
+      "Recursive descent parsing cannot be used for grammar with left recursion.",
+      "The intermediate form for representing expressions which is best suited for code optimization is the postfix form.",
+      "A programming language not supporting either recursion or pointer type does not need the support of dynamic memory allocation.",
+      "Although C does not support call-by-name parameter passing, the effect can be correctly simulated in C",
+      "No feature of Pascal typing violates strong typing in Pascal."
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1100812,
+    "number": 12,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one can be correct) and write the corresponding letters only:<br>Indicate all the false statements from the statements given below:\n",
+    "solution": "<a href=\"https://gateoverflow.in/525/gate1991-03-xi\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "The amount of virtual memory available is limited by the availability of the secondary memory",
+      "Any implementation of a critical section requires the use of an indivisible machine- instruction ,such as test-and-set.",
+      "The use of monitors ensure that no dead-locks will be caused .",
+      "The LRU page-replacement policy may cause thrashing for some type of programs.",
+      "The best fit techniques for memory allocation ensures that memory will never be fragmented."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100813,
+    "number": 13,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only:\n<br>\nIf [latex]F_1[/latex], [latex]F_2[/latex] and [latex]F_3[/latex] are propositional formulae such that [latex]F_1 \\land F_2 \\rightarrow F_3[/latex] and [latex]F_1 \\land F_2 \\rightarrow \\sim F_3[/latex] are both tautologies, then which of the following is true:",
+    "solution": "<a href=\"https://gateoverflow.in/526/gate1991-03-xii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Propositional Logic",
+    "tag2_url": "https://practicepaper.in/gate-cse/propositional-logic",
+    "options": [
+      "Both[latex]F_1[/latex] and [latex]F_2[/latex] are tautologies",
+      "The conjunction [latex]F_1 \\land F_2[/latex] is not satisfiable",
+      "Neither is tautologous",
+      "Neither is satisfiable",
+      "None of the above."
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1100814,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only.<br>Let [latex]r=1(1+0)^*, s=11^*0 \\text{ and } t=1^*0[/latex] be three regular expressions. Which one of the following is true?\n",
+    "solution": "<a href=\"https://gateoverflow.in/527/gate1991-03-xiii\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Expression",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-expression",
+    "options": [
+      "[latex]L(s) \\subseteq L(r) \\text{ and } L(s) \\subseteq L(t)[/latex]",
+      "[latex]L(r) \\subseteq L(s) \\text{ and }  L(s) \\subseteq L(t)[/latex]",
+      "[latex]L(s) \\subseteq L(t) \\text{ and }  L(s) \\subseteq L(r)[/latex]",
+      "[latex]L(t) \\subseteq L(s)\\text{ and }  L(s) \\subseteq L(r)[/latex]",
+      "None of the above"
+    ],
+    "correct": 0
+  }
+]

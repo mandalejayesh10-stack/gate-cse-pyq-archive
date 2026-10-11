@@ -1,0 +1,1235 @@
+[
+  {
+    "id": 1126101,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "An urn contains one red ball and one blue ball. At each step, a ball is picked uniformly at random from the urn, and this ball together with another ball of the same color is put back in the urn. The probability that there are equal number of red and blue balls after two steps is",
+    "solution": "Let the urn start with [latex]1[/latex] red and [latex]1[/latex] blue ball.<br><br>\r\n<b>Step 1:</b> A ball is picked uniformly (prob [latex]1/2[/latex] each). If red is picked, the urn becomes [latex](2R,1B)[/latex]; if blue is picked, the urn becomes [latex](1R,2B)[/latex]. Each case has probability [latex]1/2[/latex].<br><br>\r\n<b>Step 2:</b> We want the urn to end up with equal red and blue balls, i.e. [latex](2R,2B)[/latex] (since after 2 steps there are always [latex]4[/latex] balls total).<br>\r\n- From [latex](2R,1B)[/latex]: we need to pick the blue ball, probability [latex]=1/3[/latex].<br>\r\n- From [latex](1R,2B)[/latex]: we need to pick the red ball, probability [latex]=1/3[/latex].<br><br>\r\nSo required probability [latex]=\\dfrac{1}{2}\\times\\dfrac{1}{3}+\\dfrac{1}{2}\\times\\dfrac{1}{3}=\\dfrac{1}{3}[/latex].<br><br>\r\n<b>Answer: 1/3</b> <br><br><a href=\"https://gateoverflow.in/523079/gate-cse-2026-set-1-question-1#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126102,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider [latex]4 \\times 4[/latex] matrices with their elements from [latex]\\{\\mathbf{0}, \\mathbf{1}\\}[/latex]. The number of such matrices with even number of [latex]\\mathbf{1}[/latex] s in every row and every column is",
+    "solution": "We need [latex]4\\times4[/latex] binary matrices where every row and every column has an even number of [latex]1[/latex]s.<br><br>\r\nFreely choose the top-left [latex]3\\times3[/latex] sub-block: this can be filled in any of [latex]2^{9}=512[/latex] ways.<br><br>\r\nOnce this [latex]3\\times3[/latex] block is fixed, the entries in the [latex]4[/latex]th column (for the first [latex]3[/latex] rows) are forced so that each of those rows has an even number of [latex]1[/latex]s, and similarly the entries in the [latex]4[/latex]th row (for the first [latex]3[/latex] columns) are forced by the column parity condition. The single remaining corner entry (row [latex]4[/latex], column [latex]4[/latex]) is then also forced, and it is easy to check the row-[latex]4[/latex] parity and column-[latex]4[/latex] parity conditions become consistent automatically.<br><br>\r\nSo the count of valid matrices [latex]=2^{(4-1)^2}=2^9=512[/latex].<br><br>\r\n<b>Answer: 512</b><br><br><a href=\"https://gateoverflow.in/523078/gate-cse-2026-set-1-question-2#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "512",
+      "1025",
+      "1023",
+      "255"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126103,
+    "number": 3,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "For [latex]n>1[/latex], the maximum multiplicity of any eigenvalue of an [latex]n \\times n[/latex] matrix with elements from [latex]\\mathbb{R}[/latex] is",
+    "solution": "For an [latex]n\\times n[/latex] real matrix, the multiplicity of any eigenvalue (as a root of the characteristic polynomial, which has degree [latex]n[/latex]) can be at most [latex]n[/latex].<br><br>\r\nThis bound is achieved: for example, the identity matrix [latex]I_n[/latex] (or any scalar matrix [latex]cI_n[/latex]) has the single eigenvalue [latex]c[/latex] repeated exactly [latex]n[/latex] times.<br><br>\r\nSo the maximum possible multiplicity of any eigenvalue is [latex]n[/latex].<br><br>\r\n<b>Answer: n</b><br><br> <a href=\"https://gateoverflow.in/523077/gate-cse-2026-set-1-question-3#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "[latex]n[/latex]",
+      "[latex]n-1[/latex]",
+      "[latex]1[/latex]",
+      "[latex]n+1[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126104,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Match each addressing mode in [latex]\\textbf{List I}[/latex] with a data element or an element of a data structure (in a high-level language) in [latex]\\textbf{List II}[/latex]:<br><br>  [latex] \\begin{array}{|l|l|} \\hline {\\textbf{List I}} & {\\textbf{List II}} \\\\ \\hline \\hline P.\\ \\text{Immediate} & 1.\\ \\text{Element of an array} \\\\ \\hline Q.\\ \\text{Indirect} & 2.\\ \\text{Pointer} \\\\ \\hline R.\\ \\text{Base with index} & 3.\\ \\text{Element of a record} \\\\ \\hline S.\\ \\text{Base with offset/displacement} & 4.\\ \\text{Constant} \\\\ \\hline \\end{array} [/latex]",
+    "solution": "Matching addressing modes to the high-level data element they naturally implement:<br><br>\r\n- <b>P. Immediate</b>: the operand value is embedded directly in the instruction &rarr; used for a <b>Constant (4)</b>.<br>\r\n- <b>Q. Indirect</b>: the instruction holds the address of the address of data &rarr; used to implement a <b>Pointer (2)</b>.<br>\r\n- <b>R. Base with index</b>: effective address = base + index, naturally used to access an <b>Element of an array (1)</b> (base = array start, index = subscript).<br>\r\n- <b>S. Base with offset/displacement</b>: effective address = base + fixed offset, naturally used to access an <b>Element of a record/struct (3)</b> (base = record start, offset = field position).<br><br>\r\n<b>Answer: P-4, Q-2, R-1, S-3</b> <br><br> <a href=\"https://gateoverflow.in/523076/gate-cse-2026-set-1-question-4#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Addressing Modes",
+    "tag2_url": "https://practicepaper.in/gate-cse/addressing-modes",
+    "options": [
+      "[latex]{P}-4, {Q}-3, {R}-1, {~S}-2[/latex]",
+      "[latex]{P}-4, {Q}-2, {R}-1, {~S}-3[/latex]",
+      "[latex]{P}-1, {Q}-4, {R}-3, {~S}-2[/latex]",
+      "[latex]{P}-2, {Q}-3, {R}-1, {~S}-4[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126105,
+    "number": 5,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a processor [latex]\\text{P}[/latex] whose instruction set architecture is the load-store architecture. The instruction format is such that the first operand of any instruction is the destination operand. <br><br>Which one of the following sequences of instructions corresponds to the high-level language statement [latex]{Z}={X}+{Y}[/latex] ?<br> Note: X, Y, and Z are memory operands. R[latex]0[/latex], R[latex]1[/latex], and R[latex]2[/latex] are registers.",
+    "solution": "In a load-store (register-register) architecture, arithmetic instructions can only operate on registers, never directly on memory. So to compute [latex]Z=X+Y[/latex] where [latex]X,Y,Z[/latex] are memory locations, we must:<br><br>\r\n1. LOAD both memory operands into registers: [latex]\\text{LOAD } R0, X[/latex] and [latex]\\text{LOAD } R1, Y[/latex].<br>\r\n2. Perform the addition on registers: [latex]\\text{ADD } R2, R0, R1[/latex] (destination is first operand, per the given convention).<br>\r\n3. STORE the result back to memory: [latex]\\text{STORE } Z, R2[/latex].<br><br>\r\nAny option that uses a memory operand directly inside an ADD instruction (e.g. [latex]\\text{ADD } Z, X, Y[/latex] or [latex]\\text{ADD } Z, R0, Y[/latex]) is invalid for a load-store machine, since ADD can only take register operands.<br><br>\r\n<b>Answer: LOAD R0,X; LOAD R1,Y; ADD R2,R0,R1; STORE Z,R2</b> <br><br> <a href=\"https://gateoverflow.in/523075/gate-cse-2026-set-1-question-5#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Machine Instruction",
+    "tag2_url": "https://practicepaper.in/gate-cse/machine-instruction",
+    "options": [
+      "ADD Z, X, Y",
+      "LOAD R[latex]0[/latex], X <br>ADD Z, R[latex]0[/latex], Y",
+      "ADD R[latex]0[/latex], X, Y <br>STORE Z, R[latex]0[/latex]",
+      "LOAD R[latex]0[/latex], X <br>LOAD R[latex]1[/latex], Y <br>ADD R[latex]2[/latex], R[latex]0[/latex], R[latex]1[/latex] <br>STORE Z, R[latex]2[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1126106,
+    "number": 6,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which one of the following dependencies among the register operands of different instructions can cause a data hazard in a pipelined processor?",
+    "solution": "A data hazard occurs when an instruction depends on the result of a nearby instruction that has not yet completed in the pipeline.<br><br>\r\n- <b>Read-after-Write (RAW)</b>: a later instruction tries to read a register before an earlier instruction has written its new value &mdash; this is a true/flow dependency, and causes a genuine data hazard in a pipeline.<br>\r\n- <b>Write-after-Read (WAR)</b> and <b>Write-after-Write (WAW)</b> are anti-/output-dependencies; they cause hazards only in pipelines that allow out-of-order completion, not in a simple in-order pipeline.<br>\r\n- <b>Read-after-Read</b> is not a dependency at all &mdash; reads never conflict with each other.<br><br>\r\n<b>Answer: Read-after-write</b><br><br> <a href=\"https://gateoverflow.in/523074/gate-cse-2026-set-1-question-6#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Pipeline Processor",
+    "tag2_url": "https://practicepaper.in/gate-cse/pipeline-processor",
+    "options": [
+      "Read-after-read",
+      "Read-after-write",
+      "Write-after-read",
+      "Write-after-write"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126107,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following recurrence relations: <br>For all [latex]n>1[/latex], <br><br>[latex] \\begin{array}{l} T_{1}(n)=4 T_{1}\\left(\\frac{n}{2}\\right)+T_{2}(n) \\\\ T_{2}(n)=5 T_{2}\\left(\\frac{n}{4}\\right)+\\Theta\\left(\\log _{2} n\\right) \\end{array} [/latex] <br><br>Assume that for all [latex]n \\leq 1, T_{1}(n)=1[/latex] and [latex]T_{2}(n)=1[/latex]. <br>Which one of the following options is correct?",
+    "solution": "First solve [latex]T_2(n)=5T_2(n/4)+\\Theta(\\log_2 n)[/latex].<br>\r\nHere [latex]a=5,\\,b=4[/latex], so [latex]n^{\\log_b a}=n^{\\log_4 5}[/latex]. Since [latex]\\log_2 n[/latex] is polynomially smaller than [latex]n^{\\log_4 5}[/latex] (as [latex]\\log_4 5\\approx1.16>0[/latex]), by the Master theorem (Case 1):<br>\r\n[latex]T_2(n)=\\Theta\\left(n^{\\log_4 5}\\right)[/latex].<br><br>\r\nNow solve [latex]T_1(n)=4T_1(n/2)+T_2(n)[/latex].<br>\r\nHere [latex]a=4,\\,b=2[/latex], so [latex]n^{\\log_b a}=n^{\\log_2 4}=n^2[/latex]. The extra term [latex]f(n)=T_2(n)=\\Theta(n^{\\log_4 5})=\\Theta(n^{1.16\\ldots})[/latex], which is polynomially smaller than [latex]n^2[/latex] (since [latex]n^2/n^{1.16}=n^{0.84}\\to\\infty[/latex]).<br>\r\nBy Master theorem Case 1: [latex]T_1(n)=\\Theta(n^2)[/latex].<br><br>\r\n<b>Answer: [latex]T_1(n)=\\Theta(n^2)[/latex]</b><br><br> <a href=\"https://gateoverflow.in/523073/gate-cse-2026-set-1-question-7#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Recurrence Relation",
+    "tag2_url": "https://practicepaper.in/gate-cse/recurrence-relation",
+    "options": [
+      "[latex]T_{1}(n)=\\Theta\\left(n^{2}\\right)[/latex]",
+      "[latex]T_{1}(n)=\\Theta\\left(n^{2} \\log _{2} n\\right)[/latex]",
+      "[latex]T_{1}(n)=\\Theta\\left(n^{\\log _{4} 5}\\right)[/latex]",
+      "[latex]T_{1}(n)=\\Theta\\left(n^{\\log _{4} 5} \\log _{2} n\\right)[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126108,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "With respect to a TCP connection between a client and a server, which one of the following statements is true?",
+    "solution": "Checking each statement about a TCP connection:<br><br>\r\n- TCP uses a <b>three-way</b> handshake (SYN, SYN-ACK, ACK), not a two-way handshake &mdash; false.<br>\r\n- Either side (client or server) is free to initiate connection termination first; the server is not required to wait for the client &mdash; false.<br>\r\n- TCP is a <b>full-duplex</b> protocol &mdash; data can flow in both directions simultaneously &mdash; so \"half-duplex\" is false.<br>\r\n- TCP supports <b>simultaneous close</b>: both client and server can send a FIN at (roughly) the same time, and each independently acknowledges the other's FIN. This is a valid connection-termination scenario in TCP's state machine.<br><br>\r\n<b>Answer: The client and server can initiate closing of the connection at the same time</b><br><br><a href=\"https://gateoverflow.in/523072/gate-cse-2026-set-1-question-8#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Transport Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/transport-layer-protocol",
+    "options": [
+      "The client and server use a two-way handshake mechanism before the start of data transmission",
+      "The server cannot initiate closing of the connection before the client initiates closing of the connection",
+      "The TCP connection is half-duplex",
+      "The client and server can initiate closing of the connection at the same time"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1126109,
+    "number": 9,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Which of the following statements is/are true with respect to the interaction of a web browser with a web server using HTTP [latex]1.1[/latex]?",
+    "solution": "HTTP/1.1 introduced <b>persistent connections</b> and <b>pipelining</b> over a single TCP connection:<br><br>\r\n- <b>True:</b> Multiple objects of the same webpage, if hosted on the same server, can be fetched over one persistent TCP connection &mdash; this is exactly the point of persistent connections.<br>\r\n- <b>False:</b> A single TCP connection is between one client and one specific server; objects stored on a <i>different</i> server require a separate TCP connection to that server. So this statement is false.<br>\r\n- <b>True:</b> HTTP/1.1 supports <b>pipelining</b> &mdash; a client can send a new request before the response to a previous request has been fully received, over the same connection.<br>\r\n- <b>True:</b> Since the TCP connection persists (is not closed after one request/response), multiple different webpages/resources from the same server can be downloaded over that same single connection, one after another.<br><br>\r\n<b>Answer: Statements 1, 3, and 4 are true (same-server multi-object download, pipelining, multiple pages over one connection); statement about different servers over the same connection is false.</b> <br><br> <a href=\"https://gateoverflow.in/523071/gate-cse-2026-set-1-question-9#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Application Layer Protocols",
+    "tag2_url": "https://practicepaper.in/gate-cse/application-layer-protocols",
+    "options": [
+      "HTTP [latex]1.1[/latex] facilitates downloading multiple objects of the same webpage over the same TCP connection, if the objects are stored in the same server",
+      "HTTP [latex]1.1[/latex] facilitates downloading multiple objects of the same webpage over the same TCP connection, even if they are stored in different servers",
+      "HTTP [latex]1.1[/latex] facilitates sending a request for downloading one object without waiting for a previously requested object to be downloaded completely",
+      "HTTP [latex]1.1[/latex] facilitates downloading multiple webpages on the same server to be downloaded over a single TCP connection"
+    ],
+    "correctSet": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1126110,
+    "number": 10,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Let [latex]n>1[/latex]. Consider an [latex]n \\times n[/latex] matrix [latex]M[/latex] with its elements from [latex]\\mathbb{R}[/latex]. Let the vector [latex](0,1,0,0, \\ldots, 0) \\in \\mathbb{R}^{n}[/latex] be in the null space of [latex]M[/latex]. <br>Which of the following options is/are always correct?",
+    "solution": "Since [latex](0,1,0,\\ldots,0)[/latex] is in the null space of [latex]M[/latex], we have [latex]M\\cdot(0,1,0,\\ldots,0)^T=\\mathbf{0}[/latex]. But [latex]M[/latex] times this unit vector simply extracts the <b>2nd column of [latex]M[/latex]</b>. So the 2nd column of [latex]M[/latex] is entirely zero.<br><br>\r\n- <b>Determinant:</b> A matrix with an all-zero column always has determinant [latex]0[/latex]. So \"[latex]\\det(M)=0[/latex]\" is always true. (\"[latex]\\det(M)=1[/latex]\" is always false.)<br>\r\n- <b>Rank:</b> The rank could be anywhere from [latex]0[/latex] to [latex]n-1[/latex] depending on the other columns, so \"rank [latex]=1[/latex]\" is not always true.<br>\r\n- <b>Null space size:</b> Since the null space contains the nonzero vector [latex](0,1,0,\\ldots,0)[/latex], it also contains every scalar multiple of it (e.g. [latex](0,2,0,\\ldots,0)[/latex], [latex](0,-1,0,\\ldots,0)[/latex], etc.), giving infinitely many, hence at least two, distinct non-zero vectors in the null space. This is always true.<br><br>\r\n<b>Answer: Determinant of M is 0; and there are at least two non-zero vectors in the null space of M.</b> <br><br> <a href=\"https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10#a_list\" target=\"_blank\">Click here for detail solution</a><a href=\"https://gateoverflow.in/523070/gate-cse-2026-set-1-question-10#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Engineering Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/engineering-mathematics",
+    "tag2": "Linear Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/linear-algebra",
+    "options": [
+      "Determinant of [latex]M[/latex] is [latex]1[/latex]",
+      "Determinant of [latex]M[/latex] is [latex]0[/latex]",
+      "Rank of [latex]M[/latex] is [latex]1[/latex]",
+      "There are at least two non-zero vectors in the null space of [latex]M[/latex]"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1126111,
+    "number": 11,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Consider the following Boolean expression of a function [latex]F[/latex] :<br><br> [latex] F(P, Q)=(\\bar{P}+Q) \\oplus(\\bar{P} Q) [/latex] <br><br>Which of the following expressions is/are equivalent to [latex]F[/latex] ?",
+    "solution": "Let's build the truth table for [latex]F(P,Q)=(\\bar{P}+Q)\\oplus(\\bar{P}Q)[/latex]:<br><br>\n[latex]\\begin{array}{cc|ccc}P & Q & \\bar P+Q & \\bar P Q & F\\\\\\hline 0&0&1&0&1\\\\0&1&1&1&0\\\\1&0&0&0&0\\\\1&1&1&0&1\\end{array}[/latex]<br><br>\nSo [latex]F=1[/latex] exactly when [latex]P=Q[/latex], i.e. [latex]F[/latex] is the XNOR of [latex]P[/latex] and [latex]Q[/latex].<br>\n- [latex]\\overline{P\\oplus Q}[/latex] (XNOR written as complement of XOR) matches this truth table exactly.<br>\n- [latex]\\bar P\\oplus Q[/latex]: complementing one input of XOR flips its output, which converts XOR into XNOR &mdash; so this is also equal to [latex]F[/latex].<br>\n- [latex]P\\oplus Q[/latex] and [latex]\\bar P\\oplus\\bar Q[/latex] both equal ordinary XOR (complementing <i>both</i> inputs leaves XOR unchanged), which is the complement of [latex]F[/latex], not [latex]F[/latex] itself.<br><br>\n<b>Answer: [latex]\\overline{P\\oplus Q}[/latex] and [latex]\\bar P\\oplus Q[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523069/gate-cse-2026-set-1-question-11#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "[latex]\\overline{P \\oplus Q}[/latex]",
+      "[latex]P \\oplus Q[/latex]",
+      "[latex]\\bar{P} \\oplus Q[/latex]",
+      "[latex]\\bar{P} \\oplus \\bar{Q}[/latex]"
+    ],
+    "correctSet": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": 1126112,
+    "number": 12,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Consider the [latex]8[/latex] -bit signed integers [latex]X, Y[/latex] and [latex]Z[/latex] represented using the sign-magnitude form. The binary representations of [latex]X[/latex] and [latex]Y[/latex] are as follows: <br><br>[latex] X: 10110100 \\quad Y: 01001100 [/latex] <br><br>Which of the following operations to compute [latex]Z[/latex] result(s) in an arithmetic overflow?",
+    "solution": "In 8-bit sign-magnitude form, bit 7 is the sign and bits 6-0 give the magnitude (max magnitude [latex]=127[/latex]).<br><br>\n[latex]X=10110100[/latex]: sign [latex]=1[/latex] (negative), magnitude [latex]=0110100_2=52[/latex], so [latex]X=-52[/latex].<br>\n[latex]Y=01001100[/latex]: sign [latex]=0[/latex] (positive), magnitude [latex]=1001100_2=76[/latex], so [latex]Y=+76[/latex].<br><br>\nOverflow happens whenever the true arithmetic result's magnitude exceeds [latex]127[/latex] (i.e. falls outside [latex][-127,127][/latex]):<br>\n- [latex]X+Y=-52+76=24[/latex] &rarr; within range, <b>no overflow</b>.<br>\n- [latex]X-Y=-52-76=-128[/latex] &rarr; magnitude [latex]128>127[/latex], <b>overflow</b>.<br>\n- [latex]-X+Y=52+76=128[/latex] &rarr; magnitude [latex]128>127[/latex], <b>overflow</b>.<br>\n- [latex]-X-Y=52-76=-24[/latex] &rarr; within range, <b>no overflow</b>.<br><br>\n<b>Answer: Z = X - Y, and Z = -X + Y</b> <br><br> <a href=\"https://gateoverflow.in/523068/gate-cse-2026-set-1-question-12#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Number System",
+    "tag2_url": "https://practicepaper.in/gate-cse/number-system",
+    "options": [
+      "[latex]Z=X+Y[/latex]",
+      "[latex]Z=X-Y[/latex]",
+      "[latex]Z=-X+Y[/latex]",
+      "[latex]Z=-X-Y[/latex]"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126113,
+    "number": 13,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Let [latex]n[/latex] be an odd number greater than [latex]100[/latex]. Consider a binary minheap with [latex]n[/latex] elements stored in an array [latex]P[/latex] whose index starts from [latex]1[/latex].<br> Which of the following indices of [latex]P[/latex] do/does NOT correspond to any leaf node of the minheap?",
+    "solution": "In a 1-indexed array representation of a binary heap with [latex]n[/latex] elements, the leaf nodes are exactly the indices [latex]\\left\\lfloor \\dfrac{n}{2}\\right\\rfloor+1[/latex] through [latex]n[/latex] (nodes with no children).<br><br>\nFor odd [latex]n[/latex], [latex]\\left\\lfloor n/2\\right\\rfloor=\\dfrac{n-1}{2}[/latex], so:<br>\n- Leaf indices: [latex]\\dfrac{n-1}{2}+1=\\dfrac{n+1}{2}[/latex] up to [latex]n[/latex].<br>\n- Internal (non-leaf) indices: [latex]1[/latex] up to [latex]\\dfrac{n-1}{2}[/latex].<br><br>\nChecking the given indices:<br>\n- [latex]\\dfrac{n+1}{2}[/latex]: this <i>is</i> the first leaf index &mdash; corresponds to a leaf.<br>\n- [latex]n[/latex]: this is the last leaf &mdash; corresponds to a leaf.<br>\n- [latex]\\dfrac{n-1}{2}[/latex]: this is the <i>last internal</i> node index &mdash; it does NOT correspond to a leaf.<br>\n- [latex]\\dfrac{n-3}{2}[/latex]: this is less than [latex]\\dfrac{n-1}{2}[/latex], so also an internal node &mdash; does NOT correspond to a leaf.<br><br>\n<b>Answer: indices (n-1)/2 and (n-3)/2 do NOT correspond to leaf nodes.</b> <br><br> <a href=\"https://gateoverflow.in/523067/gate-cse-2026-set-1-question-13#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Heap Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/heap-tree",
+    "options": [
+      "[latex]\\frac{n+1}{2}[/latex]",
+      "[latex]\\frac{n-1}{2}[/latex]",
+      "[latex]\\frac{n-3}{2}[/latex]",
+      "[latex]n[/latex]"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126114,
+    "number": 14,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a hash table [latex]P[0,1, \\ldots, 10][/latex] that is initially empty. The hash table is maintained using open addressing with linear probing. The hash function used is [latex]h(x)=(x+7) \\bmod 11[/latex].<br><br> Consider the following sequence of insertions performed on [latex]P[/latex] :<br><br> [latex] \\text { 1,13, 22, 15, 11, } 24 [/latex] <br><br>Which of the following positions in the hash table is/are empty after these insertions are performed?",
+    "solution": "Hash function: [latex]h(x)=(x+7)\\bmod 11[/latex], table size [latex]11[/latex] (indices [latex]0[/latex] to [latex]10[/latex]), linear probing.<br><br>\nCompute initial hash and, on collision, probe the next slot(s) circularly:<br>\n[latex]\\begin{array}{c|c|c}\\text{Key}&h(x)&\\text{Placed at}\\\\\\hline 1&8&8\\ (\\text{empty})\\\\13&9&9\\ (\\text{empty})\\\\22&7&7\\ (\\text{empty})\\\\15&0&0\\ (\\text{empty})\\\\11&7&7\\text{ taken}\\to8\\text{ taken}\\to9\\text{ taken}\\to10\\ (\\text{empty})\\\\24&9&9\\text{ taken}\\to10\\text{ taken}\\to0\\text{ taken}\\to1\\ (\\text{empty})\\end{array}[/latex]<br><br>\nFinal table: [latex]0{:}15,\\ 1{:}24,\\ 7{:}22,\\ 8{:}1,\\ 9{:}13,\\ 10{:}11[/latex]. Positions [latex]2,3,4,5,6[/latex] remain empty.<br><br>\nOf the choices given (0, 10, 2, 1), only position <b>2</b> is empty &mdash; the others (0, 1, 10) are all occupied.<br><br>\n<b>Answer: Position 2</b> <br><br> <a href=\"https://gateoverflow.in/523066/gate-cse-2026-set-1-question-14#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Hashing",
+    "tag2_url": "https://practicepaper.in/gate-cse/hashing",
+    "options": [
+      "0",
+      "10",
+      "2",
+      "1"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126115,
+    "number": 15,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Consider the following grammar where [latex]S[/latex] is the start symbol, and [latex]a[/latex] and [latex]b[/latex] are terminal symbols.<br><br> [latex] S \\rightarrow a S b S \\text { | } b S \\text { | } \\epsilon [/latex] <br><br>Which of the following statements is/are true?",
+    "solution": "Grammar: [latex]S\\rightarrow aSbS\\mid bS\\mid \\epsilon[/latex].<br><br>\n<b>Ambiguity:</b> The string [latex]abb[/latex] can be generated by two different parse trees (e.g. treating the leading [latex]a[/latex] as part of an [latex]aSbS[/latex] expansion in two structurally different ways using the [latex]bS[/latex] and [latex]\\epsilon[/latex] rules for the inner S's). Since one string has two distinct derivations/parse trees, the grammar is <b>ambiguous</b>, and specifically <b>[latex]abb[/latex] has two distinct derivations</b>.<br><br>\n<b>Rightmost derivation of [latex]abab[/latex]:</b> although the grammar is ambiguous in general, tracing through this specific string shows that its rightmost derivation sequence is forced to be unique.<br><br>\n<b>On decidability:</b> The language generated is context-free, and membership in any context-free language is always decidable &mdash; so \"the language is undecidable\" is false.<br><br>\n<b>Answer: The grammar is ambiguous; \"abb\" has two distinct derivations; \"abab\" has only one rightmost derivation.</b> <br><br> <a href=\"https://gateoverflow.in/523065/gate-cse-2026-set-1-question-15#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-grammar",
+    "options": [
+      "The grammar is ambiguous",
+      "The string [latex]a b b[/latex] has two distinct derivations in this grammar",
+      "The string [latex]a b a b[/latex] has only one rightmost derivation",
+      "The language generated by the grammar is undecidable"
+    ],
+    "correctSet": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126116,
+    "number": 16,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Let [latex]M[/latex] be a nondeterministic finite automaton (NFA) with [latex]6[/latex] states over a finite alphabet. <br>Which of the following options CANNOT be the number of states in the minimal deterministic finite automaton (DFA) that is equivalent to [latex]M[/latex] ?",
+    "solution": "By the subset construction, any [latex]n[/latex]-state NFA has an equivalent DFA with at most [latex]2^n[/latex] states (one state for every subset of NFA states), and the <b>minimal</b> DFA has at most that many states as well (minimization can only reduce, never increase, the state count).<br><br>\nFor [latex]n=6[/latex], the maximum possible number of states in the equivalent minimal DFA is [latex]2^6=64[/latex].<br><br>\n- [latex]32\\le64[/latex]: achievable.<br>\n- [latex]1\\le64[/latex]: achievable (e.g. an NFA accepting all strings can minimize to a single-state DFA).<br>\n- [latex]65[/latex] and [latex]128[/latex]: both exceed the hard upper bound of [latex]64[/latex], so neither can ever be the size of the minimal DFA.<br><br>\n<b>Answer: 65 and 128 CANNOT be the number of states.</b> <br><br> <a href=\"https://gateoverflow.in/523064/gate-cse-2026-set-1-question-16#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Finite Automata",
+    "tag2_url": "https://practicepaper.in/gate-cse/finite-automata",
+    "options": [
+      "32",
+      "65",
+      "1",
+      "128"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1126117,
+    "number": 17,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider the following C statements: <br><br>char *str1 = \"Hello; /* Statement S1 */<br>\n char *str2 = \"Hello;\"; /* Statement S2 */<br>\n int *str3 = \"Hello\"; /* Statement S3 */ <br><br>Which of the following options is/are correct?",
+    "solution": "[latex]\\text{S1: char *str1 = \"Hello;}[/latex] &mdash; the string literal is missing its closing double-quote. An unterminated string literal is a <b>lexical error</b> (the lexer/scanner cannot even form a valid string token).<br><br>\n[latex]\\text{S2: char *str2 = \"Hello;\";}[/latex] &mdash; this is a perfectly valid string literal (containing a semicolon character) assigned to a [latex]\\text{char *}[/latex]; no error at all.<br><br>\n[latex]\\text{S3: int *str3 = \"Hello\";}[/latex] &mdash; this is lexically and syntactically fine (a valid string literal, valid statement syntax), but it assigns a [latex]\\text{char *}[/latex] value to an incompatible [latex]\\text{int *}[/latex] pointer type. This is a type-mismatch, which is a <b>semantic error</b> (caught during semantic/type analysis, not parsing).<br><br>\n<b>Answer: S1 has a lexical error, and S3 has a semantic error.</b> <br><br> <a href=\"https://gateoverflow.in/523063/gate-cse-2026-set-1-question-17#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "[latex]\\text{S1}[/latex] and [latex]\\text{S2}[/latex] have syntactic errors",
+      "[latex]\\text{S2}[/latex] has a lexical error and [latex]\\text{S3}[/latex] has a syntactic error",
+      "[latex]\\text{S1}[/latex] has a lexical error and [latex]\\text{S3}[/latex] has a semantic error",
+      "[latex]\\text{S1}[/latex] has a syntactic error and [latex]\\text{S3}[/latex] has a semantic error"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126118,
+    "number": 18,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Which of the following statements is/are true?",
+    "solution": "Checking each claim about LL(1) parsing:<br><br>\n- \"LL(1) parser uses backtracking\" &mdash; <b>false</b>. LL(1) is a predictive, backtrack-free top-down parser: it decides the production to use by looking at only one lookahead symbol.<br>\n- \"For LL(1), the grammar must be left-recursive\" &mdash; <b>false</b>, in fact the opposite: a left-recursive grammar can never be LL(1) (it would cause infinite recursion in the predictive parser), so left recursion must first be eliminated.<br>\n- \"For LL(1), the grammar must be left-factored\" &mdash; <b>true</b>. If two productions of a non-terminal share a common prefix, the parser cannot decide which one to use from one lookahead symbol; left-factoring removes this ambiguity, which is a necessary step towards making a grammar LL(1).<br>\n- \"LL(1) parsers are more powerful than SLR parsers\" &mdash; <b>false</b>. LL(1) and SLR(1) are different (incomparable) classes of grammars; SLR(1), being bottom-up, actually accepts a strictly larger class of grammars than LL(1) in general, so LL(1) is not \"more powerful.\"<br><br>\n<b>Answer: For a grammar to be LL(1), it must be left-factored.</b> <br><br> <a href=\"https://gateoverflow.in/523062/gate-cse-2026-set-1-question-18#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Parsing",
+    "tag2_url": "https://practicepaper.in/gate-cse/parsing",
+    "options": [
+      "[latex]\\text{LL(1)}[/latex] parser uses backtracking",
+      "For a grammar to be [latex]\\text{LL(1)}[/latex], it must be left-recursive",
+      "For a grammar to be [latex]\\text{LL(1)}[/latex], it must be left-factored",
+      "The [latex]\\text{LL(1)}[/latex]\u00a0parsers are more powerful than the SLR parsers"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126119,
+    "number": 19,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "With respect to deadlocks in an operating system, which of the following statements is/are FALSE?",
+    "solution": "Evaluating each deadlock-related statement:<br><br>\n- <b>\"Banker's algorithm is used to prevent deadlocks\"</b> &mdash; <b>FALSE</b>. Banker's algorithm is a <i>deadlock-avoidance</i> algorithm (it checks resource requests dynamically to keep the system in a safe state); deadlock <i>prevention</i> refers to a different set of techniques that structurally rule out one of the four necessary conditions (mutual exclusion, hold-and-wait, no pre-emption, circular wait).<br>\n- \"Deadlock formation can be prevented by disallowing hold-and-wait\" &mdash; <b>true</b>: this is a standard, valid deadlock-prevention technique (one of the four necessary conditions is removed).<br>\n- <b>\"An assignment edge in a resource-allocation graph is marked from a process to a resource\"</b> &mdash; <b>FALSE</b>. It's the reverse: an <i>assignment</i> edge goes from a resource to a process (resource is allocated to the process); a <i>request</i> edge goes from a process to a resource.<br>\n- \"A safe state guarantees all processes can finish without deadlock\" &mdash; <b>true</b>: this is precisely the definition of a safe state.<br><br>\n<b>Answer (the FALSE statements): \"Banker's algorithm prevents deadlocks\", and \"an assignment edge goes from process to resource.\"</b> <br><br> <a href=\"https://gateoverflow.in/523061/gate-cse-2026-set-1-question-19#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Deadlock",
+    "tag2_url": "https://practicepaper.in/gate-cse/deadlock",
+    "options": [
+      "Banker's algorithm is used to prevent deadlocks",
+      "Deadlock formation can be prevented by ensuring that the hold and wait condition is not allowed",
+      "An assignment edge in a resource allocation graph is marked from a process to a resource",
+      "A safe state guarantees that all processes can finish without formation of a deadlock"
+    ],
+    "correctSet": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": 1126120,
+    "number": 20,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Let [latex]P, Q, R[/latex] and [latex]S[/latex] be the attributes of a relation in a relational schema. Let [latex]X \\rightarrow Y[/latex] indicate functional dependency in the context of a relational database, where [latex]X, Y \\subseteq\\{P, Q, R, S\\}[/latex]. <br><br>Which of the following options is/are always true?",
+    "solution": "Using Armstrong's axioms (reflexivity, augmentation, transitivity) to test each claim:<br><br>\n- <b>{P,Q}&rarr;{R} and {P}&rarr;{R}, does {Q}&rarr;{R} follow?</b> No &mdash; {P}&rarr;{R} already implies {P,Q}&rarr;{R} by augmentation, so the premises give no information forcing {Q}&rarr;{R} to hold. <b>Not always true.</b><br>\n- <b>{P,Q}&rarr;{R}, does {P}&rarr;{R} or {Q}&rarr;{R} follow?</b> No &mdash; {R} may genuinely require both P and Q together (e.g. R functionally depends on the pair but on neither attribute alone). <b>Not always true.</b><br>\n- <b>{P}&rarr;{R} and {Q}&rarr;{S}, does {P,Q}&rarr;{R,S} follow?</b> Yes: augment {P}&rarr;{R} with Q to get {P,Q}&rarr;{R,Q}; augment {Q}&rarr;{S} with P to get {P,Q}&rarr;{P,S}; using reflexivity ({R,Q}&rarr;{R} and {P,S}&rarr;{S}) and transitivity gives {P,Q}&rarr;{R} and {P,Q}&rarr;{S}; the union rule then gives {P,Q}&rarr;{R,S}. <b>Always true.</b><br>\n- <b>{P}&rarr;{R}, does {P,Q}&rarr;{R} follow?</b> Yes, directly by the augmentation axiom (adding Q to the left-hand side of a valid FD keeps it valid). <b>Always true.</b><br><br>\n<b>Answer: {P}&rarr;{R},{Q}&rarr;{S} &there4 {P,Q}&rarr;{R,S}; and {P}&rarr;{R} &there4 {P,Q}&rarr;{R}.</b> <br><br> <a href=\"https://gateoverflow.in/523060/gate-cse-2026-set-1-question-20#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Relational Schema",
+    "tag2_url": "https://practicepaper.in/gate-cse/relational-schema",
+    "options": [
+      "If [latex](\\{P, Q\\} \\rightarrow\\{R\\}[/latex] and [latex]\\{P\\} \\rightarrow\\{R\\})[/latex], then [latex]\\{Q\\} \\rightarrow\\{R\\}[/latex]",
+      "If [latex]\\{P, Q\\} \\rightarrow\\{R\\}[/latex], then [latex](\\{P\\} \\rightarrow\\{R\\}[/latex] or [latex]\\{Q\\} \\rightarrow\\{R\\})[/latex]",
+      "If [latex](\\{P\\} \\rightarrow\\{R\\}[/latex] and [latex]\\{Q\\} \\rightarrow\\{S\\})[/latex], then [latex]\\{P, Q\\} \\rightarrow\\{R, S\\}[/latex]",
+      "If [latex]\\{P\\} \\rightarrow\\{R\\}[/latex], then [latex]\\{P, Q\\} \\rightarrow\\{R\\}[/latex]"
+    ],
+    "correctSet": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1126121,
+    "number": 21,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "In the context of relational database normalization, which of the following statements is/are true?",
+    "solution": "Standard relational-normalization theory results:<br><br>\n- <b>3NF:</b> It is a classical theorem that <i>every</i> relation schema has a dependency-preserving (and lossless-join) decomposition into 3NF, via the synthesis algorithm on a minimal cover of the FDs. <b>True.</b><br>\n- <b>1NF:</b> 1NF only requires atomic domains; a relation can always trivially satisfy/preserve 1NF without needing to give up any functional dependency (no decomposition is even forced). <b>True.</b><br>\n- <b>BCNF:</b> It is a well-known counterexample-backed result that a dependency-preserving BCNF decomposition is <i>not always</i> possible &mdash; achieving BCNF can force us to lose some functional dependency (they can only be checked by joining relations back together, which is expensive/impossible to enforce locally). <b>True</b> (i.e., \"not always possible\" is a true statement).<br>\n- <b>2NF:</b> Since a dependency-preserving 3NF decomposition always exists, and 3NF automatically implies 2NF, a dependency-preserving 2NF decomposition is <i>always</i> achievable too. So \"it is not always possible to get a dependency-preserving 2NF decomposition\" is <b>false</b>.<br><br>\n<b>Answer: Dependency-preserving decompositions always exist for 3NF and for 1NF; it is not always possible for BCNF.</b> <br><br> <a href=\"https://gateoverflow.in/523059/gate-cse-2026-set-1-question-21#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Normal Form",
+    "tag2_url": "https://practicepaper.in/gate-cse/normal-form",
+    "options": [
+      "It is always possible to obtain a dependency-preserving [latex]3[/latex]NF decomposition of a relation",
+      "It is always possible to obtain a dependency-preserving [latex]1[/latex]NF decomposition of a relation",
+      "It is not always possible to obtain a dependency-preserving BCNF decomposition of a relation",
+      "It is not always possible to obtain a dependency-preserving [latex]2[/latex]NF decomposition of a relation"
+    ],
+    "correctSet": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126122,
+    "number": 22,
+    "type": "NAT",
+    "marks": 1,
+    "text": "Consider the function [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R}[/latex] defined as follows: <br><br>[latex] f(x)=\\left\\{\\begin{array}{lr} c_{1} e^{x}-c_{2} \\log _{{e}}\\left(\\frac{1}{x}\\right), & \\text { if } x>0 \\\\ 3 & \\text { otherwise } \\end{array}\\right. [/latex] <br><br> where [latex]c_{1}, c_{2} \\in \\mathbb{R}[/latex].<br><br> If [latex]f[/latex] is continuous at [latex]x=0[/latex], then [latex]c_{1}+c_{2}=[/latex] ________. (answer in integer)",
+    "solution": "For [latex]f[/latex] to be continuous at [latex]x=0[/latex], we need [latex]\\lim_{x\\to0^{+}}f(x)=f(0)=3[/latex].<br><br>\n[latex]\\lim_{x\\to0^{+}}\\left[c_1e^{x}-c_2\\log_e\\left(\\dfrac1x\\right)\\right][/latex]<br><br>\nAs [latex]x\\to0^{+}[/latex]: [latex]e^{x}\\to1[/latex], while [latex]\\log_e(1/x)=-\\log_e x\\to+\\infty[/latex]. For the overall limit to be a finite number, the coefficient of this diverging term must be zero:<br>\n[latex]c_2=0[/latex].<br><br>\nWith [latex]c_2=0[/latex], the limit becomes [latex]c_1\\cdot1=c_1[/latex]. Setting this equal to [latex]f(0)=3[/latex] gives [latex]c_1=3[/latex].<br><br>\nSo [latex]c_1+c_2=3+0=3[/latex].<br><br>\n<b>Answer: 3</b> <br><br> <a href=\"https://gateoverflow.in/523058/gate-cse-2026-set-1-question-22#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Functions",
+    "tag2_url": "https://practicepaper.in/gate-cse/functions",
+    "ansMin": 3,
+    "ansMax": 3
+  },
+  {
+    "id": 1126123,
+    "number": 23,
+    "type": "NAT",
+    "marks": 1,
+    "text": "The height of a binary tree is the number of edges in the longest path from the root to a leaf in the tree. The maximum possible height of a full binary tree with [latex]23[/latex] nodes is ________.(answer in integer)",
+    "solution": "In a <b>full</b> binary tree, every node has either [latex]0[/latex] or [latex]2[/latex] children. If there are [latex]I[/latex] internal (2-children) nodes and [latex]L[/latex] leaves, then [latex]L=I+1[/latex], and total nodes [latex]N=I+L=2I+1[/latex].<br><br>\nFor [latex]N=23[/latex]: [latex]23=2I+1\\Rightarrow I=11[/latex] internal nodes and [latex]L=12[/latex] leaves.<br><br>\nTo <b>maximize height</b>, make the tree as \"skewed\"/chain-like as possible while still keeping every internal node's 2-children rule: each internal node (except the last one in the chain) has one leaf child and one internal child continuing the chain; the very last internal node has two leaf children.<br><br>\nThis chain uses exactly [latex]I=11[/latex] internal nodes along the main path, with the deepest leaves appearing right after the [latex]11[/latex]th internal node. So the longest root-to-leaf path has [latex]11[/latex] edges.<br><br>\n<b>Answer: 11</b> <br><br> <a href=\"https://gateoverflow.in/523057/gate-cse-2026-set-1-question-23#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-tree",
+    "ansMin": 11,
+    "ansMax": 11
+  },
+  {
+    "id": 1126124,
+    "number": 24,
+    "type": "NAT",
+    "marks": 1,
+    "text": "Consider the following program in C:<pre><code> #include < stdio.h >\n void func(int i, int j) {\n  if(i < j) {\n  \tint i = 0;\n  \twhile (i < 10) {\n  \t\tj += 2;\n  \t\ti++;\n  \t}\n  }\n  printf(\"%d\", i);\n }\n int main() {\n  \tint i = 9, j = 10;\n  \tfunc(i, j);\n  \treturn 0;\n }</pre></code> The output of the program is ________. (answer in integer)<br> Note: Assume that the program compiles and runs successfully.",
+    "solution": "Trace the call [latex]\\text{func(9, 10)}[/latex] (parameters [latex]i=9,\\,j=10[/latex] inside func, independent copies of main's variables):<br><br>\n1. Condition [latex]i<j[/latex] i.e. [latex]9<10[/latex] is true, so we enter the block.<br>\n2. Inside the block, a <b>new, block-scoped</b> variable [latex]\\text{int } i=0[/latex] is declared &mdash; this shadows/hides the outer parameter [latex]i[/latex] only within this inner block.<br>\n3. The while loop runs while this inner [latex]i<10[/latex]: it executes [latex]10[/latex] times, each time doing [latex]j{+}{=}2[/latex] (affecting the outer/parameter [latex]j[/latex]) and incrementing the inner [latex]i[/latex] (from [latex]0[/latex] up to [latex]10[/latex], at which point the loop stops).<br>\n4. Once the block ends, the inner [latex]i[/latex] goes out of scope entirely; the outer parameter [latex]i[/latex] (value [latex]9[/latex]) was never touched by anything in the block.<br>\n5. [latex]\\text{printf(\"\\%d\", i)}[/latex] refers to the (unshadowed, outer) parameter [latex]i[/latex], which is still [latex]9[/latex].<br><br>\n<b>Answer: 9</b> <br><br> <a href=\"https://gateoverflow.in/523056/gate-cse-2026-set-1-question-24#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "C Programming ",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "ansMin": 9,
+    "ansMax": 9
+  },
+  {
+    "id": 1126125,
+    "number": 25,
+    "type": "NAT",
+    "marks": 1,
+    "text": "Consider a system consisting of [latex]k[/latex] instances of a resource [latex]R[/latex], being shared by [latex]5[/latex] processes. Assume that each process requires a maximum of two instances of resource [latex]R[/latex] and a process can request or release only one instance at a time. Further, a process can request the second instance of the resource only after acquiring the first instance.<br><br> The minimum value of [latex]k[/latex] for the system to be deadlock-free is ________. (answer in integer)",
+    "solution": "This is the classic deadlock-avoidance-by-resource-count formula. Each of the [latex]5[/latex] processes needs at most [latex]2[/latex] instances of [latex]R[/latex].<br><br>\nA guaranteed deadlock-free allocation is possible if, even in the worst case where every process is holding one instance and waiting for its second, at least one process can still obtain its second instance and finish (then release both, allowing the rest to proceed in turn).<br><br>\nWorst case: each of the [latex]5[/latex] processes holds [latex](max-1)=1[/latex] instance already, using up [latex]5\\times1=5[/latex] instances, and one more instance must be available so that at least one waiting process can get its 2nd instance and complete.<br><br>\nSo minimum [latex]k=5\\times(2-1)+1=6[/latex].<br><br>\n<b>Answer: 6</b> <br><br> <a href=\"https://gateoverflow.in/523055/gate-cse-2026-set-1-question-25#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Deadlock",
+    "tag2_url": "https://practicepaper.in/gate-cse/deadlock",
+    "ansMin": 6,
+    "ansMax": 6
+  },
+  {
+    "id": 1126126,
+    "number": 26,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the real valued variables [latex]X, Y[/latex] and [latex]Z[/latex] represented using the IEEE [latex]754[/latex] singleprecision floating-point format. The binary representations of [latex]X[/latex] and [latex]Y[/latex] in hexadecimal notation are as follows:<br><br> [latex] X: 35 {C} 00000 \\quad Y: 34 {A} 00000 [/latex] <br><br>Let [latex]Z=X+Y[/latex]. <br><br>Which one of the following is the binary representation of [latex]Z[/latex], in hexadecimal notation?",
+    "solution": "Decode both IEEE-754 single-precision numbers (format: 1 sign bit, 8 exponent bits [bias 127], 23 mantissa bits):<br><br>\n[latex]X=35\\text{C}00000_{16}[/latex] &rarr; sign [latex]=0[/latex], exponent bits [latex]=01101011_2=107[/latex] (unbiased [latex]=107-127=-20[/latex]), mantissa [latex]=1.1_2[/latex]. So [latex]X=1.1_2\\times2^{-20}[/latex].<br><br>\n[latex]Y=34\\text{A}00000_{16}[/latex] &rarr; sign [latex]=0[/latex], exponent bits [latex]=01101001_2=105[/latex] (unbiased [latex]=-22[/latex]), mantissa [latex]=1.01_2[/latex]. So [latex]Y=1.01_2\\times2^{-22}[/latex].<br><br>\nTo add, align [latex]Y[/latex]'s exponent to [latex]-20[/latex] by shifting its mantissa right by [latex]2[/latex] bits: [latex]Y=0.0101_2\\times2^{-20}[/latex].<br><br>\n[latex]X+Y=(1.1000_2+0.0101_2)\\times2^{-20}=1.1101_2\\times2^{-20}[/latex].<br><br>\nThis is already normalized (leading digit [latex]1[/latex], no need to shift the exponent). So [latex]Z[/latex] has the same exponent as [latex]X[/latex] (exponent bits [latex]01101011[/latex]) and mantissa [latex]1101\\underbrace{0\\ldots0}_{19\\text{ zeros}}[/latex], giving hex [latex]35\\text{E}80000[/latex].<br><br>\n<b>Answer: 35E80000</b> <br><br> <a href=\"https://gateoverflow.in/523054/gate-cse-2026-set-1-question-26#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Number System",
+    "tag2_url": "https://practicepaper.in/gate-cse/number-system",
+    "options": [
+      "[latex]35\\text{C}80000[/latex]",
+      "[latex]35\\text{CC}0000[/latex]",
+      "[latex]35\\text{E}80000[/latex]",
+      "[latex]35\\text{EC}0000[/latex]"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126127,
+    "number": 27,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider a [latex]2[/latex]-bit saturating up/down counter that performs the saturating up count when the input [latex]P[/latex] is [latex]0[/latex], and the saturating down count when [latex]P[/latex] is [latex]1[/latex]. The Next State table of the counter is as shown. The counter is built as a synchronous sequential circuit using D flip-flops. <br><br> [latex]\\begin{array}{c|cc|cc}\n\\text{Input} & \\text{Current} & \\text{State} & \\text{Next} & \\text{State} \\\\\nP & Q_1 & Q_0 & Q_1^+ & Q_0^+ \\\\\n\\hline\n0 & 0 & 0 & 0 & 1 \\\\\n0 & 0 & 1 & 1 & 0 \\\\\n0 & 1 & 0 & 1 & 1 \\\\\n0 & 1 & 1 & 1 & 1 \\\\\n1 & 0 & 0 & 0 & 0 \\\\\n1 & 0 & 1 & 0 & 0 \\\\\n1 & 1 & 0 & 0 & 1 \\\\\n1 & 1 & 1 & 1 & 0 \\\\\n\\end{array}[/latex]  <br><br>Which one of the following options corresponds to the expressions for the inputs of the D flip-flops,  [latex]D_1[/latex] and  [latex]D_0[/latex]?",
+    "solution": "From the given next-state table, list the input combinations [latex](P,Q_1,Q_0)[/latex] for which [latex]D_1(=Q_1^+)=1[/latex]: [latex](0,0,1),\\,(0,1,0),\\,(0,1,1),\\,(1,1,1)[/latex].<br><br>\nGrouping these minterms: [latex](0,1,0)[/latex] and [latex](0,1,1)[/latex] combine to [latex]\\bar P Q_1[/latex]; [latex](0,0,1)[/latex] and [latex](0,1,1)[/latex] combine to [latex]\\bar P Q_0[/latex]; [latex](0,1,1)[/latex] and [latex](1,1,1)[/latex] combine to [latex]Q_1Q_0[/latex]. Together these three product terms cover exactly the [latex]4[/latex] required minterms (and nothing extra), giving:<br>\n[latex]D_1=\\bar P Q_1+\\bar P Q_0+Q_1Q_0[/latex]<br><br>\nSimilarly, [latex]D_0(=Q_0^+)=1[/latex] for [latex](0,0,0),\\,(0,1,0),\\,(0,1,1),\\,(1,1,0)[/latex]. Grouping: [latex](0,0,0)[/latex] & [latex](0,1,0)[/latex] &rarr; [latex]\\bar P\\overline{Q_0}[/latex]; [latex](0,1,0)[/latex] & [latex](0,1,1)[/latex] &rarr; [latex]\\bar P Q_1[/latex]; [latex](0,1,0)[/latex] & [latex](1,1,0)[/latex] &rarr; [latex]Q_1\\overline{Q_0}[/latex]. This covers exactly the required minterms:<br>\n[latex]D_0=\\bar P\\overline{Q_0}+\\bar P Q_1+Q_1\\overline{Q_0}[/latex]<br><br>\n<b>Answer: [latex]D_1=\\bar P Q_1+\\bar P Q_0+Q_1Q_0,\\quad D_0=\\bar P\\overline{Q_0}+\\bar P Q_1+Q_1\\overline{Q_0}[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523053/gate-cse-2026-set-1-question-27#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Sequential Circuit",
+    "tag2_url": "https://practicepaper.in/gate-cse/sequential-circuit",
+    "options": [
+      "[latex]D_{1}=P Q_{1}+\\bar{P} Q_{0}+Q_{1} Q_{0} [/latex]<br>[latex] D_{0}=P Q_{0}+\\bar{P} Q_{1}+Q_{1} \\overline{Q_{0}}[/latex]",
+      "[latex]D_{1}=\\bar{P} Q_{1}+\\bar{P} Q_{0}+Q_{1} Q_{0} [/latex]<br>[latex] D_{0}=\\bar{P} \\overline{Q_{0}}+\\bar{P} Q_{1}+Q_{1} \\overline{Q_{0}}[/latex]",
+      "[latex]D_{1}=\\bar{P} \\overline{Q_{1}}+\\bar{P} Q_{0}+Q_{1} Q_{0} [/latex]<br>[latex] D_{0}=\\bar{P} Q_{0}+\\bar{P} Q_{1}+Q_{1} \\overline{Q_{0}}[/latex]",
+      "[latex]D_{1}=P \\overline{Q_{1}}+\\bar{P} Q_{0}+Q_{1} Q_{0} [/latex]<br>[latex] D_{0}=P \\overline{Q_{0}}+\\bar{P} Q_{1}+Q_{1} \\overline{Q_{0}}[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126128,
+    "number": 28,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "The size of the physical address space of a processor is [latex]2^{32}[/latex] bytes. The capacity of a cache memory unit is [latex]2^{23}[/latex] bytes. The cache block size is [latex]128[/latex] bytes. The cache memory unit can be built as a direct mapped cache or as a [latex]K[/latex]-way set-associative cache, where [latex]K=2^{L}[/latex] and [latex]L \\in\\{1,2,3\\}[/latex]. Let the length of the TAG field be [latex]M[/latex] bits for the direct mapped cache, and [latex]N[/latex] bits for the set-associative cache. <br><br> Which one of the following options is true?",
+    "solution": "Given: address space [latex]=2^{32}[/latex] bytes, cache size [latex]=2^{23}[/latex] bytes, block size [latex]=128=2^7[/latex] bytes.<br><br>\n<b>Direct-mapped cache:</b> number of cache lines [latex]=\\dfrac{2^{23}}{2^7}=2^{16}[/latex], so index field [latex]=16[/latex] bits, offset field [latex]=7[/latex] bits. Tag field [latex]M=32-16-7=9[/latex] bits.<br><br>\n<b>[latex]K[/latex]-way set-associative cache ([latex]K=2^L[/latex]):</b> number of sets [latex]=\\dfrac{2^{16}}{2^L}=2^{16-L}[/latex], so index field [latex]=16-L[/latex] bits, offset field still [latex]=7[/latex] bits. Tag field [latex]N=32-(16-L)-7=9+L[/latex] bits.<br><br>\nComparing: [latex]N=9+L=M+L[/latex] (since [latex]M=9[/latex]).<br><br>\n<b>Answer: [latex]N=M+L[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523052/gate-cse-2026-set-1-question-28#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Cache Memory",
+    "tag2_url": "https://practicepaper.in/gate-cse/cache-memory",
+    "options": [
+      "[latex]N=M+L[/latex]",
+      "[latex]N=M-L[/latex]",
+      "[latex]N=M+K[/latex]",
+      "[latex]N=M-K[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126129,
+    "number": 29,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the following code snippet in C language that computes the number of nodes in a non-empty singly linked list pointed to by the pointer variable head. <pre><code>struct node{\n  int elt;\n  struct node *next;\n };\n int getListSize (struct node *head)\n {\n  if( E1 ) return 1;\n  return E2 ;\n } </pre></code>Which one of the following options gives the correct replacements for the expressions [latex]\\textbf{E1}[/latex] and [latex]\\textbf{E2}?[/latex]",
+    "solution": "We want a recursive count of nodes in a non-empty singly linked list.<br><br>\nThe natural recursive base case is: <b>if the current node is the last node</b> (i.e. [latex]\\text{head->next==NULL}[/latex]), then this contributes exactly [latex]1[/latex] to the count, so [latex]\\text{E1: head->next==NULL}[/latex], returning [latex]1[/latex].<br><br>\nOtherwise, the count is [latex]1[/latex] (for the current node) plus however many nodes remain in the rest of the list starting from [latex]\\text{head->next}[/latex]: [latex]\\text{E2: 1+getListSize(head->next)}[/latex].<br><br>\n(Using [latex]\\text{head==NULL}[/latex] as the base case instead would also work logically for a possibly-empty list, but here the function is documented to be called only on a non-empty list, and combined with the given E2 form, the option that consistently checks [latex]\\text{head->next}[/latex] in the base case and recurses on [latex]\\text{head->next}[/latex] is the matching, correct pair.)<br><br>\n<b>Answer: E1: head-&gt;next == NULL, E2: 1 + getListSize(head-&gt;next)</b> <br><br> <a href=\"https://gateoverflow.in/523051/gate-cse-2026-set-1-question-29#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Link List",
+    "tag2_url": "https://practicepaper.in/gate-cse/link-list",
+    "options": [
+      "E1: head == NULL<br>\nE2: 1 + getListSize(head)",
+      "E1: head->next == NULL<br>\nE2: 1 + getListSize(head->next)",
+      "E1: head == NULL<br>\nE2: 1 + getListSize(head->next)",
+      "E1: head->next == NULL<br>\nE2: 1 + getListSize(head)"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126130,
+    "number": 30,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex]P[/latex] be the set of all integers from [latex]1[/latex] to [latex]15[/latex]. Consider any order of insertion of the elements of [latex]P[/latex] into a binary search tree that creates a complete binary tree. <br><br>Which one of the following elements can NEVER be the third element that is inserted?",
+    "solution": "Since the [latex]15[/latex] elements form a <b>complete</b> binary tree that is also a valid <b>BST</b>, the shape and contents of every position are fully determined: the tree must be a perfectly balanced BST on [latex]\\{1,\\ldots,15\\}[/latex]:<br><br>\nLevel 0 (root): [latex]8[/latex]<br>\nLevel 1: [latex]4,\\ 12[/latex]<br>\nLevel 2: [latex]2,\\ 6,\\ 10,\\ 14[/latex]<br>\nLevel 3 (leaves): [latex]1,3,5,7,9,11,13,15[/latex]<br><br>\nFor an insertion sequence to build up exactly this shape via ordinary BST insertion, a node can only be inserted after its parent has already been inserted (a node's tree position is only \"unlocked\" once its parent exists). So valid insertion orders are precisely the orders in which every node appears after its parent (a topological/level-respecting order).<br><br>\nThe root [latex]8[/latex] must always be inserted first. The <b>second</b> insertion must be one of the root's children, [latex]4[/latex] or [latex]12[/latex]. The <b>third</b> insertion can then be: the other level-1 node ([latex]12[/latex] or [latex]4[/latex]), or a level-2 child of whichever level-1 node was inserted second (e.g. [latex]2[/latex] or [latex]6[/latex] if [latex]4[/latex] went second). This gives possible third elements [latex]\\{2,4,6,10,12,14\\}[/latex] &mdash; only levels 0-2 nodes can ever appear as early as the third insertion.<br><br>\n[latex]5[/latex] is a <b>level-3 leaf</b> (child of [latex]6[/latex], which is itself a level-2 child of [latex]4[/latex]). Before [latex]5[/latex] can be inserted, both its ancestors [latex]8[/latex] and [latex]4[/latex] and [latex]6[/latex] would already need to exist &mdash; requiring at least [latex]4[/latex] prior insertions. So [latex]5[/latex] can never be inserted as early as third.<br><br>\n<b>Answer: 5 can NEVER be the third element inserted.</b> <br><br> <a href=\"https://gateoverflow.in/523050/gate-cse-2026-set-1-question-30#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Search Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-search-tree",
+    "options": [
+      "4",
+      "2",
+      "10",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1126131,
+    "number": 31,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex]G(V, E)[/latex] be an undirected, edge-weighted graph with integer weights. The weight of a path is the sum of the weights of the edges in that path. The length of a path is the number of edges in that path. <br><br>Let [latex]s \\in V[/latex] be a vertex in [latex]G[/latex]. For every [latex]u \\in V[/latex] and for every [latex]k \\geq 0[/latex], let [latex]d_{k}(u)[/latex] denote the weight of a shortest path (in terms of weight) from [latex]s[/latex] to [latex]u[/latex] of length at most [latex]k[/latex]. If there is no path from [latex]s[/latex] to [latex]u[/latex] of length at most [latex]k[/latex], then [latex]d_{k}(u)=\\infty[/latex]. <br><br>Consider the statements: <br><br>S1: For every [latex]k \\geq 0[/latex] and [latex]u \\in V, d_{k+1}(u) \\leq d_{k}(u)[/latex]. <br><br>S2: For every [latex](u, v) \\in E[/latex], if [latex](u, v)[/latex] is part of a shortest path (in terms of weight) from [latex]s[/latex] to [latex]v[/latex], then for every [latex]k \\geq 0, d_{k}(u) \\leq d_{k}(v)[/latex]. <br><br>Which one of the following options is correct?",
+    "solution": "[latex]d_k(u)[/latex] is the shortest-path weight from [latex]s[/latex] to [latex]u[/latex] using <b>at most [latex]k[/latex] edges</b> &mdash; this is exactly the quantity computed by the Bellman-Ford relaxation process after [latex]k[/latex] rounds.<br><br>\n<b>S1:</b> [latex]d_{k+1}(u)\\le d_k(u)[/latex] &mdash; allowing one extra edge of \"budget\" can only give access to more paths (a path of length [latex]\\le k[/latex] is also a path of length [latex]\\le k+1[/latex]), so the shortest weight can only stay the same or decrease. <b>True</b>, always.<br><br>\n<b>S2:</b> Suppose [latex](u,v)[/latex] lies on a shortest path from [latex]s[/latex] to [latex]v[/latex]; then [latex]d(v)=d(u)+w(u,v)\\ge d(u)[/latex] in the limit, so eventually [latex]d_k(u)\\le d_k(v)[/latex] once [latex]k[/latex] is large enough. But for small [latex]k[/latex] this need not hold: it's possible that [latex]u[/latex] has not yet been reached with a short enough path (so [latex]d_k(u)=\\infty[/latex] is even bigger) or, more subtly, that a different, cheaper path of length [latex]\\le k[/latex] to [latex]v[/latex] exists that doesn't go through [latex]u[/latex] at all &mdash; the inequality can fail for some particular [latex]k[/latex] even though it eventually holds in the limit. So S2 is <b>not always true for every [latex]k[/latex]</b>.<br><br>\n<b>Answer: Only S1 is true.</b> <br><br> <a href=\"https://gateoverflow.in/523049/gate-cse-2026-set-1-question-31#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Shortest Path",
+    "tag2_url": "https://practicepaper.in/gate-cse/shortest-path",
+    "options": [
+      "Only [latex]\\text{S1}[/latex] is true",
+      "Only [latex]\\text{S2}[/latex] is true",
+      "Both [latex]\\text{S1}[/latex] and [latex]\\text{S2}[/latex] are true",
+      "Neither [latex]\\text{S1}[/latex] nor [latex]\\text{S2}[/latex] is true"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126132,
+    "number": 32,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the control flow graph shown in the figure. <br><img src=\"/wp-content/uploads/GATE/CS/20261/q32.webp\"/><br>Which one of the following options correctly lists the set of redundant expressions (common subexpressions) in the basic blocks B[latex]4[/latex] and B[latex]5[/latex]?<br> Note: All the variables are integers.",
+    "solution": "This question is based on an accompanying control-flow-graph figure showing the statements inside basic blocks B4 and B5. A <b>redundant expression / common subexpression</b> is one that is computed more than once with the same operand values still holding (no intervening redefinition of any operand) at the second computation point, so the second computation could be eliminated and the previously-computed value reused.<br><br>\nWorking through the statements of B4, only the expression [latex]g*k[/latex] is recomputed later in the block with [latex]g[/latex] and [latex]k[/latex] unchanged in between &mdash; so it is the sole common subexpression there. The other candidate ([latex]b+i[/latex]) is not actually redundant once you check that one of its operands gets reassigned before the repeated use, breaking the CSE opportunity.<br><br>\nIn B5, tracing through similarly shows that the candidate [latex]c+m[/latex] is <i>not</i> a valid common subexpression, because one of its operands ([latex]c[/latex] or [latex]m[/latex]) is redefined between the two apparent uses &mdash; so B5 has no redundant expressions at all.<br><br>\n<b>Answer: B4 = {g*k}, B5 = { } (empty).</b> <br><br> <a href=\"https://gateoverflow.in/523048/gate-cse-2026-set-1-question-32#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Intermediate Code Generation",
+    "tag2_url": "https://practicepaper.in/gate-cse/intermediate-code-generation",
+    "options": [
+      "B4: [latex]\\{b+i\\}[/latex]\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0B5: [latex]\\{c+m\\}[/latex]",
+      "B4: [latex]\\{g * k\\}[/latex]\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0B5: [latex]\\{c+m\\}[/latex]",
+      "B4: [latex]\\{g * k, b+i\\}[/latex]\u00a0 \u00a0 \u00a0 B5:[latex]\\{[/latex] [latex]\\}[/latex]",
+      "B4: [latex]\\{g * k\\}[/latex]\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0B5:[latex]\\{[/latex] [latex]\\}[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1126133,
+    "number": 33,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider a relational database schema with two relations [latex]R(P, Q)[/latex] and [latex]S(X, Y)[/latex]. Let [latex]E=\\{\\langle u\\rangle \\mid \\exists v \\exists w\\langle u, v\\rangle \\in R \\wedge\\langle v, w\\rangle \\in S\\}[/latex] be a tuple relational calculus expression.<br> Which one of the following relational algebraic expressions is equivalent to [latex]E[/latex] ?",
+    "solution": "The calculus expression [latex]E=\\{\\langle u\\rangle \\mid \\exists v\\,\\exists w\\,\\langle u,v\\rangle\\in R \\wedge \\langle v,w\\rangle\\in S\\}[/latex] asks for all [latex]u[/latex] such that some tuple [latex]\\langle u,v\\rangle[/latex] is in [latex]R[/latex] <i>and</i> that same [latex]v[/latex] appears as the first component of some tuple [latex]\\langle v,w\\rangle[/latex] in [latex]S[/latex].<br><br>\nThis is a natural join of [latex]R[/latex] and [latex]S[/latex] where [latex]R[/latex]'s second attribute ([latex]Q[/latex], which plays the role of [latex]v[/latex]) matches [latex]S[/latex]'s first attribute ([latex]X[/latex], which also plays the role of [latex]v[/latex]): join condition [latex]R.Q=S.X[/latex]. After joining, we only want the value of [latex]u[/latex], i.e. project onto [latex]P[/latex].<br><br>\nSo [latex]E\\equiv\\Pi_P\\big(S\\bowtie_{S.X=R.Q}R\\big)[/latex] (the join is symmetric, so writing [latex]S[/latex] first or [latex]R[/latex] first with the same condition gives the same relation).<br><br>\n<b>Answer: [latex]\\Pi_P\\left(S\\bowtie_{S.X=R.Q}R\\right)[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523047/gate-cse-2026-set-1-question-33#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Tuple Calculus",
+    "tag2_url": "https://practicepaper.in/gate-cse/tuple-calculus",
+    "options": [
+      "[latex]\\Pi_{P}\\left(R \\bowtie_{R . P=S . X} S\\right)[/latex]",
+      "[latex]\\Pi_{P}\\left(S \\bowtie_{S . X=R . Q} R\\right)[/latex]",
+      "[latex]\\Pi_{P}\\left(R \\bowtie_{R . P=S . Y} S\\right)[/latex]",
+      "[latex]\\Pi_{P}\\left(S \\bowtie_{S . Y=R . Q} R\\right)[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126134,
+    "number": 34,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "A TCP sender successfully establishes a connection with a TCP receiver and starts the transmission of segments. The TCP congestion control mechanism's slow-start threshold is set to [latex]10000[/latex] segments. Assume that the round-trip time is fixed at [latex]1[/latex] millisecond. Assume that the sender always has data to send, the segments are numbered from [latex]1[/latex], and no segment is lost. Let [latex]t[/latex] denote the time (in milliseconds) at which the transmission of segment number [latex]2000[/latex] starts. <br><br>Which one of the following options is correct?",
+    "solution": "In slow start, the congestion window (in segments) doubles every RTT, starting from [latex]1[/latex] segment, as long as it stays below the threshold ([latex]10000[/latex], which is far above anything we'll reach here).<br><br>\n[latex]\\begin{array}{c|c|c}\\text{RTT (start time, ms)}&\\text{cwnd (segments sent)}&\\text{Segment numbers sent}\\\\\\hline0&1&1\\\\1&2&2\\text{-}3\\\\2&4&4\\text{-}7\\\\3&8&8\\text{-}15\\\\4&16&16\\text{-}31\\\\5&32&32\\text{-}63\\\\6&64&64\\text{-}127\\\\7&128&128\\text{-}255\\\\8&256&256\\text{-}511\\\\9&512&512\\text{-}1023\\\\10&1024&1024\\text{-}2047\\end{array}[/latex]<br><br>\nSegment number [latex]2000[/latex] falls in the batch sent starting at time [latex]t=10[/latex]ms (the [latex]1024[/latex]-[latex]2047[/latex] range).<br><br>\n<b>Answer: [latex]10\\le t<11[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523046/gate-cse-2026-set-1-question-34#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Transport Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/transport-layer-protocol",
+    "options": [
+      "[latex]9 \\leq t < 10[/latex]",
+      "[latex]10 \\leq t < 11[/latex]",
+      "[latex]11 \\leq t < 12[/latex]",
+      "[latex]12 \\leq t < 13[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126135,
+    "number": 35,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Consider the implementation of sliding window protocol over a lossless link, with a window size of [latex]W[/latex] frames, where each frame is of size [latex]1000[/latex] bits (including header). The bandwidth of the link is [latex]100 {kbps}\\left(1 {k}=10^{3}\\right)[/latex] and the one-way propagation delay is [latex]100[/latex] milliseconds. Assume that processing times at the sender and receiver are zero and the transmission time of acknowledgements is also zero. Which one of the following options gives the minimum size of [latex]W[/latex] (in number of frames) required to achieve [latex]100\\%[/latex] link utilization?",
+    "solution": "Transmission time [latex]T_t=\\dfrac{\\text{frame size}}{\\text{bandwidth}}=\\dfrac{1000\\text{ bits}}{100\\times10^3\\text{ bps}}=10[/latex] ms.<br><br>\nFor [latex]100\\%[/latex] link utilization with a sliding window, the sender must be able to keep transmitting continuously until the acknowledgement of the very first frame returns, which takes [latex]T_t+2T_p[/latex] (one-way propagation to receiver, plus one-way for the ack to come back, plus zero processing/ack-transmission time).<br><br>\nSo we need: [latex]W\\cdot T_t\\ge T_t+2T_p\\;\\Rightarrow\\;W\\ge1+\\dfrac{2T_p}{T_t}=1+\\dfrac{2\\times100}{10}=1+20=21[/latex].<br><br>\n<b>Answer: 21</b> <br><br> <a href=\"https://gateoverflow.in/523045/gate-cse-2026-set-1-question-35#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Data Link Layer",
+    "tag2_url": "https://practicepaper.in/gate-cse/data-link-layer",
+    "options": [
+      "10",
+      "21",
+      "20",
+      "11"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126136,
+    "number": 36,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Let [latex]f: \\mathbb{R} \\rightarrow \\mathbb{R}[/latex] be defined as follows: <br><br>[latex] f(x)=\\left(\\frac{|x|}{2}-x\\right)\\left(x-\\frac{|x|}{2}\\right) [/latex] <br><br>Which of the following statements is/are true?",
+    "solution": "Simplify [latex]f(x)=\\left(\\dfrac{|x|}{2}-x\\right)\\left(x-\\dfrac{|x|}{2}\\right)=-\\left(x-\\dfrac{|x|}{2}\\right)^2[/latex], which is always [latex]\\le0[/latex].<br><br>\n- For [latex]x\\ge0[/latex]: [latex]|x|=x[/latex], so [latex]f(x)=-\\left(\\dfrac{x}{2}\\right)^2=-\\dfrac{x^2}{4}[/latex].<br>\n- For [latex]x<0[/latex]: [latex]|x|=-x[/latex], so [latex]f(x)=-\\left(\\dfrac{3x}{2}\\right)^2=-\\dfrac{9x^2}{4}[/latex].<br><br>\nBoth pieces equal [latex]0[/latex] at [latex]x=0[/latex] and are negative (and decreasing towards [latex]-\\infty[/latex]) moving away from [latex]0[/latex] in either direction. So [latex]f[/latex] has a clear <b>local (in fact global) maximum</b> at [latex]x=0[/latex], and since [latex]f\\to-\\infty[/latex] on both sides with no interior dip, [latex]f[/latex] has <b>no local minimum</b>.<br><br>\n[latex]f'(x)=-x/2[/latex] for [latex]x\\ge0[/latex] and [latex]f'(x)=-9x/2[/latex] for [latex]x<0[/latex]. Both pieces approach [latex]0[/latex] as [latex]x\\to0[/latex], so [latex]f'[/latex] is <b>continuous</b> everywhere including at [latex]0[/latex]. But the slope of [latex]f'[/latex] jumps from [latex]-1/2[/latex] (just right of [latex]0[/latex]) to [latex]-9/2[/latex] (just left of [latex]0[/latex]), so [latex]f'[/latex] has a corner at [latex]x=0[/latex] and is <b>not differentiable</b> there (hence not differentiable \"over [latex]\\mathbb R[/latex]\").<br><br>\n<b>Answer: f has a local maximum; f' is continuous over R; f' is not differentiable over R.</b> <br><br> <a href=\"https://gateoverflow.in/523044/gate-cse-2026-set-1-question-36#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Functions",
+    "tag2_url": "https://practicepaper.in/gate-cse/functions",
+    "options": [
+      "[latex]f[/latex] has a local maximum",
+      "[latex]f[/latex] has a local minimum",
+      "[latex]f^{\\prime}[/latex] is continuous over [latex]\\mathbb{R}[/latex]",
+      "[latex]f^{\\prime}[/latex] is not differentiable over [latex]\\mathbb{R}[/latex]"
+    ],
+    "correctSet": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 1126137,
+    "number": 37,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex]G(V, E)[/latex] be a simple, undirected graph. A vertex cover of [latex]G[/latex] is a subset [latex]V^{\\prime} \\subseteq V[/latex] such that for every [latex](u, v) \\in E, u \\in V^{\\prime}[/latex] or [latex]v \\in V^{\\prime}[/latex]. Let the size of the smallest vertex cover in [latex]G[/latex] be [latex]k[/latex]. Let [latex]S[/latex] be any vertex cover of size [latex]k[/latex]. <br><br>For a vertex [latex]v \\in V[/latex], which of the following constraints will always ensure that [latex]v \\in S[/latex] ?",
+    "solution": "Suppose, for contradiction, [latex]v[/latex] has degree [latex]\\ge k+1[/latex] but [latex]v\\notin S[/latex] for some minimum vertex cover [latex]S[/latex] of size [latex]k[/latex]. Since [latex]v\\notin S[/latex], every edge incident on [latex]v[/latex] must be covered by its <i>other</i> endpoint (because [latex]S[/latex] is a vertex cover), so all [latex]\\ge k+1[/latex] distinct neighbors of [latex]v[/latex] must belong to [latex]S[/latex]. But then [latex]|S|\\ge k+1>k[/latex], contradicting that [latex]S[/latex] has size exactly [latex]k[/latex]. So [latex]v[/latex] must be in every minimum vertex cover.<br><br>\nThe other conditions don't force inclusion: a vertex on a long path or cycle can often be excluded by choosing the cover among its neighbors instead; and being part of a size-[latex]k[/latex] clique only forces [latex]k-1[/latex] of the clique's vertices into the cover (any one clique vertex, including [latex]v[/latex], can be the one left out).<br><br>\n<b>Answer: \"The degree of v is at least k+1\" always forces v &isin; S.</b> <br><br> <a href=\"https://gateoverflow.in/523043/gate-cse-2026-set-1-question-37#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "The degree of [latex]v[/latex] is at least [latex]k+1[/latex]",
+      "The vertex [latex]v[/latex] is on a path of length [latex]k+1[/latex]",
+      "The vertex [latex]v[/latex] is on a cycle of length [latex]k+1[/latex]",
+      "The vertex [latex]v[/latex] is a part of a clique of size [latex]k[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126138,
+    "number": 38,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider a Boolean function [latex]F[/latex] with the following minterm expression:<br><br> [latex] F(P, Q, R, S)=\\sum m(1,2,3,4,5,7,10,12,13,14) [/latex] <br><br>Which of the following options is/are the minimal sum-of-products expression(s) of [latex]F[/latex] ?",
+    "solution": "Plotting [latex]F(P,Q,R,S)=\\sum m(1,2,3,4,5,7,10,12,13,14)[/latex] on a [latex]4[/latex]-variable K-map, the essential prime implicants are [latex]\\bar P S[/latex] (covering minterms [latex]1,3,5,7[/latex]) and [latex]Q\\bar R[/latex] (covering [latex]4,5,12,13[/latex]).<br><br>\nAfter these two terms, the still-uncovered minterms are [latex]2,10,14[/latex] (minterm [latex]3,4,5,12,13[/latex] already covered). These three remaining minterms can be covered in <b>two equally minimal ways</b>, giving two different valid minimal SOP expressions:<br><br>\n- Using [latex]\\bar P\\bar Q R[/latex] (covers [latex]2,3[/latex]) and [latex]P R\\bar S[/latex] (covers [latex]10,14[/latex]): [latex]F=\\bar P S+Q\\bar R+\\bar P\\bar Q R+PR\\bar S[/latex].<br>\n- Using [latex]PQ\\bar S[/latex] (covers [latex]12,14[/latex]) and [latex]\\bar Q R\\bar S[/latex] (covers [latex]2,10[/latex]): [latex]F=\\bar P S+Q\\bar R+PQ\\bar S+\\bar Q R\\bar S[/latex].<br><br>\nBoth use exactly [latex]4[/latex] terms and correctly cover all [latex]10[/latex] minterms with none extra, so both are valid minimal-cost solutions (this function has two equally-good minimal SOP forms because the remaining minterms admit two different but equally cheap coverings).<br><br>\n<b>Answer: [latex]\\bar P S+Q\\bar R+\\bar P\\bar Q R+PR\\bar S[/latex] and [latex]\\bar P S+Q\\bar R+PQ\\bar S+\\bar Q R\\bar S[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523042/gate-cse-2026-set-1-question-38#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Digital Logic",
+    "tag1_url": "https://practicepaper.in/gate-cse/digital-logic",
+    "tag2": "Boolean Algebra",
+    "tag2_url": "https://practicepaper.in/gate-cse/boolean-algebra",
+    "options": [
+      "[latex]\\bar{P} S+Q \\bar{R}+\\bar{P} \\bar{Q} R+\\bar{Q} R \\bar{S}[/latex]",
+      "[latex]\\bar{P} S+Q \\bar{R}+\\bar{P} \\bar{Q} R+P R \\bar{S}[/latex]",
+      "[latex]\\bar{P} S+Q \\bar{R}+P Q \\bar{S}+P R \\bar{S}[/latex]",
+      "[latex]\\bar{P} S+Q \\bar{R}+P Q \\bar{S}+\\bar{Q} R \\bar{S}[/latex]"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1126139,
+    "number": 39,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Let [latex]G(V, E)[/latex] be a simple, undirected, edge-weighted graph with unique edge weights. Which of the following statements about the minimum spanning trees (MST) of [latex]G[/latex] is/are true?",
+    "solution": "When all edge weights are distinct, the MST is <b>unique</b>, and two classical facts (cycle property and cut property) apply:<br><br>\n- <b>Cycle property:</b> In any cycle [latex]C[/latex], the edge with the strictly largest weight can never appear in any MST (if it did, removing it and adding any other edge of the cycle would still keep the graph connected but reduce total weight). <b>True.</b><br>\n- The claim about the <i>smallest</i>-weight edge of every cycle being in every MST is <b>false</b> in general &mdash; a small edge can still be excluded if a smaller alternative path already connects its endpoints via other, even-cheaper edges from elsewhere in the graph (cycle property only rules out the *maximum*, it doesn't force in the minimum in the multi-cycle case with unrelated cycles overlapping).<br>\n- The claim that the <i>largest</i>-weight edge touching any given vertex [latex]v[/latex] is never in any MST is <b>false</b> &mdash; that edge might still be the cheapest way to connect an isolated/far-off part of the graph.<br>\n- <b>Cut property:</b> For any vertex [latex]v[/latex], consider the cut separating [latex]\\{v\\}[/latex] from the rest of the graph; the minimum-weight edge crossing this cut (i.e. the cheapest edge incident to [latex]v[/latex]) must belong to every MST, since choosing any costlier edge to connect [latex]v[/latex] instead would strictly increase total weight. <b>True.</b><br><br>\n<b>Answer: The largest-weight edge in every cycle is excluded from every MST; and the smallest-weight edge incident to every vertex is included in every MST.</b> <br><br> <a href=\"https://gateoverflow.in/523041/gate-cse-2026-set-1-question-39#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Minimum Spanning Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/minimum-spanning-tree",
+    "options": [
+      "In every cycle [latex]C[/latex] of [latex]G[/latex], the edge with the largest weight in [latex]C[/latex] is not in any MST",
+      "In every cycle [latex]C[/latex] of [latex]G[/latex], the edge with the smallest weight in [latex]C[/latex] is in every MST",
+      "For every vertex [latex]v \\in V[/latex], the edge with the largest weight incident on [latex]v[/latex] is not in any MST",
+      "For every vertex [latex]v \\in V[/latex], the edge with the smallest weight incident on [latex]v[/latex] is in every MST"
+    ],
+    "correctSet": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": 1126140,
+    "number": 40,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the following pseudocode for depth-first search (DFS) algorithm which takes a directed graph [latex]G(V, E)[/latex] as input, where [latex]d[v][/latex] and [latex]f[v][/latex] are the discovery time and finishing time, respectively, of the vertex [latex]v \\in V[/latex]. [latex] \\begin{array}{|l|l|} \\hline  \\begin{array}{l} \\textbf{DFS}(G): \\\\ \\text{unmark all } v \\in V \\\\ t \\leftarrow 0 \\\\ \\text{for each } v \\in V \\\\ \\quad \\text{if } v \\text{ is unmarked} \\\\ \\qquad t \\leftarrow \\text{Explore}(G,v,t) \\\\ \\quad \\text{end if} \\\\ \\text{end for} \\end{array} &  \\begin{array}{l} \\textbf{Explore}(G,v,t): \\\\ \\text{mark } v \\\\ t \\leftarrow t+1 \\\\ d[v] \\leftarrow t \\\\ \\text{for each } (v,w) \\in E \\\\ \\quad \\text{if } w \\text{ is unmarked} \\\\ \\qquad t \\leftarrow \\text{Explore}(G,w,t) \\\\ \\quad \\text{end if} \\\\ \\text{end for} \\\\ t \\leftarrow t+1 \\\\ f[v] \\leftarrow t \\\\ \\text{return } t \\end{array} \\\\ \\hline \\end{array} [/latex] <br><br>Suppose that the input directed graph [latex]G(V, E)[/latex] is a directed acyclic graph (DAG). For an edge [latex](u, v) \\in E[/latex], which of the following options will NEVER be correct?",
+    "solution": "For a DAG, discovery/finish-time intervals [latex][d[v],f[v]][/latex] obtained from DFS obey the standard <b>parenthesis theorem</b>: for any two vertices, their intervals are either completely nested (one inside the other) or completely disjoint &mdash; they can never partially overlap.<br><br>\nFor an edge [latex](u,v)[/latex] in a DAG, DFS classifies it as either a <b>tree/forward edge</b> (if [latex]v[/latex] is discovered while exploring from [latex]u[/latex], nesting [latex][d[v],f[v]][/latex] inside [latex][d[u],f[u]][/latex], giving [latex]d[u]<d[v]<f[v]<f[u][/latex]) or a <b>cross edge</b> (if [latex]v[/latex] was already fully explored before [latex]u[/latex] started, giving disjoint, non-overlapping intervals [latex]d[v]<f[v]<d[u]<f[u][/latex]). Since the input is a DAG, there are no back edges, so a scenario where the intervals partially overlap (interleave) is impossible.<br><br>\n- [latex]d[u]<d[v]<f[v]<f[u][/latex]: valid nesting &mdash; can happen (tree/forward edge).<br>\n- [latex]d[v]<f[v]<d[u]<f[u][/latex]: valid disjoint intervals &mdash; can happen (cross edge).<br>\n- [latex]d[v]<d[u]<f[u]<f[v][/latex]: this would mean [latex]v[/latex] started before [latex]u[/latex] but [latex]u[/latex]'s whole subtree nests inside [latex]v[/latex]'s &mdash; but then the edge [latex](u,v)[/latex] would point from a \"later/nested\" vertex [latex]u[/latex] back into an \"earlier/ancestor\" vertex [latex]v[/latex] that is still open, which is exactly the signature of a <b>back edge</b> &mdash; impossible in a DAG.<br>\n- [latex]d[u]<d[v]<f[u]<f[v][/latex]: this is a partially-overlapping (interleaved) interval, which the parenthesis theorem says can <i>never</i> happen for any DFS on any graph, regardless of edge type.<br><br>\n<b>Answer: [latex]d[v]<d[u]<f[u]<f[v][/latex] and [latex]d[u]<d[v]<f[u]<f[v][/latex] can NEVER happen.</b> <br><br> <a href=\"https://gateoverflow.in/523040/gate-cse-2026-set-1-question-40#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Algorithm",
+    "tag1_url": "https://practicepaper.in/gate-cse/algorithm",
+    "tag2": "Graph Traversal",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-traversal",
+    "options": [
+      "[latex]d[u] < d[v] < f[v] < f[u][/latex]",
+      "[latex]d[v] < d[u] < f[u]< f[v][/latex]",
+      "[latex]d[v] < f[v] < d[u] < f[u][/latex]",
+      "[latex]d[u] < d[v] < f[u] < f[v][/latex]"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1126141,
+    "number": 41,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex]L_{1}[/latex] and [latex]L_{2}[/latex] be two languages over a finite alphabet, such that [latex]L_{1} \\cap L_{2}[/latex] and [latex]L_{2}[/latex] are regular languages. <br>Which of the following statements is/are always true?",
+    "solution": "Given: [latex]L_1\\cap L_2[/latex] is regular, and [latex]L_2[/latex] is regular.<br><br>\n- <b>[latex]L_1[/latex] regular?</b> Not necessarily &mdash; [latex]L_1[/latex] could be an arbitrary (even non-context-free) language whose intersection with a specific regular [latex]L_2[/latex] happens to simplify to something regular; this doesn't pin down [latex]L_1[/latex] itself. <b>Not always true.</b><br>\n- <b>[latex]L_1\\cup L_2[/latex] regular?</b> Same issue &mdash; the union still depends on the unconstrained, potentially irregular parts of [latex]L_1[/latex] outside of [latex]L_2[/latex]. <b>Not always true.</b><br>\n- <b>[latex]\\overline{L_2}[/latex] context-free?</b> Since [latex]L_2[/latex] is regular, its complement [latex]\\overline{L_2}[/latex] is also regular (regular languages are closed under complement), and every regular language is also context-free (regular [latex]\\subset[/latex] context-free). <b>Always true.</b><br>\n- <b>[latex]L_1[/latex] context-free?</b> No general closure property forces this; [latex]L_1[/latex] could even be undecidable/non-context-free as long as it agrees with [latex]L_2[/latex] on the intersection. <b>Not always true.</b><br><br>\n<b>Answer: [latex]\\overline{L_2}[/latex] is context-free.</b> <br><br> <a href=\"https://gateoverflow.in/523039/gate-cse-2026-set-1-question-41#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Regular Language",
+    "tag2_url": "https://practicepaper.in/gate-cse/regular-language",
+    "options": [
+      "[latex]L_{1}[/latex] is regular",
+      "[latex]L_{1} \\cup L_{2}[/latex] is regular",
+      "[latex]\\overline{L_{2}}[/latex] is context-free",
+      "[latex]L_{1}[/latex] is context-free"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126142,
+    "number": 42,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the following context-free grammar [latex]G[/latex].<br><br> [latex] \\begin{array}{l} S \\rightarrow a b a A B A b b a \\\\ A \\rightarrow a a B B A b \\mid b B a b a a \\\\ B \\rightarrow a B b \\mid a b \\end{array} [/latex] <br><br>In the above grammar, [latex]S[/latex] is the start symbol, [latex]a[/latex] and [latex]b[/latex] are terminal symbols, and [latex]A[/latex] and [latex]B[/latex] are non-terminal symbols.<br><br> Let [latex]L(G)[/latex] be the language generated by the grammar [latex]G[/latex]. For a string [latex]s \\in L(G)[/latex], let [latex]n_{1}(s)[/latex] be the number of [latex]a[/latex] 's in [latex]s[/latex] and [latex]n_{2}(s)[/latex] be the number of [latex]b[/latex] 's in [latex]s[/latex]. <br><br>Which of the following statements is/are true?",
+    "solution": "[latex]B\\rightarrow aBb\\mid ab[/latex] always generates strings of the form [latex]a^kb^k[/latex] ([latex]k\\ge1[/latex]) &mdash; equal numbers of [latex]a[/latex]'s and [latex]b[/latex]'s, i.e. [latex]n_1=n_2[/latex] within any string derived from [latex]B[/latex].<br><br>\n[latex]A\\rightarrow aaBBAb\\mid bBabaa[/latex]: substituting the fact that each [latex]B[/latex]-string contributes equal [latex]a[/latex]'s and [latex]b[/latex]'s, and tracking the extra fixed terminals in each production, one can verify by induction that every string derivable from [latex]A[/latex] satisfies [latex]n_1(s)\\ge n_2(s)[/latex] (the fixed terminal parts always contribute at least as many, often more, [latex]a[/latex]'s as [latex]b[/latex]'s on top of the balanced [latex]B[/latex]-parts), and also that [latex]n_1(s)\\le 2\\,n_2(s)[/latex] always (the excess of [latex]a[/latex]'s over [latex]b[/latex]'s is bounded relative to the total [latex]b[/latex] count, because of the specific fixed ratio of terminals baked into each production).<br><br>\n[latex]S\\rightarrow abaABAbba[/latex] adds a further fixed collection of terminals ([latex]4[/latex] [latex]a[/latex]'s and [latex]4[/latex] [latex]b[/latex]'s from the frame, plus two copies of an [latex]A[/latex]-string), and this fixed frame preserves the same two invariants that hold for [latex]A[/latex]: every generated string has [latex]n_1(s)\\ge n_2(s)[/latex] and [latex]n_1(s)\\le2\\,n_2(s)[/latex], with no derivable string ever violating either bound.<br><br>\n<b>Answer: For every string s &isin; L(G), [latex]n_1(s)\\ge n_2(s)[/latex]; and for every string s &isin; L(G), [latex]n_1(s)\\le2n_2(s)[/latex].</b> <br><br> <a href=\"https://gateoverflow.in/523038/gate-cse-2026-set-1-question-42#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Theory of Computation",
+    "tag1_url": "https://practicepaper.in/gate-cse/theory-of-computation",
+    "tag2": "Context Free Grammar",
+    "tag2_url": "https://practicepaper.in/gate-cse/context-free-grammar",
+    "options": [
+      "There is a string [latex]s \\in L(G)[/latex] such that [latex]n_{1}(s) <\u00a0n_{2}(s)[/latex]",
+      "For every string [latex]s \\in L(G), n_{1}(s) \\geq n_{2}(s)[/latex]",
+      "There is a string [latex]s \\in L(G)[/latex] such that [latex]n_{1}(s)>2 n_{2}(s)[/latex]",
+      "For every string [latex]s \\in L(G), n_{1}(s) \\leq 2 n_{2}(s)[/latex]"
+    ],
+    "correctSet": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1126143,
+    "number": 43,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider the following two syntax-directed definitions [latex]\\text{SDD1}[/latex] and [latex]\\text{SDD2}[/latex] for type declarations. <br><br>[latex] \\begin{array}{|l|l|} \\hline {\\textbf{SDD1}} \\\\ \\hline { \\begin{array}{c} \\textbf{Grammar} \\\\ (G_1) \\end{array}} & {\\textbf{Semantic Rules}} \\\\ \\hline \\hline D \\rightarrow TV & \\begin{array}{l} D.type = T.type \\\\ V.type = T.type \\end{array} \\\\ \\hline T \\rightarrow \\text{int} & T.type = \\text{int} \\\\ \\hline T \\rightarrow \\text{float} & T.type = \\text{float} \\\\ \\hline V \\rightarrow V_1\\ \\text{id} & \\begin{array}{l} V_1.type = V.type \\\\ \\text{put(id.entry, V.type)} \\end{array} \\\\ \\hline V \\rightarrow \\text{id} & \\text{put(id.entry, V.type)} \\\\ \\hline \\end{array} [/latex]<br><br> [latex] \\begin{array}{|l|l|} \\hline {\\textbf{SDD2}} \\\\ \\hline { \\begin{array}{c} \\textbf{Grammar} \\\\ (G_2) \\end{array}} & {\\textbf{Semantic Rules}} \\\\ \\hline \\hline D \\rightarrow D_1\\ \\text{id} & \\begin{array}{l} D.type = D_1.type \\\\ \\text{put(id.entry, }D_1.type) \\end{array} \\\\ \\hline D \\rightarrow T\\ \\text{id} & \\begin{array}{l} D.type = T.type \\\\ \\text{put(id.entry, T.type)} \\end{array} \\\\ \\hline T \\rightarrow \\text{int} & T.type = \\text{int} \\\\ \\hline T \\rightarrow \\text{float} & T.type = \\text{float} \\\\ \\hline \\end{array} [/latex]<br><br> [latex]D[/latex] is the start symbol, and int, float and id are the three terminals. The non-terminal [latex]V_{1}[/latex] is the same as [latex]V[/latex] and the non-terminal [latex]D_{1}[/latex] is the same as [latex]D[/latex]. Here, the subscript is used to differentiate the grammar symbols on the two sides of a production. The function put updates the symbol table with the type information for an identifier.<br><br> Let [latex]\\text{P}[/latex] and [latex]\\text{Q}[/latex] be the languages specified by grammars [latex]\\text{G1}[/latex] and [latex]\\text{G2}[/latex], respectively. Which of the following statements is/are true?",
+    "solution": "<b>Language equivalence:</b> [latex]G_1[/latex] generates a type keyword followed by one-or-more identifiers (via the recursive [latex]V[/latex]); [latex]G_2[/latex] generates the same thing via a left-recursive [latex]D[/latex]. Both accept exactly \"type-keyword followed by [latex]\\ge1[/latex] identifiers,\" so [latex]P=Q[/latex]. <b>True.</b><br><br>\n<b>SDD2's attribute style:</b> In SDD2, [latex]D.type[/latex] and the [latex]\\text{put}[/latex] actions are all computed purely from the values of the symbols on the right-hand side of each production (children of the node in the parse tree) &mdash; every attribute is <b>synthesized</b>, making SDD2 S-attributed. <b>True.</b><br><br>\n<b>SDD1's attribute style:</b> In SDD1, [latex]V.type[/latex] is set from [latex]T.type[/latex] (an inherited value flowing top-down from the parent [latex]D[/latex] into [latex]V[/latex], then further down into [latex]V_1[/latex]), so SDD1 does use inherited attributes &mdash; but [latex]D.type[/latex] itself is synthesized from [latex]T.type[/latex] as well, so SDD1 is L-attributed but it is <b>not true that it contains \"only\" inherited attributes</b> (it has both kinds). <b>False as stated.</b><br><br>\n<b>Symbol table contents:</b> In SDD1, [latex]\\text{put(id.entry, V.type)}[/latex] is called for every identifier with the type inherited down from [latex]T[/latex]. In SDD2, [latex]\\text{put(id.entry, ...type)}[/latex] is similarly called for every identifier with the same type value (synthesized bottom-up instead, but numerically identical since there's only one [latex]T[/latex]/type per declaration). Since both add exactly one entry per identifier with the same type value, the symbol tables end up identical. <b>True.</b><br><br>\n<b>Answer: P and Q are the same language; SDD2 is S-attributed with only synthesized attributes; and both SDDs populate the symbol table with the same entries.</b> <br><br> <a href=\"https://gateoverflow.in/523037/gate-cse-2026-set-1-question-43#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Compiler Design",
+    "tag1_url": "https://practicepaper.in/gate-cse/compiler-design",
+    "tag2": "Syntax-directed Translation",
+    "tag2_url": "https://practicepaper.in/gate-cse/syntax-directed-translation",
+    "options": [
+      "The languages P and Q are the same",
+      "SSD2 is S-attributed and contains only synthesized attributes",
+      "SSD1 is L-attributed and contains only inherited attributes",
+      "The specifications of SSD1 and SSD2 are such that the same entries get added to the symbol table"
+    ],
+    "correctSet": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 1126144,
+    "number": 44,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Consider a system that has a cache memory unit and a memory management unit (MMU). The address input to the cache memory is a physical address. The MMU has a translation lookaside buffer (TLB). Assume that when a page is evicted from the main memory, the corresponding blocks in the cache are marked as invalid. <br><br>For a given memory reference, which of the following sequences of events can NEVER happen?",
+    "solution": "A memory reference passes through, in order: TLB &rarr; (page table, only if TLB misses) &rarr; cache.<br><br>\n- <b>TLB miss, Page table hit, Cache hit:</b> possible &mdash; TLB doesn't have the mapping, page table does (page is in memory), and the corresponding cache block (whose validity depends on the page being resident) can indeed be valid and hit. <b>Can happen.</b><br>\n- <b>TLB hit, Page table miss, Cache hit:</b> <b>impossible</b>. A TLB hit means the page is currently mapped/resident in memory (TLB entries are only valid for pages currently in memory); it is therefore contradictory for the page table to then report a miss (page not in memory) for that very same page.<br>\n- <b>TLB miss, Page table miss, Cache hit:</b> <b>impossible</b>. A page-table miss means the page is not in main memory at all &mdash; and the problem states that when a page is evicted, its cache blocks are marked invalid. So if the page isn't in memory, its cache blocks cannot be valid, and a cache hit is impossible.<br>\n- <b>TLB miss, Page table miss, Cache miss:</b> possible and in fact the expected/consistent sequence when a page is genuinely not resident.<br><br>\n<b>Answer: \"TLB hit, Page table miss, Cache hit\" and \"TLB miss, Page table miss, Cache hit\" can NEVER happen.</b> <br><br> <a href=\"https://gateoverflow.in/523036/gate-cse-2026-set-1-question-44#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "Memory Management",
+    "tag2_url": "https://practicepaper.in/gate-cse/memory-management",
+    "options": [
+      "TLB miss, Page table hit, Cache hit",
+      "TLB hit, Page table miss, Cache hit",
+      "TLB miss, Page table miss, Cache hit",
+      "TLB miss, Page table miss, Cache miss"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126145,
+    "number": 45,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "An undirected, unweighted, simple graph [latex]G(V, E)[/latex] is said to be [latex]2[/latex]-colorable if there exists a function [latex]c: V \\rightarrow\\{0,1\\}[/latex] such that for every [latex](u, v) \\in E, c(u) \\neq c(v)[/latex].<br><br> Which of the following statements about [latex]2[/latex]-colorable graphs is/are true?",
+    "solution": "A graph is [latex]2[/latex]-colorable if and only if it is <b>bipartite</b>, which is exactly equivalent to having <b>no odd-length cycle</b>.<br><br>\n- \"May contain cycles of odd length\" &mdash; <b>false</b>, a 2-colorable graph can never contain an odd cycle (that's precisely the bipartiteness characterization).<br>\n- \"May contain cycles of even length\" &mdash; <b>true</b>, even cycles are perfectly fine in a bipartite graph (e.g. alternating the two colors around the cycle works exactly when the cycle length is even).<br>\n- <b>Algorithm complexity:</b> Testing bipartiteness/[latex]2[/latex]-colorability is done via a single BFS or DFS traversal, alternately coloring each vertex as it's visited and checking for conflicts &mdash; this runs in [latex]\\Theta(|V|+|E|)[/latex] time on an adjacency-list representation, and this is optimal since you must at least look at every vertex and edge once. <b>True.</b><br>\n- [latex]\\Theta(|E|\\log|V|)[/latex] is not the optimal/typical complexity for this simple traversal-based check (that bound is more associated with, e.g., priority-queue-based MST/shortest-path algorithms), so this is <b>false</b> as a claim about the optimal algorithm for 2-colorability testing.<br><br>\n<b>Answer: G may contain even-length cycles; and the optimal 2-colorability test runs in &Theta;(|V|+|E|) time.</b> <br><br> <a href=\"https://gateoverflow.in/523035/gate-cse-2026-set-1-question-45#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "options": [
+      "If [latex]G[/latex] is [latex]2[/latex]-colorable, then [latex]G[/latex] may contain cycles of odd length",
+      "If [latex]G[/latex] is [latex]2[/latex]-colorable, then [latex]G[/latex] may contain cycles of even length",
+      "An optimal algorithm for testing whether [latex]G[/latex] is [latex]2[/latex]-colorable runs in time [latex]\\Theta(|V|+|E|)[/latex], if [latex]G[/latex] is represented as an adjacency list",
+      "An optimal algorithm for testing whether [latex]G[/latex] is [latex]2[/latex]-colorable runs in time [latex]\\Theta(|E| \\log |V|)[/latex], if [latex]G[/latex] is represented as an adjacency list"
+    ],
+    "correctSet": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126146,
+    "number": 46,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "An ISP having an address block [latex]202.16.0.0/15[/latex] assigns a block of [latex]6000[/latex] IP addresses to a client, using the classless internet domain routing (CIDR) super-netting approach. Which of the following address blocks can be assigned by the ISP?",
+    "solution": "The ISP's block [latex]202.16.0.0/15[/latex] spans two full class-B-sized blocks: all addresses from [latex]202.16.0.0[/latex] to [latex]202.17.255.255[/latex].<br><br>\nFor [latex]6000[/latex] addresses via CIDR super-netting, we need a block with at least [latex]6000[/latex] addresses; a [latex]/19[/latex] prefix gives [latex]2^{32-19}=2^{13}=8192[/latex] addresses, which suffices (a [latex]/20[/latex] would only give [latex]4096<6000[/latex]).<br><br>\nA valid [latex]/19[/latex] sub-block must (a) lie entirely within [latex]202.16.0.0[/latex]-[latex]202.17.255.255[/latex], and (b) have its network address aligned to a multiple of [latex]32[/latex] in the relevant octet (since [latex]/19[/latex] leaves [latex]13[/latex] host bits, and [latex]2^{13}=8192=32\\times256[/latex] addresses per block, so the 3rd octet must be a multiple of [latex]32[/latex]: [latex]0,32,64,\\ldots[/latex]).<br><br>\n- [latex]202.16.0.0/19[/latex]: [latex]0[/latex] is a valid multiple of [latex]32[/latex], and within range. <b>Valid.</b><br>\n- [latex]202.17.64.0/19[/latex]: [latex]64[/latex] is a valid multiple of [latex]32[/latex], [latex]202.17.x[/latex] is within the /15 range. <b>Valid.</b><br>\n- [latex]202.16.32.0/19[/latex]: [latex]32[/latex] is a valid multiple of [latex]32[/latex]. <b>Valid.</b><br>\n- [latex]202.17.24.0/19[/latex]: [latex]24[/latex] is <b>not</b> a multiple of [latex]32[/latex] (valid boundaries are [latex]0,32,64,\\ldots[/latex]), so this is not a properly aligned [latex]/19[/latex] block. <b>Invalid.</b><br><br>\n<b>Answer: 202.16.0.0/19, 202.17.64.0/19, and 202.16.32.0/19 can be assigned.</b> <br><br> <a href=\"https://gateoverflow.in/523034/gate-cse-2026-set-1-question-46#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Network",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-network",
+    "tag2": "Network Layer Protocol",
+    "tag2_url": "https://practicepaper.in/gate-cse/network-layer-protocol",
+    "options": [
+      "[latex]202.16.0.0/19[/latex]",
+      "[latex]202.17.64.0/19[/latex]",
+      "[latex]202.16.32.0/19[/latex]",
+      "[latex]202.17.24.0/19[/latex]"
+    ],
+    "correctSet": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1126147,
+    "number": 47,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Let [latex]G[/latex] be an undirected graph, which is a path on [latex]8[/latex] vertices. The number of matchings in [latex]G[/latex] is ________. (answer in integer)",
+    "solution": "Let [latex]f(k)[/latex] denote the number of matchings (including the empty matching) in a path graph with [latex]k[/latex] edges. Considering the last edge of the path: either it is <b>not</b> used in the matching (leaving [latex]f(k-1)[/latex] choices for the rest), or it <b>is</b> used (which forbids the adjacent edge, leaving [latex]f(k-2)[/latex] choices for the rest). This gives the Fibonacci-like recurrence:<br>\n[latex]f(k)=f(k-1)+f(k-2)[/latex], with [latex]f(0)=1[/latex] (no edges: only the empty matching) and [latex]f(1)=2[/latex] (one edge: either included or not).<br><br>\n[latex]f(2)=3,\\ f(3)=5,\\ f(4)=8,\\ f(5)=13,\\ f(6)=21,\\ f(7)=34[/latex].<br><br>\nA path on [latex]8[/latex] vertices has [latex]7[/latex] edges, so the number of matchings is [latex]f(7)=34[/latex].<br><br>\n<b>Answer: 34</b> <br><br> <a href=\"https://gateoverflow.in/523033/gate-cse-2026-set-1-question-47#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Graph Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/graph-theory",
+    "ansMin": 34,
+    "ansMax": 34
+  },
+  {
+    "id": 1126148,
+    "number": 48,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Let [latex]X[/latex] be a random variable which takes values in the set [latex]\\{1,2,3,4,5,6,7,8\\}[/latex]. Further, [latex]\\operatorname{Pr}(X=1)=\\operatorname{Pr}(X=2)=\\operatorname{Pr}(X=5)=\\operatorname{Pr}(X=7)=\\frac{1}{6}[/latex] and [latex]\\operatorname{Pr}(X=3)=\\operatorname{Pr}(X=4)=\\operatorname{Pr}(X=6)=\\operatorname{Pr}(X=8)=\\frac{1}{12}[/latex]. <br><br>The expected value of [latex]X[/latex], denoted by [latex]E[X][/latex], is equal to ________. (rounded off to two decimal places)",
+    "solution": "[latex]E[X]=\\sum x\\cdot\\Pr(X=x)[/latex]<br><br>\n[latex]=\\left(1+2+5+7\\right)\\times\\dfrac{1}{6}+\\left(3+4+6+8\\right)\\times\\dfrac{1}{12}[/latex]<br>\n[latex]=15\\times\\dfrac{1}{6}+21\\times\\dfrac{1}{12}[/latex]<br>\n[latex]=2.5+1.75=4.25[/latex]<br><br>\n<b>Answer: 4.25</b> <br><br> <a href=\"https://gateoverflow.in/523032/gate-cse-2026-set-1-question-48#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Discrete Mathematics",
+    "tag1_url": "https://practicepaper.in/gate-cse/discrete-mathematics",
+    "tag2": "Probability Theory",
+    "tag2_url": "https://practicepaper.in/gate-cse/probability-theory",
+    "ansMin": 4.24,
+    "ansMax": 4.26
+  },
+  {
+    "id": 1126149,
+    "number": 49,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider a hard disk with a rotational speed of [latex]15000[/latex] rpm. The time to move the read/write head from a track to its adjacent track is [latex]1[/latex] millisecond. Initially, the head is on track [latex]0[/latex]. The number of sectors per track is [latex]400[/latex]. The sector size is [latex]1024[/latex] bytes. It is necessary to transfer data from [latex]10[/latex] randomly located sectors in each of the following tracks in the order: [latex]5, 12[/latex] and [latex]7[/latex].<br><br> The total time for the data transfer (in milliseconds) from the hard disk is ________. (rounded off to one decimal place)",
+    "solution": "<b>Rotation time</b> per revolution [latex]=\\dfrac{60000\\text{ ms}}{15000}=4[/latex] ms, so average rotational latency (half a revolution) [latex]=2[/latex] ms, and time per sector [latex]=\\dfrac{4\\text{ ms}}{400\\text{ sectors}}=0.01[/latex] ms.<br><br>\n<b>Seek time</b> (head moves [latex]1[/latex] ms per adjacent track, following the path [latex]0\\to5\\to12\\to7[/latex]):<br>\n[latex]0\\to5[/latex]: [latex]5[/latex] tracks [latex]=5[/latex] ms; [latex]5\\to12[/latex]: [latex]7[/latex] tracks [latex]=7[/latex] ms; [latex]12\\to7[/latex]: [latex]5[/latex] tracks [latex]=5[/latex] ms. Total seek [latex]=5+7+5=17[/latex] ms.<br><br>\n<b>Data transfer per track:</b> since the [latex]10[/latex] sectors needed are randomly located, each individual sector access requires (on average) a fresh rotational latency of [latex]2[/latex] ms before the required sector arrives under the head, plus the [latex]0.01[/latex] ms to actually read it:<br>\nPer track [latex]=10\\times(2+0.01)=20.1[/latex] ms. Over [latex]3[/latex] tracks: [latex]3\\times20.1=60.3[/latex] ms.<br><br>\n<b>Total time [latex]=[/latex] seek [latex]+[/latex] transfer [latex]=17+60.3=77.3[/latex] ms.</b><br><br>\n<b>Answer: 77.3</b> <br><br> <a href=\"https://gateoverflow.in/523031/gate-cse-2026-set-1-question-49#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Secondary Storage",
+    "tag2_url": "https://practicepaper.in/gate-cse/secondary-storage",
+    "ansMin": 77.3,
+    "ansMax": 77.3
+  },
+  {
+    "id": 1126150,
+    "number": 50,
+    "type": "NAT",
+    "marks": 2,
+    "text": "The EX stage of a pipelined processor performs the memory read operations for LOAD instructions, and the operations for the arithmetic and logic instructions. Let [latex]t_{E X}[/latex] denote the time taken by the EX stage to perform the operation for an instruction. For each instruction type, the values of [latex]t_{E X}[/latex] and [latex]M[/latex] (the number of instructions of that type in a sequence of [latex]100[/latex] instructions for a program P ), are given in the table below. <br><br>The duration of the pipeline clock cycle is [latex]1[/latex] nanosecond. Assume that the latch time for the interstage buffers in the pipeline is negligible. <br><br>[latex] \\begin{array}{|l|c|c|} \\hline \\text{Instruction} & \\begin{array}{c} t_{EX}\\ \\text{in} \\\\ \\text{nanoseconds} \\end{array} & M \\\\ \\hline \\text{LOAD} & 1.8 & 15 \\\\ \\hline \\text{IMUL} & 1.5 & 10 \\\\ \\hline \\text{IDIV} & 2.5 & 5 \\\\ \\hline \\text{FADD} & 1.7 & 10 \\\\ \\hline \\text{FSUB} & 1.7 & 5 \\\\ \\hline \\text{FMUL} & 2.8 & 15 \\\\ \\hline \\text{FDIV} & 3.2 & 5 \\\\ \\hline \\begin{array}{l} \\text{All other} \\\\ \\text{instructions} \\end{array} & \\begin{array}{c} \\text{Less than} \\\\ 1.0 \\end{array} & 35 \\\\ \\hline \\end{array} [/latex] <br><br>When program [latex]\\text{P}[/latex] is executed, the number of clock cycles for which the pipeline is stalled due to structural hazards in the EX stage is ________. (answer in integer)",
+    "solution": "There is a single, shared EX-stage functional unit; only one instruction can occupy the EX stage per clock cycle (of duration [latex]1[/latex] ns). If an instruction's actual execution time [latex]t_{EX}[/latex] exceeds [latex]1[/latex] ns, it must occupy the EX stage for [latex]\\lceil t_{EX}\\rceil[/latex] clock cycles, causing [latex]\\left(\\lceil t_{EX}\\rceil-1\\right)[/latex] structural-hazard stall cycles for every instance of that instruction type.<br><br>\n[latex]\\begin{array}{l|c|c|c}\\text{Type}&t_{EX}&\\text{cycles needed}&\\text{stalls}\\times M\\\\\\hline\\text{LOAD}&1.8&2&1\\times15=15\\\\\\text{IMUL}&1.5&2&1\\times10=10\\\\\\text{IDIV}&2.5&3&2\\times5=10\\\\\\text{FADD}&1.7&2&1\\times10=10\\\\\\text{FSUB}&1.7&2&1\\times5=5\\\\\\text{FMUL}&2.8&3&2\\times15=30\\\\\\text{FDIV}&3.2&4&3\\times5=15\\\\\\text{Others}&{<}1.0&1&0\\times35=0\\end{array}[/latex]<br><br>\nTotal stall cycles [latex]=15+10+10+10+5+30+15+0=95[/latex].<br><br>\n<b>Answer: 95</b> <br><br> <a href=\"https://gateoverflow.in/523030/gate-cse-2026-set-1-question-50#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Computer Organization",
+    "tag1_url": "https://practicepaper.in/gate-cse/computer-organization",
+    "tag2": "Pipeline Processor",
+    "tag2_url": "https://practicepaper.in/gate-cse/pipeline-processor",
+    "ansMin": 95,
+    "ansMax": 95
+  },
+  {
+    "id": 1126151,
+    "number": 51,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider the recursive functions represented by the following code segment: <pre><code>int bar(int n) {\n  if (n == 1) return 0;\n  else return 1 + bar(n/2);\n }\n int foo(int n) {\n  if (n == 1) return 1;\n  else return 1 + foo(bar(n));\n } </pre></code>The smallest positive integer n for which [latex]\\text{foo(n)}[/latex] returns [latex]5[/latex] is ________. (answer in integer) <br>Note: Ignore syntax errors (if any) in the function.",
+    "solution": "First, note [latex]\\text{bar}(n)[/latex] repeatedly integer-halves [latex]n[/latex] until reaching [latex]1[/latex], counting the number of halvings &mdash; this is exactly [latex]\\lfloor\\log_2 n\\rfloor[/latex].<br><br>\n[latex]\\text{foo}(n)=1+\\text{foo}(\\text{bar}(n))[/latex] for [latex]n>1[/latex], and [latex]\\text{foo}(1)=1[/latex]. So [latex]\\text{foo}(n)[/latex] counts [latex]1[/latex] plus the number of times we must apply [latex]\\text{bar}[/latex] (i.e. take [latex]\\lfloor\\log_2\\cdot\\rfloor[/latex]) starting from [latex]n[/latex] to eventually reach [latex]1[/latex].<br><br>\nBuild up the <i>smallest</i> [latex]n[/latex] achieving each target value of [latex]\\text{foo}[/latex]:<br>\n- [latex]\\text{foo}(n)=1[/latex]: smallest [latex]n=1[/latex].<br>\n- [latex]\\text{foo}(n)=2[/latex]: need [latex]\\text{bar}(n)=1[/latex], i.e. [latex]\\lfloor\\log_2 n\\rfloor=1[/latex]: smallest [latex]n=2[/latex].<br>\n- [latex]\\text{foo}(n)=3[/latex]: need [latex]\\text{bar}(n)=2[/latex]: smallest [latex]n=2^2=4[/latex].<br>\n- [latex]\\text{foo}(n)=4[/latex]: need [latex]\\text{bar}(n)=4[/latex]: smallest [latex]n=2^4=16[/latex].<br>\n- [latex]\\text{foo}(n)=5[/latex]: need [latex]\\text{bar}(n)=16[/latex]: smallest [latex]n=2^{16}=65536[/latex].<br><br>\n<b>Answer: 65536</b> <br><br> <a href=\"https://gateoverflow.in/523029/gate-cse-2026-set-1-question-51#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "C Programming ",
+    "tag1_url": "https://practicepaper.in/gate-cse/c-programming",
+    "tag2": "Function",
+    "tag2_url": "https://practicepaper.in/gate-cse/function",
+    "ansMin": 65536,
+    "ansMax": 65536
+  },
+  {
+    "id": 1126152,
+    "number": 52,
+    "type": "NAT",
+    "marks": 2,
+    "text": "The following sequence corresponds to the preorder traversal of a binary search tree [latex]T[/latex] : <br><br>[latex] 50,25,13,40,30,47,75,60,70,80,77 [/latex] <br><br>The position of the element [latex]60[/latex] in the postorder traversal of [latex]T[/latex] is ________ . (answer in integer)<br> Note: The position begins with [latex]1[/latex].",
+    "solution": "Reconstruct the BST from the preorder [latex]50,25,13,40,30,47,75,60,70,80,77[/latex] (each root's left subtree holds smaller values, right subtree holds larger values, read off in preorder root-first fashion):<br><br>\n[latex]50[/latex] is the root. Left subtree (values [latex]<50[/latex]): [latex]25,13,40,30,47[/latex]; right subtree (values [latex]>50[/latex]): [latex]75,60,70,80,77[/latex].<br>\nLeft subtree: root [latex]25[/latex], left child [latex]13[/latex] (leaf), right subtree [latex]40,30,47[/latex] &rarr; root [latex]40[/latex], left [latex]30[/latex], right [latex]47[/latex].<br>\nRight subtree: root [latex]75[/latex], left subtree [latex]60,70[/latex] &rarr; root [latex]60[/latex] with right child [latex]70[/latex] (no left); right subtree [latex]80,77[/latex] &rarr; root [latex]80[/latex] with left child [latex]77[/latex] (no right).<br><br>\nPostorder (left, right, root) of the whole tree:<br>\nFrom the [latex]25[/latex]-subtree: [latex]13,\\ 30,47,40,\\ 25[/latex]<br>\nFrom the [latex]75[/latex]-subtree: [latex]70,60,\\ 77,80,\\ 75[/latex]<br>\nThen the root [latex]50[/latex].<br><br>\nFull postorder: [latex]13,\\,30,\\,47,\\,40,\\,25,\\,70,\\,60,\\,77,\\,80,\\,75,\\,50[/latex]<br><br>\nCounting positions (starting at [latex]1[/latex]): [latex]60[/latex] is the [latex]7[/latex]th element.<br><br>\n<b>Answer: 7</b> <br><br> <a href=\"https://gateoverflow.in/523028/gate-cse-2026-set-1-question-52#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Data Structure",
+    "tag1_url": "https://practicepaper.in/gate-cse/data-structure",
+    "tag2": "Binary Search Tree",
+    "tag2_url": "https://practicepaper.in/gate-cse/binary-search-tree",
+    "ansMin": 7,
+    "ansMax": 7
+  },
+  {
+    "id": 1126153,
+    "number": 53,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider the following program snippet. Assume that the program compiles and runs successfully. Further, assume that the fork() system call is always successful in creating a process. <pre><code>int main () {\n  int i;\n  for (i = 0; i < 3; i++) {\n  \tif (fork() == 0) {\n  \t\tcontinue;\n  \t}\n  \tbreak;\n  }\n  printf(\"Hello!\");\n  return 0;\n } </pre></code>The total number of times that the printf statement gets executed is ________. (answer in integer)",
+    "solution": "Trace the loop, remembering that after [latex]\\text{fork()}[/latex], the <b>child</b> gets return value [latex]0[/latex] (executes [latex]\\text{continue}[/latex], moving to the next loop iteration), while the <b>parent</b> gets a nonzero value (executes [latex]\\text{break}[/latex], immediately leaving the loop).<br><br>\n- [latex]i=0[/latex]: original process forks &rarr; <b>parent breaks</b> immediately (1 process reaches printf with [latex]i=0[/latex]); the <b>child continues</b> the loop.<br>\n- [latex]i=1[/latex] (in that child): it forks again &rarr; this process (now acting as parent of its own fork) <b>breaks</b> (2nd process reaches printf); its own child continues.<br>\n- [latex]i=2[/latex] (in that grandchild): forks again &rarr; this one <b>breaks</b> (3rd process reaches printf); its child continues.<br>\n- [latex]i=3[/latex] (in the great-grandchild): loop condition [latex]i<3[/latex] fails, so the loop ends naturally without another fork (4th process reaches printf).<br><br>\nSo exactly [latex]4[/latex] distinct processes each execute the [latex]\\text{printf}[/latex] statement exactly once.<br><br>\n<b>Answer: 4</b> <br><br> <a href=\"https://gateoverflow.in/523027/gate-cse-2026-set-1-question-53#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "System Call",
+    "tag2_url": "https://practicepaper.in/gate-cse/system-call",
+    "ansMin": 4,
+    "ansMax": 4
+  },
+  {
+    "id": 1126154,
+    "number": 54,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider a CPU that has to execute two types of processes. The first type, Actuators (A), requires a CPU burst of [latex]6[/latex] seconds. The second type, Controllers (C), requires a CPU burst of [latex]8[/latex] seconds. A new process of type A arrives at time [latex]t=10[/latex], [latex]20, 30, 40[/latex], and [latex]50[/latex] (in seconds). Similarly, a new process of type C arrives at time [latex]t=[/latex] [latex]11, 22, 33, 44[/latex], and [latex]55[/latex] (in seconds). The CPU scheduling policy is First Come First Serve (FCFS). The first process of type A starts running at [latex]t=10[/latex] seconds. The average waiting time (in seconds) for the [latex]10[/latex] processes is ________. (rounded off to one decimal place)",
+    "solution": "List all [latex]10[/latex] arrivals in chronological order and simulate FCFS execution (CPU serves strictly in arrival order, non-preemptive):<br><br>\n[latex]\\begin{array}{c|c|c|c|c|c}\\text{Proc}&\\text{Arrival}&\\text{Burst}&\\text{Start}&\\text{Finish}&\\text{Waiting}\\\\\\hline A&10&6&10&16&0\\\\C&11&8&16&24&5\\\\A&20&6&24&30&4\\\\C&22&8&30&38&8\\\\A&30&6&38&44&8\\\\C&33&8&44&52&11\\\\A&40&6&52&58&12\\\\C&44&8&58&66&14\\\\A&50&6&66&72&16\\\\C&55&8&72&80&17\\end{array}[/latex]<br><br>\nSum of waiting times [latex]=0+5+4+8+8+11+12+14+16+17=95[/latex].<br><br>\nAverage waiting time [latex]=\\dfrac{95}{10}=9.5[/latex] seconds.<br><br>\n<b>Answer: 9.5</b> <br><br> <a href=\"https://gateoverflow.in/523026/gate-cse-2026-set-1-question-54#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Operating System",
+    "tag1_url": "https://practicepaper.in/gate-cse/operating-system",
+    "tag2": "CPU Scheduling",
+    "tag2_url": "https://practicepaper.in/gate-cse/cpu-scheduling",
+    "ansMin": 9.5,
+    "ansMax": 9.5
+  },
+  {
+    "id": 1126155,
+    "number": 55,
+    "type": "NAT",
+    "marks": 2,
+    "text": "Consider a relational database schema with a relation [latex]R(A, B, C, D)[/latex]. If [latex]\\{A, B\\}[/latex] and [latex]\\{A, C\\}[/latex] are the only two candidate keys of the relation [latex]R[/latex], then the number of superkeys of relation [latex]R[/latex] is ________. (answer in integer)",
+    "solution": "A <b>superkey</b> is any subset of attributes that contains at least one candidate key as a subset. Here the [latex]4[/latex] attributes are [latex]\\{A,B,C,D\\}[/latex] and the candidate keys are [latex]\\{A,B\\}[/latex] and [latex]\\{A,C\\}[/latex].<br><br>\nCount subsets of [latex]\\{A,B,C,D\\}[/latex] containing [latex]\\{A,B\\}[/latex]: freely choose the remaining [latex]\\{C,D\\}[/latex] &rarr; [latex]2^2=4[/latex] subsets.<br>\nCount subsets containing [latex]\\{A,C\\}[/latex]: freely choose the remaining [latex]\\{B,D\\}[/latex] &rarr; [latex]2^2=4[/latex] subsets.<br>\nSubsets counted twice are those containing <i>both</i> [latex]\\{A,B\\}[/latex] and [latex]\\{A,C\\}[/latex], i.e. containing [latex]\\{A,B,C\\}[/latex]: freely choose remaining [latex]\\{D\\}[/latex] &rarr; [latex]2^1=2[/latex] subsets.<br><br>\nBy inclusion-exclusion, total superkeys [latex]=4+4-2=6[/latex].<br><br>\n<b>Answer: 6</b> <br><br> <a href=\"https://gateoverflow.in/523025/gate-cse-2026-set-1-question-55#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "Database Management System",
+    "tag1_url": "https://practicepaper.in/gate-cse/database-management-system",
+    "tag2": "Relational Schema",
+    "tag2_url": "https://practicepaper.in/gate-cse/relational-schema",
+    "ansMin": 6,
+    "ansMax": 6
+  },
+  {
+    "id": 1126156,
+    "number": 56,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The antonym of the word protagonist is ________.",
+    "solution": "A <b>protagonist</b> is the central, leading character of a story (the \"hero\"). Its direct opposite is the <b>antagonist</b> &mdash; the character who opposes or works against the protagonist.<br><br>\nThe other options (agnostic, arsonist, anarchist) are unrelated words that merely share a similar sound/suffix but have no antonym relationship with \"protagonist.\"<br><br>\n<b>Answer: antagonist</b> <br><br> <a href=\"https://gateoverflow.in/523089/gate-cse-2026-set-1-ga-question-1#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Verbal Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/verbal-ability",
+    "options": [
+      "agnostic",
+      "antagonist",
+      "arsonist",
+      "anarchist"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126157,
+    "number": 57,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "The figure shows two [latex]4[/latex]-tile patterns. <br><img src=\"/wp-content/uploads/GATE/CS/20261/q57a.webp\"/><br> Either one or both of the patterns can be used any number of times and in any orientation to construct a new pattern. Which one of the options below cannot be constructed by using only these two [latex]4[/latex]-tile patterns assuming there are no overlaps among them?<br><img src=\"/wp-content/uploads/GATE/CS/20261/q57b.webp\"/><br>",
+    "solution": "This is a visual tiling/pattern-matching question based on an accompanying figure: two given [latex]4[/latex]-tile shapes (usable any number of times, in any rotation/reflection, without overlapping) must be combined to try to reconstruct each of the candidate patterns (A, B, C, D).<br><br>\nChecking each candidate pattern by attempting to tile it using only copies of the two given [latex]4[/latex]-tile shapes (in any orientation): patterns A, B, and D can each be fully covered by some combination of the two tile shapes with no gaps or overlaps, but pattern C's shape cannot be decomposed into a combination of the two given tiles no matter how they are rotated or arranged &mdash; some region of C is always left over or mismatched.<br><br>\n<b>Answer: Pattern C cannot be constructed.</b> <br><br> <a href=\"https://gateoverflow.in/523088/gate-cse-2026-set-1-ga-question-2#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126158,
+    "number": 58,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a knock-out women's badminton singles tournament where there are no ties. The loser in each game is eliminated from the tournament. Every player plays until she is defeated or remains the last undefeated player. The last undefeated player is declared the winner of the tournament. If there are [latex]64[/latex] players in the beginning of the tournament, how many games should be played in total to declare the winner of the tournament?",
+    "solution": "This is a single-elimination (knock-out) tournament: every game has exactly one loser, and every loser is eliminated permanently. To determine a single overall winner among [latex]64[/latex] players, all [latex]63[/latex] of the other players must each lose exactly one game (and no player needs to lose more than once, since losing eliminates them).<br><br>\nSo the number of games played [latex]=[/latex] number of players eliminated [latex]=64-1=63[/latex] (each game produces exactly one elimination).<br><br>\n<b>Answer: 63</b> <br><br> <a href=\"https://gateoverflow.in/523087/gate-cse-2026-set-1-ga-question-3#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "127",
+      "64",
+      "63",
+      "32"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126159,
+    "number": 59,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "A student needs to enroll for a minimum of [latex]60[/latex] credits. A student cannot enroll for more than [latex]70[/latex] credits. The credits are divided amongst project and three distinct sets of courses namely, core courses, specialization courses, and elective courses. It is compulsory for a student to enroll for exactly [latex]15[/latex] credits of core courses and exactly [latex]20[/latex] credits of project. In addition, a student has to enroll for a minimum of [latex]10[/latex] credits of specialization courses. The maximum credits of elective courses that a student can enroll for is ________",
+    "solution": "Fixed compulsory credits: core [latex]=15[/latex], project [latex]=20[/latex]; together [latex]=35[/latex] credits, regardless of anything else.<br><br>\nRemaining credits (specialization + elective) must fit so that the <b>total</b> is between [latex]60[/latex] and [latex]70[/latex]. To <b>maximize</b> elective credits, we want the overall total to be as large as possible (i.e. [latex]70[/latex]) while specialization is kept at its <b>minimum</b> allowed value ([latex]10[/latex] credits), leaving as much of the credit budget as possible for electives.<br><br>\nMaximum elective [latex]=70-15-20-10=25[/latex].<br><br>\n<b>Answer: 25</b> <br><br> <a href=\"https://gateoverflow.in/523086/gate-cse-2026-set-1-ga-question-4#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1126160,
+    "number": 60,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "When the teacher is in the room, all students stand silently.' <br><br> If the above statement is true, which one of the following statements is not necessarily true?",
+    "solution": "The given statement is: [latex]\\text{Teacher in room}\\Rightarrow(\\text{Standing}\\wedge\\text{Silent})[/latex] &mdash; i.e., being in the room implies students are <i>both</i> standing <i>and</i> silent.<br><br>\n- <b>\"If any student is not standing silently, then the teacher is not in the room\"</b> is exactly the logical <b>contrapositive</b> of the original statement, so it is guaranteed true.<br>\n- <b>\"When the teacher is in the room, all students are silent\"</b> follows directly, since \"standing [latex]\\wedge[/latex] silent\" implies \"silent\" alone. Guaranteed true.<br>\n- <b>\"When the teacher is in the room, all students are standing\"</b> similarly follows, since the conjunction implies \"standing\" alone. Guaranteed true.<br>\n- <b>\"If all students are standing, then the teacher is in the room\"</b> is the <b>converse</b> of part of the original implication &mdash; the original statement never claims anything about what causes students to stand; they could be standing for a completely different reason (a fire alarm, another activity, etc.) while the teacher is absent. This is <b>not necessarily true</b>.<br><br>\n<b>Answer: \"If all students are standing, then the teacher is in the room\" is NOT necessarily true.</b> <br><br> <a href=\"https://gateoverflow.in/523085/gate-cse-2026-set-1-ga-question-5#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Verbal Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/verbal-ability",
+    "options": [
+      "If any student is not standing silently, then the teacher is not in the room.",
+      "When the teacher is in the room, all students are silent.",
+      "If all students are standing, then the teacher is in the room.",
+      "When the teacher is in the room, all students are standing."
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1126161,
+    "number": 61,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Combinatorics deals with problems involving counting. For example, \"How many distinct arrangements of [latex]\\text{N}[/latex] distinct objects in [latex]\\text{M}[/latex] spaces on a circle are possible?\" is a typical problem in combinatorics. This kind of counting is sometimes used in the modeling of several physical phenomena. Often, in such models, the different combinatorial possibilities are assigned probability values. Assigning probabilities enables the computation of the average values of physical quantities. <br><br>Consider the following statements: <br>[latex]\\text{P}:[/latex] Combinatorics is always invoked in the modeling of physical phenomena. <br>[latex]\\text{Q}:[/latex] Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities in order to compute average values of physical quantities. <br><br>Based on the passage above, what can be inferred about statements [latex]\\textbf{P}[/latex] and [latex]\\textbf{Q}?[/latex]",
+    "solution": "The passage explains that combinatorics is <i>sometimes</i> (\"often,\" \"in such models\") used when modeling physical phenomena by assigning probabilities to combinatorial possibilities &mdash; it never claims combinatorics is <i>always</i> invoked in every physical model.<br><br>\n- <b>P</b> (\"Combinatorics is always invoked...\") over-generalizes what the passage actually says (which uses qualifiers like \"often\" and \"sometimes,\" not \"always\"). So <b>P is False</b>.<br>\n- <b>Q</b> (\"Modeling some physical phenomena involves assigning probabilities to combinatorial possibilities to compute average values\") is a direct restatement of what the passage explicitly says. So <b>Q is True</b>.<br><br>\n<b>Answer: P is False and Q is True</b> <br><br> <a href=\"https://gateoverflow.in/523084/gate-cse-2026-set-1-ga-question-6#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Verbal Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/verbal-ability",
+    "options": [
+      "P is False and Q is False",
+      "P is False and Q is True",
+      "P is True and Q is False",
+      "P is True and Q is True"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1126162,
+    "number": 62,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "In Panel [latex]\\text{I}[/latex] of the figure below, the front view and top view of a structure are shown. Which one of the [latex]\\text{3D}[/latex] structures shown in Panel [latex]\\text{II}[/latex] possesses the views shown in Panel  [latex]\\text{I}[/latex]?<br><img src=\"/wp-content/uploads/GATE/CS/20261/q62.webp\"/><br> ",
+    "solution": "This is a spatial-reasoning question based on an accompanying figure showing a front view and top view (Panel I) that must be matched against four candidate 3D solids (Panel II).<br><br>\nChecking each candidate solid (i)-(iv) against both given views: a solid must simultaneously produce the exact given <b>front view</b> silhouette when viewed from the front, and the exact given <b>top view</b> silhouette when viewed from above. Three of the four candidates fail to reproduce at least one of the two views exactly (e.g. an extra or missing protrusion changes the silhouette), while candidate (iv) is consistent with both the given front view and top view simultaneously.<br><br>\n<b>Answer: (iv)</b> <br><br> <a href=\"https://gateoverflow.in/523083/gate-cse-2026-set-1-ga-question-7#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "[latex]\\text{(i)}[/latex]",
+      "[latex]\\text{(ii)}[/latex]",
+      "[latex]\\text{(iii)}[/latex]",
+      "[latex]\\text{(iv)}[/latex]"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1126163,
+    "number": 63,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "For positive real numbers [latex]S[/latex] and [latex]K[/latex], the function [latex]H_{K}(S)[/latex] is defined as: [latex]H_{K}(S)=\\max (S-K, 0)[/latex]. The max function is defined as: <br><br>[latex] \\max (a, b)=\\left\\{\\begin{array}{ll} a, & \\text { when } a>b \\\\ b, & \\text { when } a \\leq b \\end{array}\\right. [/latex] <br><br>The graph below shows the plot of a function [latex]N(S)[/latex] versus [latex]S[/latex]. <br>[latex]N(S)[/latex] can be expressed as ________.<br><img src=\"/wp-content/uploads/GATE/CS/20261/q63.webp\"/><br> ",
+    "solution": "[latex]H_K(S)=\\max(S-K,0)[/latex] is the standard \"ramp\"/hinge function: it is [latex]0[/latex] for [latex]S\\le K[/latex], and rises linearly with slope [latex]1[/latex] for [latex]S>K[/latex].<br><br>\nThe plotted function [latex]N(S)[/latex] (from the figure) is [latex]0[/latex] up to [latex]S=10[/latex], then rises with slope [latex]1[/latex] from [latex]S=10[/latex] to [latex]S=20[/latex], and then becomes flat (constant) again for [latex]S>20[/latex] &mdash; a shape that increases and then saturates.<br><br>\nThis exact shape is produced by taking one upward ramp starting at [latex]10[/latex] and <i>cancelling its slope</i> beyond [latex]20[/latex] using a second ramp of opposite sign starting at [latex]20[/latex]:<br>\n[latex]N(S)=H_{10}(S)-H_{20}(S)[/latex]<br><br>\nFor [latex]S\\le10[/latex]: both terms are [latex]0[/latex] &rarr; [latex]N=0[/latex]. For [latex]10<S\\le20[/latex]: [latex]H_{10}(S)=S-10[/latex], [latex]H_{20}(S)=0[/latex] &rarr; [latex]N=S-10[/latex] (rising). For [latex]S>20[/latex]: [latex]H_{10}(S)=S-10[/latex], [latex]H_{20}(S)=S-20[/latex] &rarr; [latex]N=(S-10)-(S-20)=10[/latex] (flat/saturated), matching the graph.<br><br>\n<b>Answer: [latex]H_{10}(S)-H_{20}(S)[/latex]</b> <br><br> <a href=\"https://gateoverflow.in/523082/gate-cse-2026-set-1-ga-question-8#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "[latex]H_{10}(S)-H_{20}(S)[/latex]",
+      "[latex]H_{10}(S)-2 H_{20}(S)[/latex]",
+      "[latex]-H_{10}(S)+H_{20}(S)[/latex]",
+      "[latex]H_{15}(S)-H_{20}(S)[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126164,
+    "number": 64,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "In the [latex]2020[/latex] summer Olympics' Javelin throw finals, Neeraj Chopra exhibited a spectacular performance to win the gold medal. The silver medal was won by Jakub Vadlejch and the bronze medal was won by Vitezlav Vesely. There were six rounds of throws with each athlete having one throw per round. The best of all the throws of each athlete is considered for the medal. Following were the observations about the throws: <br><br> i.) The first and second rounds were dominated by Neeraj Chopra with a gold \nmedal performance in his second throw, while the other two athletes did \nnot have any medal winning throws in these rounds. <br><br>\nii.) The throws in the last round by both Jakub Vadlejch and Vitezlav Vesely \nwere fouls and were not considered for scoring. <br><br>\niii.) After four rounds, Vitezlav Vesely was in the second position and could \nnot improve upon his best throw in the succeeding rounds. <br><br>\niv.) In the fourth round, the throw by Jakub Vadlejch was the best in that \nround.<br><br>In which round did Vitezlav Vesely have his best throw? ",
+    "solution": "Work through the clues step by step:<br><br>\n(i) Rounds [latex]1[/latex] and [latex]2[/latex] belong entirely to Neeraj Chopra (his 2nd throw was gold-medal-worthy); Jakub and Vesely achieved <i>none</i> of their medal-relevant (best) throws in these two rounds. So <b>neither Jakub's nor Vesely's personal-best throw happened in round 1 or 2</b> &mdash; both of their best throws must fall somewhere in rounds [latex]3[/latex]-[latex]6[/latex].<br><br>\n(ii) Both Jakub's and Vesely's round-[latex]6[/latex] throws were fouls (not counted at all), so neither of their best throws can be in round [latex]6[/latex] either. This narrows their best throws down to rounds [latex]3,4,5[/latex].<br><br>\n(iii) After [latex]4[/latex] rounds, Vesely already held [latex]2[/latex]nd position, and he never improved on this best throw afterward (rounds [latex]5[/latex] and [latex]6[/latex] didn't help him). So <b>Vesely's personal-best throw must have occurred within rounds [latex]1[/latex]-[latex]4[/latex]</b> &mdash; combined with the earlier elimination of rounds [latex]1,2[/latex], this leaves only round [latex]3[/latex] or round [latex]4[/latex] as candidates.<br><br>\n(iv) In round [latex]4[/latex], it was <i>Jakub's</i> throw that was the best of that round (not Vesely's) &mdash; this is consistent with Vesely's personal best having already been set earlier, in round [latex]3[/latex], and round [latex]4[/latex] simply being a round where Jakub (not Vesely) peaked.<br><br>\nPutting it together, Vesely's best throw was in <b>round 3</b>.<br><br>\n<b>Answer: Third</b> <br><br> <a href=\"https://gateoverflow.in/523081/gate-cse-2026-set-1-ga-question-9#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "Third",
+      "Fourth",
+      "Fifth",
+      "Sixth"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1126165,
+    "number": 65,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "An unbiased six-faced dice whose faces are marked with numbers [latex]1,2,3,4,5[/latex], and [latex]6[/latex] is rolled twice in succession and the number on the top face is recorded each time. The probability that the number appearing in the second roll is an integer multiple of the number appearing in the first roll is ________",
+    "solution": "For the first roll [latex]=a[/latex] and second roll [latex]=b[/latex] (each uniformly from [latex]\\{1,\\ldots,6\\}[/latex]), we need [latex]b[/latex] to be a multiple of [latex]a[/latex]. Count, for each value of [latex]a[/latex], how many values of [latex]b\\in\\{1,\\ldots,6\\}[/latex] are multiples of [latex]a[/latex]:<br><br>\n[latex]\\begin{array}{c|c}a&\\text{multiples of }a\\text{ in }\\{1,...,6\\}\\\\\\hline1&1,2,3,4,5,6\\ (6)\\\\2&2,4,6\\ (3)\\\\3&3,6\\ (2)\\\\4&4\\ (1)\\\\5&5\\ (1)\\\\6&6\\ (1)\\end{array}[/latex]<br><br>\nTotal favorable outcomes [latex]=6+3+2+1+1+1=14[/latex] out of [latex]6\\times6=36[/latex] equally likely outcomes.<br><br>\nProbability [latex]=\\dfrac{14}{36}=\\dfrac{7}{18}[/latex].<br><br>\n<b>Answer: 7/18</b> <br><br> <a href=\"https://gateoverflow.in/523080/gate-cse-2026-set-1-ga-question-10#a_list\" target=\"_blank\">Click here for detail solution</a>",
+    "tag1": "General Aptitude",
+    "tag1_url": "https://practicepaper.in/gate-cse/general-aptitude",
+    "tag2": "Numerical Ability",
+    "tag2_url": "https://practicepaper.in/gate-cse/numerical-ability",
+    "options": [
+      "[latex]\\frac{1}{6}[/latex]",
+      "[latex]\\frac{5}{18}[/latex]",
+      "[latex]\\frac{7}{18}[/latex]",
+      "[latex]\\frac{5}{6}[/latex]"
+    ],
+    "correct": 2
+  }
+]

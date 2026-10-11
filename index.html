@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GATE CSE Complete PYQ Archive (1983–2026)</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- KaTeX for LaTeX Math Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+</head>
+<body class="theme-dark">
+  <div id="app" class="app-container">
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-badge">GATE CSE</div>
+        <div class="header-title">
+          <h1>GATE CSE Historical Archive</h1>
+          <span class="subtext">Comprehensive Previous Year Question Bank &amp; Audit (1983–2026)</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="stat-pill"><span id="headerTotalCount">2,798</span> Verified Questions</div>
+        <div class="stat-pill"><span id="headerYearCount">44</span> Years Audited</div>
+        <button id="themeToggleBtn" class="btn btn-secondary btn-sm" title="Toggle Light/Dark Theme">🌓 Theme</button>
+        <button id="exportDataBtn" class="btn btn-secondary btn-sm" title="Export Progress Data">📥 Export</button>
+        <label class="btn btn-secondary btn-sm" title="Import Progress Data">
+          📤 Import
+          <input type="file" id="importDataInput" style="display:none;" accept=".json">
+        </label>
+        <button id="resetDataBtn" class="btn btn-danger btn-sm" title="Reset All Progress">🔄 Reset</button>
+      </div>
+    </header>
+
+    <!-- Main Navigation Bar (Modes A - J) -->
+    <nav class="mode-navigation">
+      <div class="nav-scroll">
+        <button class="nav-tab active" data-mode="all">🔍 Global Search</button>
+        <button class="nav-tab" data-mode="subject">📚 Mode A: Subject-wise</button>
+        <button class="nav-tab" data-mode="topic">🎯 Mode B: Topic-wise</button>
+        <button class="nav-tab" data-mode="year">📅 Mode C: Year-wise Papers</button>
+        <button class="nav-tab" data-mode="sub_top_yr">🧩 Mode D: Subject → Topic → Year</button>
+        <button class="nav-tab" data-mode="yr_sub_top">⏳ Mode E: Year → Subject → Topic</button>
+        <button class="nav-tab" data-mode="top_years">🌐 Mode F: Topic → All Years</button>
+        <button class="nav-tab" data-mode="exam_set">📑 Mode G: Exam &amp; Paper Sets</button>
+        <button class="nav-tab" data-mode="source_audit">🏛️ Mode H: Source Audit</button>
+        <button class="nav-tab" data-mode="unverified">⚠️ Mode I: Unverified/Review</button>
+        <button class="nav-tab" data-mode="missing_browser">📉 Mode J: Missing Data Browser</button>
+        <button class="nav-tab" data-mode="practice">⏱️ Practice / Mock Test</button>
+        <button class="nav-tab" data-mode="analytics">📊 Progress Analytics</button>
+      </div>
+    </nav>
+
+    <!-- Main Content Grid -->
+    <div class="main-layout">
+      <!-- Left Sidebar / Hierarchical Browser -->
+      <aside class="sidebar-panel" id="sidebarPanel">
+        <div class="sidebar-header">
+          <h3 id="sidebarTitle">Exploration Hierarchy</h3>
+          <button id="sidebarResetFilter" class="btn-link">Clear</button>
+        </div>
+        <div class="sidebar-content" id="sidebarContent">
+          <!-- Dynamic Tree/Selector rendered by app.js -->
+        </div>
+      </aside>
+
+      <!-- Center Content Area -->
+      <main class="content-panel">
+        <!-- Filter & Search Toolbar -->
+        <section class="toolbar-section">
+          <div class="search-box">
+            <input type="text" id="globalSearchInput" placeholder="Search keywords, question text, options, ID (e.g. Normalization, Dijkstra, 2024)...">
+            <button id="clearSearchBtn" class="btn-clear" title="Clear search">&times;</button>
+          </div>
+          <div class="filter-row">
+            <div class="filter-item">
+              <label>Year Range:</label>
+              <select id="filterYearMin"></select>
+              <span>to</span>
+              <select id="filterYearMax"></select>
+            </div>
+            <div class="filter-item">
+              <label>Subject:</label>
+              <select id="filterSubject">
+                <option value="">All Subjects</option>
+              </select>
+            </div>
+            <div class="filter-item">
+              <label>Question Type:</label>
+              <select id="filterQType">
+                <option value="">All Types (MCQ/MSQ/NAT)</option>
+                <option value="MCQ">MCQ</option>
+                <option value="MSQ">MSQ</option>
+                <option value="NAT">NAT</option>
+              </select>
+            </div>
+            <div class="filter-item">
+              <label>Marks:</label>
+              <select id="filterMarks">
+                <option value="">Any Marks</option>
+                <option value="1">1 Mark</option>
+                <option value="2">2 Marks</option>
+              </select>
+            </div>
+            <div class="filter-item">
+              <label>Status:</label>
+              <select id="filterAttempt">
+                <option value="">All Statuses</option>
+                <option value="unattempted">Unattempted</option>
+                <option value="correct">Solved Correct</option>
+                <option value="incorrect">Solved Incorrect</option>
+                <option value="bookmarked">Bookmarked</option>
+              </select>
+            </div>
+            <div class="filter-item">
+              <label>Sort By:</label>
+              <select id="filterSort">
+                <option value="year-asc">Oldest First (1987 → 2026)</option>
+                <option value="year-desc">Newest First (2026 → 1987)</option>
+                <option value="qnum-asc">Question Number (Q1 → Q65)</option>
+                <option value="marks-desc">Highest Marks First</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+        <!-- Dynamic View Header & Counter -->
+        <div class="results-header">
+          <div class="results-info">
+            <span id="resultsCount">Showing 0 questions</span>
+            <span id="activeFilterBadge" class="active-filter-badge" style="display:none;"></span>
+          </div>
+          <div class="pagination-controls" id="topPagination">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Question Stream Container -->
+        <div id="questionsContainer" class="questions-stream">
+          <!-- Rendered Questions will appear here -->
+        </div>
+
+        <!-- Bottom Pagination Controls -->
+        <div class="pagination-controls bottom-pagination" id="bottomPagination">
+          <!-- Rendered by JS -->
+        </div>
+
+        <!-- Special View Containers (Shown when corresponding mode is selected) -->
+        <div id="auditViewContainer" class="special-view-container" style="display: none;"></div>
+        <div id="missingViewContainer" class="special-view-container" style="display: none;"></div>
+        <div id="practiceViewContainer" class="special-view-container" style="display: none;"></div>
+        <div id="analyticsViewContainer" class="special-view-container" style="display: none;"></div>
+      </main>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toastMessage" class="toast-message"></div>
+  </div>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
