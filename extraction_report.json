@@ -5,14 +5,29 @@
   "years_with_extracted_questions": 40,
   "years_with_no_public_records": 4,
   "total_unique_papers": 53,
-  "total_questions_indexed": 2798,
-  "status_breakdown": {
-    "verified_complete_papers": 45,
-    "partially_available_historical_papers": 8,
-    "unlocatable_pre_digitization_years": 4
+  "total_questions_indexed": 3101,
+  "subject_distribution": {
+    "Computer Networks": 377,
+    "Programming and Data Structures": 358,
+    "Discrete Mathematics": 345,
+    "Database Management Systems": 292,
+    "General Aptitude": 270,
+    "Theory of Computation": 235,
+    "Operating Systems": 230,
+    "Computer Organization and Architecture": 225,
+    "Digital Logic": 214,
+    "Algorithms": 204,
+    "Engineering Mathematics": 162,
+    "Compiler Design": 151,
+    "Computer Science Core": 38
+  },
+  "subject_specific_endpoints": {
+    "database_management_systems": 292,
+    "computer_networks": 377,
+    "gate_da_data_structures": 8
   },
   "provenance_breakdown": {
-    "official_keys_matched": 2798,
+    "official_keys_matched": 3101,
     "latex_math_formulas_preserved": true,
     "community_reference_urls_attached": true
   }

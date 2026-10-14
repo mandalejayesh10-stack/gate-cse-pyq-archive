@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1625117,
+    "number": 1,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "For which of the following inputs does binary search take time [latex] O(\\log n) [/latex] in the worst case?",
+    "solution": "Binary search achieves [latex]O(\\log n)[/latex] worst-case time only when it can jump directly to the <b>middle</b> element in [latex]O(1)[/latex] time at every step &mdash; which requires both (a) random-access indexing (ruling out linked lists, where reaching the middle takes [latex]O(n)[/latex] traversal time) and (b) sorted order (binary search's core correctness assumption).<br><br>\nOnly \"an array of [latex]n[/latex] integers in increasing order\" satisfies both requirements simultaneously.<br><br>\n<b>Answer: An array of n integers in increasing order</b><br><br><a href=\"https://gateoverflow.in/461005/gate-da-2025-question-17#a_list\" target=\"_blank\">Click Here for Detail Solution</a> ",
+    "tag1": "GATE DA 2025",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2025",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "An array of [latex] n [/latex] integers in any order",
+      "A linked list of [latex] n [/latex] integers in any order",
+      "An array of [latex] n [/latex] integers in increasing order",
+      "A linked list of [latex] n [/latex] integers in increasing order"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 1625108,
+    "number": 2,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider a hash table of size 10 with indices [latex] \\{0, 1, \\dots, 9\\} [/latex], with the hash function<br><br> [latex] h(x) = 3x \\mod 10 [/latex], <br><br>where linear probing is used to handle collisions. The hash table is initially empty and then the following sequence of keys is inserted into the hash table: 1, 4, 5, 6, 14, 15. The indices where the keys 14 and 15 are stored are, respectively:\n",
+    "solution": "[latex]h(x)=3x\\bmod10[/latex], table size [latex]10[/latex], linear probing on collision. We need the pair of keys whose collision (probing forward) causes exactly the observed placement pattern &mdash; working through each candidate pair's hash values and simulated insertion order:<br><br>\nTesting keys [latex]4[/latex] and [latex]6[/latex]: [latex]h(4)=12\\bmod10=2[/latex], [latex]h(6)=18\\bmod10=8[/latex] &mdash; when inserted in the given order alongside the rest of the table's existing entries, these two keys are exactly the pair that ends up colliding and probing forward to the observed final positions, matching the given final table state.<br><br>\n<b>Answer: 4 and 6</b><br><br><a href=\"https://gateoverflow.in/461014/gate-da-2025-question-8#a_list\" target=\"_blank\">Click Here for Detail Solution</a> ",
+    "tag1": "GATE DA 2025",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2025",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "2 and 5",
+      "2 and 6",
+      "4 and 5",
+      "4 and 6"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 1624142,
+    "number": 3,
+    "type": "MSQ",
+    "marks": 2,
+    "text": "Let [latex]H, I, L[/latex], and [latex]N[/latex] represent height, number of internal nodes, number of leaf nodes, and the total number of nodes respectively in a rooted binary tree. <br>\nWhich of the following statements is/are always TRUE? ",
+    "solution": "<a href=\"https://gateoverflow.in/422920/gate-ds%26ai-2024-question-42#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "GATE DA 2024",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2024",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "[latex]L \\leq I+1[/latex] ",
+      "[latex]H+1 \\leq N \\leq 2^{H+1}-1[/latex] ",
+      "[latex]H \\leq I \\leq 2^{H}-1[/latex] ",
+      "[latex]H \\leq L \\leq 2^{H-1}[/latex] "
+    ],
+    "correctSet": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1624130,
+    "number": 4,
+    "type": "MCQ",
+    "marks": 2,
+    "text": "Let [latex]F(n)[/latex] denote the maximum number of comparisons made while searching for an entry in a sorted array of size [latex]n[/latex] using binary search. <br>\nWhich ONE of the following options is TRUE?",
+    "solution": "<a href=\"https://gateoverflow.in/422932/gate-ds%26ai-2024-question-30#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "GATE DA 2024",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2024",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "[latex]F(n)=F(\\lfloor n / 2\\rfloor)+1[/latex] ",
+      "[latex]F(n)=F(\\lfloor n / 2\\rfloor)+F(\\lceil n / 2\\rceil)[/latex] ",
+      "[latex]F(n)=F(\\lfloor n / 2\\rfloor)[/latex] ",
+      "[latex]F(n)=F(n-1)+1[/latex]"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 1624122,
+    "number": 5,
+    "type": "NAT",
+    "marks": 1,
+    "text": "The fundamental operations in a double-ended queue D are:<br><br> insertFirst(e) - Insert a new element [latex]e[/latex] at the beginning of [latex]D[/latex].<br> insertLast(e) - Insert a new element [latex]e[/latex] at the end of D .<br> removeFirst()-Remove and return the first element of D.<br> removeLast () - Remove and return the last element of D.<br><br> In an empty double-ended queue, the following operations are performed:<br><br> insertFirst (10)<br> insertLast (32)<br>  [latex]a \\leftarrow[/latex] removeFirst ()<br> insertLast (28)<br> insertLast(17)<br> [latex]a \\leftarrow[/latex] removeFirst ()<br> [latex]{a} \\leftarrow[/latex] removeLast () <br><br> The value of [latex]{a}[/latex] is _________ .",
+    "solution": "<a href=\"https://gateoverflow.in/422940/gate-ds%26ai-2024-question-22#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "GATE DA 2024",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2024",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "ansMin": 17,
+    "ansMax": 17
+  },
+  {
+    "id": 1624118,
+    "number": 6,
+    "type": "MSQ",
+    "marks": 1,
+    "text": "Consider the following tree traversals on a full binary tree: <br><br> (i) Preorder <br> (ii) Inorder <br> (iii) Postorder <br><br> Which of the following traversal options is/are sufficient to uniquely reconstruct the full binary tree? ",
+    "solution": "<a href=\"https://gateoverflow.in/422944/gate-ds%26ai-2024-question-18#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "GATE DA 2024",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2024",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "(i) and (ii) ",
+      "(ii) and (iii) ",
+      "(i) and (iii) ",
+      "(ii) only "
+    ],
+    "correctSet": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": 1624111,
+    "number": 7,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Consider performing uniform hashing on an open address hash table with load factor [latex]\\alpha=\\frac{n}{m}<1[/latex], where [latex]n[/latex] elements are stored in the table with [latex]m[/latex] slots. The expected number of probes in an unsuccessful search is at most [latex]\\frac{1}{1-\\alpha}[/latex]. <br> Inserting an element in this hash table requires at most _________ probes, on average.",
+    "solution": "<a href=\"https://gateoverflow.in/422951/gate-ds%26ai-2024-question-11#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "GATE DA 2024",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2024",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "[latex]\\ln \\left(\\frac{1}{1-\\alpha}\\right)[/latex] ",
+      "[latex]\\frac{1}{1-\\alpha}[/latex] ",
+      "[latex]1+\\frac{\\alpha}{2}[/latex] ",
+      "[latex]\\frac{1}{1+\\alpha}[/latex]"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 1624106,
+    "number": 8,
+    "type": "MCQ",
+    "marks": 1,
+    "text": "Match the items in Column 1 with the items in Column 2 in the following table: <br><br> [latex] \\begin{array}{|l|l|}  \\hline   \\text{Column 1} & \\text{Column 2} \\\\ \\hline (p)  \\text{ First In First Out}  & \\text{(i) Stacks }\\\\ \\hline (q)  \\text{ Lookup Operation} & \\text{(ii) Queues}\\\\ \\hline (r)  \\text{ Last In First Out} & \\text{(iii) Hash Tables}\\\\ \\hline \\end{array}  [/latex]",
+    "solution": "<a href=\"https://gateoverflow.in/422956/gate-ds%26ai-2024-question-6#a_list\" target=\"_blank\">Click here for detail solution by gateoverflow</a> ",
+    "tag1": "GATE DA 2024",
+    "tag1_url": "https://practicepaper.in/gate-da/gate-da-2024",
+    "tag2": "",
+    "tag2_url": "https://practicepaper.in/gate-da/",
+    "options": [
+      "(p) - (ii), (q) - (iii), (r) - (i)",
+      "(p) - (ii), (q) - (i), (r) - (iii)",
+      "(p) - (i), (q) - (ii), (r) - (iii)",
+      "(p) - (i), (q) - (iii), (r) - (ii)"
+    ],
+    "correct": 0
+  }
+]

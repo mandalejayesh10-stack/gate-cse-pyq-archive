@@ -92,5 +92,25 @@
       "accessibility_status": "Public GitHub Repository",
       "reliability_notes": "Complete LaTeX and HTML converted volumes covering every GATE CSE exam since 1987."
     }
+  ],
+  "subject_collections": [
+    {
+      "subject": "Database Management Systems",
+      "url": "https://practicepaper.in/gate-cse/database-management-system",
+      "question_count": 292,
+      "status": "Fully Extracted & Integrated"
+    },
+    {
+      "subject": "Computer Networks",
+      "url": "https://practicepaper.in/gate-cse/computer-network",
+      "question_count": 377,
+      "status": "Fully Extracted & Integrated"
+    },
+    {
+      "subject": "Data Structures (GATE DA)",
+      "url": "https://practicepaper.in/gate-da/data-structures",
+      "question_count": 8,
+      "status": "Fully Extracted & Integrated"
+    }
   ]
 }

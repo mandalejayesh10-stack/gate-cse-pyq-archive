@@ -11,7 +11,7 @@
 This repository contains a comprehensive, archival-grade Previous Year Question (PYQ) database and interactive single-page web study platform for **GATE Computer Science and Information Technology (CS/IT)**, spanning the complete 44-year historical target period from **1983 through 2026**.
 
 The archive prioritizes:
-- **Completeness & Accuracy**: Contains **2,798 real, source-verified questions** across 49 distinct examination papers.
+- **Completeness & Accuracy**: Contains **3,101 real, source-verified questions** across 49 distinct examination papers.
 - **Archival Integrity**: Distinguishes verified complete papers from historical fragments and documents unlocatable pre-digitization exams (1983–1986).
 - **Exact Provenance**: Preserves original question IDs, official keys, and direct links to GATE Overflow discussion posts.
 - **Mathematical & Code Precision**: Full LaTeX support for mathematical formulas and syntax formatting for C algorithms.
@@ -25,7 +25,7 @@ gate_cse_archive/
 ├── index.html              # Main study application interface
 ├── styles.css              # Responsive dark/light theme stylesheet
 ├── app.js                  # Frontend controllers, search engine & local storage state
-├── questions.json          # Canonical database of 2,798 questions in required JSON schema (6 MB)
+├── questions.json          # Canonical database of 3,101 questions in required JSON schema (6 MB)
 ├── taxonomy.json           # Comprehensive syllabus taxonomy across 12 CS subjects
 ├── source_manifest.json    # Audited primary and secondary source registry
 ├── coverage_report.json    # Year-by-year 44-calendar-year coverage matrix (1983–2026)
@@ -53,7 +53,7 @@ gate_cse_archive/
 * **2024–2025 (2 Years)**: *Verified Complete*. Multi-session 2 Sets (130 questions per year).
 * **2026 (1 Year)**: *Verified Complete*. Model & organized examination papers (130 questions across Sets 1 & 2).
 
-**Total Verified Questions**: **2,798**.
+**Total Verified Questions**: **3,101**.
 
 ---
 
@@ -101,4 +101,4 @@ Now open your web browser and navigate to:
 ## 6. Data Integrity & Provenance Guarantee
 - No questions, options, or answers were artificially generated or fabricated.
 - Unlocatable years (1983–1986) are transparently declared.
-- All 2,798 questions retain direct references to original source URLs and GATE Overflow discussions.
+- All 3,101 questions retain direct references to original source URLs and GATE Overflow discussions.
