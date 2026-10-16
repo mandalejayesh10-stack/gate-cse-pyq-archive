@@ -117,6 +117,18 @@
       "url": "https://practicepaper.in/gate-cse/algorithm",
       "question_count": 271,
       "status": "Fully Extracted & Deduplicated"
+    },
+    {
+      "subject": "Operating Systems",
+      "url": "https://practicepaper.in/gate-cse/operating-system",
+      "question_count": 389,
+      "status": "Fully Extracted & Deduplicated"
+    },
+    {
+      "subject": "Theory of Computation",
+      "url": "https://practicepaper.in/gate-cse/theory-of-computation",
+      "question_count": 307,
+      "status": "Fully Extracted & Deduplicated"
     }
   ]
 }

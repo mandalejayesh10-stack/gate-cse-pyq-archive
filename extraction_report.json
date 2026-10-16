@@ -1,8 +1,8 @@
 {
-  "report_timestamp": "2026-10-16T19:00:00Z",
-  "total_questions_extracted": 3183,
-  "total_raw_processed": 3230,
-  "deduplicated_cross_exam_questions": 47,
+  "report_timestamp": "2026-10-16T19:20:00Z",
+  "total_questions_extracted": 3380,
+  "total_raw_processed": 3446,
+  "deduplicated_cross_exam_questions": 66,
   "year_range": "1987-2026",
   "exams_included": [
     "GATE CS",
@@ -14,10 +14,10 @@
     "Digital Logic": 219,
     "Computer Organization and Architecture": 237,
     "Compiler Design": 148,
-    "Theory of Computation": 238,
+    "Theory of Computation": 296,
     "Computer Science Core": 37,
     "Programming and Data Structures": 368,
-    "Operating Systems": 234,
+    "Operating Systems": 373,
     "Algorithms": 265,
     "Engineering Mathematics": 170,
     "Discrete Mathematics": 347,
@@ -30,6 +30,8 @@
     "dbms_subject": 292,
     "cn_subject": 377,
     "gate_da_data_structures": 8,
-    "algorithm_subject": 271
+    "algorithm_subject": 271,
+    "os_subject": 389,
+    "toc_subject": 307
   }
 }
