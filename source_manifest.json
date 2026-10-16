@@ -111,6 +111,12 @@
       "url": "https://practicepaper.in/gate-da/data-structures",
       "question_count": 8,
       "status": "Fully Extracted & Integrated"
+    },
+    {
+      "subject": "Algorithms",
+      "url": "https://practicepaper.in/gate-cse/algorithm",
+      "question_count": 271,
+      "status": "Fully Extracted & Deduplicated"
     }
   ]
 }

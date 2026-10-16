@@ -1,34 +1,35 @@
 {
-  "target_years": 44,
-  "year_range": "1983-2026",
-  "years_with_exams": 44,
-  "years_with_extracted_questions": 40,
-  "years_with_no_public_records": 4,
-  "total_unique_papers": 53,
-  "total_questions_indexed": 3101,
+  "report_timestamp": "2026-10-16T19:00:00Z",
+  "total_questions_extracted": 3183,
+  "total_raw_processed": 3230,
+  "deduplicated_cross_exam_questions": 47,
+  "year_range": "1987-2026",
+  "exams_included": [
+    "GATE CS",
+    "GATE IT",
+    "GATE DA",
+    "ISRO CSE"
+  ],
   "subject_distribution": {
-    "Computer Networks": 377,
-    "Programming and Data Structures": 358,
-    "Discrete Mathematics": 345,
-    "Database Management Systems": 292,
-    "General Aptitude": 270,
-    "Theory of Computation": 235,
-    "Operating Systems": 230,
-    "Computer Organization and Architecture": 225,
-    "Digital Logic": 214,
-    "Algorithms": 204,
-    "Engineering Mathematics": 162,
-    "Compiler Design": 151,
-    "Computer Science Core": 38
+    "Digital Logic": 219,
+    "Computer Organization and Architecture": 237,
+    "Compiler Design": 148,
+    "Theory of Computation": 238,
+    "Computer Science Core": 37,
+    "Programming and Data Structures": 368,
+    "Operating Systems": 234,
+    "Algorithms": 265,
+    "Engineering Mathematics": 170,
+    "Discrete Mathematics": 347,
+    "Database Management Systems": 283,
+    "Computer Networks": 368,
+    "General Aptitude": 269
   },
-  "subject_specific_endpoints": {
-    "database_management_systems": 292,
-    "computer_networks": 377,
-    "gate_da_data_structures": 8
-  },
-  "provenance_breakdown": {
-    "official_keys_matched": 3101,
-    "latex_math_formulas_preserved": true,
-    "community_reference_urls_attached": true
+  "endpoints": {
+    "year_papers": 50,
+    "dbms_subject": 292,
+    "cn_subject": 377,
+    "gate_da_data_structures": 8,
+    "algorithm_subject": 271
   }
 }
