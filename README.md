@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-0284c7?style=for-the-badge&logo=github)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
 [![Coverage](https://img.shields.io/badge/Coverage-1983--2026_(44_Years)-success?style=for-the-badge)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
-[![Questions](https://img.shields.io/badge/Questions-2%2C798_Verified-blue?style=for-the-badge)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
+[![Questions](https://img.shields.io/badge/Questions-3%2C380_Verified-blue?style=for-the-badge)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
 
 🌐 **Live Study Application**: [GATE CSE Complete PYQ Archive (1983–2026)](https://mandalejayesh10-stack.github.io/gate-cse-pyq-archive/)
 

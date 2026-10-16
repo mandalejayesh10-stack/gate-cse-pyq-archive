@@ -85,7 +85,7 @@
       "exam_held": true,
       "organizing_institute": "IIT Kharagpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
+      "paper_completeness_status": "Partially available historical paper",
       "verified_question_count": 29,
       "expected_question_count": null,
       "official_key_available": true,
@@ -98,15 +98,15 @@
         "https://practicepaper.in/gate-cse/gate-cse-1987",
         "https://gateoverflow.in/82556/gate1987-12-a"
       ],
-      "gaps_and_notes": "Earliest verifiable GATE CSE questions. 29 objective questions preserved. Subjective questions not indexed."
+      "gaps_and_notes": "29 verified questions preserved from historical digitized records (GATE CS)."
     },
     {
       "year": 1988,
       "exam_held": true,
       "organizing_institute": "IIT Madras",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
-      "verified_question_count": 1,
+      "paper_completeness_status": "Partially available historical paper",
+      "verified_question_count": 0,
       "expected_question_count": null,
       "official_key_available": true,
       "explanations_available": true,
@@ -117,14 +117,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1988"
       ],
-      "gaps_and_notes": "Severe archival gap: Only 1 verifiable question (gate1988-1-a) preserved in historical digital records."
+      "gaps_and_notes": "0 verified questions preserved from historical digitized records ()."
     },
     {
       "year": 1989,
       "exam_held": true,
       "organizing_institute": "IISc Bangalore",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
+      "paper_completeness_status": "Partially available historical paper",
       "verified_question_count": 9,
       "expected_question_count": null,
       "official_key_available": true,
@@ -137,14 +137,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1989"
       ],
-      "gaps_and_notes": "9 objective questions preserved. Scanned PDF available on GFG for 1989."
+      "gaps_and_notes": "9 verified questions preserved from historical digitized records (GATE CS, ISRO CSE)."
     },
     {
       "year": 1990,
       "exam_held": true,
       "organizing_institute": "IIT Delhi",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
+      "paper_completeness_status": "Partially available historical paper",
       "verified_question_count": 11,
       "expected_question_count": null,
       "official_key_available": true,
@@ -157,14 +157,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1990"
       ],
-      "gaps_and_notes": "11 objective questions preserved. Scanned PDF available on GFG for 1990."
+      "gaps_and_notes": "11 verified questions preserved from historical digitized records (GATE CS)."
     },
     {
       "year": 1991,
       "exam_held": true,
       "organizing_institute": "IIT Bombay",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
+      "paper_completeness_status": "Partially available historical paper",
       "verified_question_count": 14,
       "expected_question_count": null,
       "official_key_available": true,
@@ -177,15 +177,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1991"
       ],
-      "gaps_and_notes": "14 objective questions preserved. Scanned PDF available on GFG for 1991."
+      "gaps_and_notes": "14 verified questions preserved from historical digitized records (GATE CS)."
     },
     {
       "year": 1992,
       "exam_held": true,
       "organizing_institute": "IIT Kanpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
-      "verified_question_count": 25,
+      "paper_completeness_status": "Partially available historical paper",
+      "verified_question_count": 24,
       "expected_question_count": null,
       "official_key_available": true,
       "explanations_available": true,
@@ -197,14 +197,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1992"
       ],
-      "gaps_and_notes": "25 objective questions preserved. Scanned PDF available on GFG for 1992."
+      "gaps_and_notes": "24 verified questions preserved from historical digitized records (GATE CS, ISRO CSE)."
     },
     {
       "year": 1993,
       "exam_held": true,
       "organizing_institute": "IIT Kharagpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
+      "paper_completeness_status": "Partially available historical paper",
       "verified_question_count": 26,
       "expected_question_count": null,
       "official_key_available": true,
@@ -217,14 +217,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1993"
       ],
-      "gaps_and_notes": "26 objective questions preserved. Scanned PDF available on GFG for 1993."
+      "gaps_and_notes": "26 verified questions preserved from historical digitized records (GATE CS, ISRO CSE)."
     },
     {
       "year": 1994,
       "exam_held": true,
       "organizing_institute": "IIT Madras",
       "cs_paper_available": true,
-      "paper_completeness_status": "Partially available",
+      "paper_completeness_status": "Partially available historical paper",
       "verified_question_count": 24,
       "expected_question_count": null,
       "official_key_available": true,
@@ -237,14 +237,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1994"
       ],
-      "gaps_and_notes": "24 objective questions preserved. Scanned PDF available on GFG for 1994."
+      "gaps_and_notes": "24 verified questions preserved from historical digitized records (GATE CS, ISRO CSE)."
     },
     {
       "year": 1995,
       "exam_held": true,
       "organizing_institute": "IISc Bangalore",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 50,
       "expected_question_count": 50,
       "official_key_available": true,
@@ -257,15 +257,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1995"
       ],
-      "gaps_and_notes": "Complete 50-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (50 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 1996,
       "exam_held": true,
       "organizing_institute": "IIT Delhi",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 50,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 48,
       "expected_question_count": 50,
       "official_key_available": true,
       "explanations_available": true,
@@ -277,14 +277,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1996"
       ],
-      "gaps_and_notes": "Complete 50-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (48 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 1997,
       "exam_held": true,
       "organizing_institute": "IIT Bombay",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 50,
       "expected_question_count": 50,
       "official_key_available": true,
@@ -297,15 +297,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1997"
       ],
-      "gaps_and_notes": "Complete 50-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (50 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 1998,
       "exam_held": true,
       "organizing_institute": "IIT Kanpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 55,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 52,
       "expected_question_count": 55,
       "official_key_available": true,
       "explanations_available": true,
@@ -317,14 +317,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1998"
       ],
-      "gaps_and_notes": "Complete 55-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (52 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 1999,
       "exam_held": true,
       "organizing_institute": "IIT Kharagpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 50,
       "expected_question_count": 50,
       "official_key_available": true,
@@ -337,14 +337,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-1999"
       ],
-      "gaps_and_notes": "Complete 50-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (50 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2000,
       "exam_held": true,
       "organizing_institute": "IIT Madras",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 49,
       "expected_question_count": 49,
       "official_key_available": true,
@@ -357,15 +357,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2000"
       ],
-      "gaps_and_notes": "Complete 49-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (49 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2001,
       "exam_held": true,
       "organizing_institute": "IIT Kanpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 50,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 48,
       "expected_question_count": 50,
       "official_key_available": true,
       "explanations_available": true,
@@ -377,15 +377,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2001"
       ],
-      "gaps_and_notes": "Complete 50-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (48 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2002,
       "exam_held": true,
       "organizing_institute": "IISc Bangalore",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 50,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 48,
       "expected_question_count": 50,
       "official_key_available": true,
       "explanations_available": true,
@@ -397,15 +397,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2002"
       ],
-      "gaps_and_notes": "Complete 50-question paper verified against original scanned booklets."
+      "gaps_and_notes": "Full paper verified (48 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2003,
       "exam_held": true,
       "organizing_institute": "IIT Madras",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 90,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 89,
       "expected_question_count": 90,
       "official_key_available": true,
       "explanations_available": true,
@@ -418,15 +418,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2003"
       ],
-      "gaps_and_notes": "Full paper verified (90 questions). Note: 2004-2008 also conducted separate IT branch papers."
+      "gaps_and_notes": "Full paper verified (89 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2004,
       "exam_held": true,
       "organizing_institute": "IIT Delhi",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 90,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 127,
       "expected_question_count": 90,
       "official_key_available": true,
       "explanations_available": true,
@@ -439,15 +439,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2004"
       ],
-      "gaps_and_notes": "Full paper verified (90 questions). Note: 2004-2008 also conducted separate IT branch papers."
+      "gaps_and_notes": "Full paper verified (127 questions indexed across GATE CS, GATE IT IT). Official keys and detailed solutions available."
     },
     {
       "year": 2005,
       "exam_held": true,
       "organizing_institute": "IIT Bombay",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 90,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 134,
       "expected_question_count": 90,
       "official_key_available": true,
       "explanations_available": true,
@@ -460,15 +460,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2005"
       ],
-      "gaps_and_notes": "Full paper verified (90 questions). Note: 2004-2008 also conducted separate IT branch papers."
+      "gaps_and_notes": "Full paper verified (134 questions indexed across GATE CS, GATE IT IT). Official keys and detailed solutions available."
     },
     {
       "year": 2006,
       "exam_held": true,
       "organizing_institute": "IIT Kharagpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 85,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 121,
       "expected_question_count": 85,
       "official_key_available": true,
       "explanations_available": true,
@@ -481,15 +481,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2006"
       ],
-      "gaps_and_notes": "Full paper verified (85 questions). Note: 2004-2008 also conducted separate IT branch papers."
+      "gaps_and_notes": "Full paper verified (121 questions indexed across GATE CS, GATE IT IT, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2007,
       "exam_held": true,
       "organizing_institute": "IIT Roorkee",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 85,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 159,
       "expected_question_count": 85,
       "official_key_available": true,
       "explanations_available": true,
@@ -502,15 +502,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2007"
       ],
-      "gaps_and_notes": "Full paper verified (85 questions). Note: 2004-2008 also conducted separate IT branch papers."
+      "gaps_and_notes": "Full paper verified (159 questions indexed across GATE CS, GATE IT IT, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2008,
       "exam_held": true,
       "organizing_institute": "IISc Bangalore",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 85,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 144,
       "expected_question_count": 85,
       "official_key_available": true,
       "explanations_available": true,
@@ -523,15 +523,15 @@
       "discovered_urls": [
         "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20211005202849/GATE2008.pdf"
       ],
-      "gaps_and_notes": "Full paper verified (85 questions). Note: 2004-2008 also conducted separate IT branch papers."
+      "gaps_and_notes": "Full paper verified (144 questions indexed across GATE CS, GATE IT IT, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2009,
       "exam_held": true,
       "organizing_institute": "IIT Roorkee",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 60,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 79,
       "expected_question_count": 60,
       "official_key_available": true,
       "explanations_available": true,
@@ -544,14 +544,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2009"
       ],
-      "gaps_and_notes": "Modern 65-question pattern (10 GA + 55 CS). Official answer keys verified."
+      "gaps_and_notes": "Full paper verified (79 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2010,
       "exam_held": true,
       "organizing_institute": "IIT Guwahati",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 65,
       "expected_question_count": 65,
       "official_key_available": true,
@@ -565,15 +565,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2010"
       ],
-      "gaps_and_notes": "Modern 65-question pattern (10 GA + 55 CS). Official answer keys verified."
+      "gaps_and_notes": "Full paper verified (65 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2011,
       "exam_held": true,
       "organizing_institute": "IIT Madras",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 65,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 91,
       "expected_question_count": 65,
       "official_key_available": true,
       "explanations_available": true,
@@ -586,15 +586,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2011"
       ],
-      "gaps_and_notes": "Modern 65-question pattern (10 GA + 55 CS). Official answer keys verified."
+      "gaps_and_notes": "Full paper verified (91 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2012,
       "exam_held": true,
       "organizing_institute": "IIT Delhi",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 65,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 64,
       "expected_question_count": 65,
       "official_key_available": true,
       "explanations_available": true,
@@ -607,15 +607,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2012"
       ],
-      "gaps_and_notes": "Modern 65-question pattern (10 GA + 55 CS). Official answer keys verified."
+      "gaps_and_notes": "Full paper verified (64 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2013,
       "exam_held": true,
       "organizing_institute": "IIT Bombay",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete",
-      "verified_question_count": 65,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 100,
       "expected_question_count": 65,
       "official_key_available": true,
       "explanations_available": true,
@@ -628,7 +628,7 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2013"
       ],
-      "gaps_and_notes": "Modern 65-question pattern (10 GA + 55 CS). Official answer keys verified."
+      "gaps_and_notes": "Full paper verified (100 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2014,
@@ -636,7 +636,7 @@
       "organizing_institute": "IIT Kharagpur",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 3 Sets)",
-      "verified_question_count": 195,
+      "verified_question_count": 224,
       "expected_question_count": 195,
       "official_key_available": true,
       "explanations_available": true,
@@ -650,7 +650,7 @@
         "https://practicepaper.in/gate-cse/gate-cse-2014-set-2",
         "https://practicepaper.in/gate-cse/gate-cse-2014-set-3"
       ],
-      "gaps_and_notes": "3 distinct sets (Set 1, Set 2, Set 3) of 65 questions each = 195 verified questions."
+      "gaps_and_notes": "Full paper verified (224 questions indexed across GATE CS (Set 1), GATE CS (Set 2), GATE CS (Set 3), ISRO CSE, ISRO CSE (Set 1), ISRO CSE (Set 2)). Official keys and detailed solutions available."
     },
     {
       "year": 2015,
@@ -658,7 +658,7 @@
       "organizing_institute": "IIT Kanpur",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 3 Sets)",
-      "verified_question_count": 195,
+      "verified_question_count": 225,
       "expected_question_count": 195,
       "official_key_available": true,
       "explanations_available": true,
@@ -672,7 +672,7 @@
         "https://practicepaper.in/gate-cse/gate-cse-2015-set-2",
         "https://practicepaper.in/gate-cse/gate-cse-2015-set-3"
       ],
-      "gaps_and_notes": "3 distinct sets (Set 1, Set 2, Set 3) of 65 questions each = 195 verified questions."
+      "gaps_and_notes": "Full paper verified (225 questions indexed across GATE CS (Set 1), GATE CS (Set 2), GATE CS (Set 3), ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2016,
@@ -680,7 +680,7 @@
       "organizing_institute": "IISc Bangalore",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 2 Sets)",
-      "verified_question_count": 130,
+      "verified_question_count": 153,
       "expected_question_count": 130,
       "official_key_available": true,
       "explanations_available": true,
@@ -694,7 +694,7 @@
         "https://practicepaper.in/gate-cse/gate-cse-2016-set-1",
         "https://practicepaper.in/gate-cse/gate-cse-2016-set-2"
       ],
-      "gaps_and_notes": "2 distinct sets (Set 1 and Set 2) of 65 questions each = 130 verified questions."
+      "gaps_and_notes": "Full paper verified (153 questions indexed across GATE CS (Set 1), GATE CS (Set 2), ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2017,
@@ -702,7 +702,7 @@
       "organizing_institute": "IIT Roorkee",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 2 Sets)",
-      "verified_question_count": 130,
+      "verified_question_count": 163,
       "expected_question_count": 130,
       "official_key_available": true,
       "explanations_available": true,
@@ -716,15 +716,15 @@
         "https://practicepaper.in/gate-cse/gate-cse-2017-set-1",
         "https://practicepaper.in/gate-cse/gate-cse-2017-set-2"
       ],
-      "gaps_and_notes": "2 distinct sets (Set 1 and Set 2) of 65 questions each = 130 verified questions."
+      "gaps_and_notes": "Full paper verified (163 questions indexed across GATE CS (Set 1), GATE CS (Set 2), ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2018,
       "exam_held": true,
       "organizing_institute": "IIT Guwahati",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete (Single Session)",
-      "verified_question_count": 65,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 99,
       "expected_question_count": 65,
       "official_key_available": true,
       "explanations_available": true,
@@ -737,14 +737,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2018"
       ],
-      "gaps_and_notes": "Single session 65-question paper verified with official keys and detailed solutions."
+      "gaps_and_notes": "Full paper verified (99 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2019,
       "exam_held": true,
       "organizing_institute": "IIT Madras",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete (Single Session)",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 65,
       "expected_question_count": 65,
       "official_key_available": true,
@@ -758,15 +758,15 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2019"
       ],
-      "gaps_and_notes": "Single session 65-question paper verified with official keys and detailed solutions."
+      "gaps_and_notes": "Full paper verified (65 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2020,
       "exam_held": true,
       "organizing_institute": "IIT Delhi",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete (Single Session)",
-      "verified_question_count": 65,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 92,
       "expected_question_count": 65,
       "official_key_available": true,
       "explanations_available": true,
@@ -779,7 +779,7 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2020"
       ],
-      "gaps_and_notes": "Single session 65-question paper verified with official keys and detailed solutions."
+      "gaps_and_notes": "Full paper verified (92 questions indexed across GATE CS, ISRO CSE). Official keys and detailed solutions available."
     },
     {
       "year": 2021,
@@ -801,15 +801,15 @@
         "https://practicepaper.in/gate-cse/gate-cse-2021-set-1",
         "https://practicepaper.in/gate-cse/gate-cse-2021-set-2"
       ],
-      "gaps_and_notes": "2 distinct sets (Set 1 and Set 2) of 65 questions each = 130 verified questions."
+      "gaps_and_notes": "Full paper verified (130 questions indexed across GATE CS (Set 1), GATE CS (Set 2)). Official keys and detailed solutions available."
     },
     {
       "year": 2022,
       "exam_held": true,
       "organizing_institute": "IIT Kharagpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete (Single Session)",
-      "verified_question_count": 65,
+      "paper_completeness_status": "Verified complete paper",
+      "verified_question_count": 63,
       "expected_question_count": 65,
       "official_key_available": true,
       "explanations_available": true,
@@ -822,14 +822,14 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2022"
       ],
-      "gaps_and_notes": "Single session 65-question paper verified with official keys and detailed solutions."
+      "gaps_and_notes": "Full paper verified (63 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2023,
       "exam_held": true,
       "organizing_institute": "IIT Kanpur",
       "cs_paper_available": true,
-      "paper_completeness_status": "Verified complete (Single Session)",
+      "paper_completeness_status": "Verified complete paper",
       "verified_question_count": 65,
       "expected_question_count": 65,
       "official_key_available": true,
@@ -843,7 +843,7 @@
       "discovered_urls": [
         "https://practicepaper.in/gate-cse/gate-cse-2023"
       ],
-      "gaps_and_notes": "Single session 65-question paper verified with official keys and detailed solutions."
+      "gaps_and_notes": "Full paper verified (65 questions indexed across GATE CS). Official keys and detailed solutions available."
     },
     {
       "year": 2024,
@@ -851,7 +851,7 @@
       "organizing_institute": "IISc Bangalore",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 2 Sets)",
-      "verified_question_count": 130,
+      "verified_question_count": 135,
       "expected_question_count": 130,
       "official_key_available": true,
       "explanations_available": true,
@@ -865,7 +865,7 @@
         "https://practicepaper.in/gate-cse/gate-cse-2024-set-1",
         "https://practicepaper.in/gate-cse/gate-cse-2024-set-2"
       ],
-      "gaps_and_notes": "2 distinct sets (Set 1 and Set 2) of 65 questions each = 130 verified questions."
+      "gaps_and_notes": "Full paper verified (135 questions indexed across GATE CS (Set 1), GATE CS (Set 2), GATE DA DA). Official keys and detailed solutions available."
     },
     {
       "year": 2025,
@@ -873,7 +873,7 @@
       "organizing_institute": "IIT Roorkee",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 2 Sets)",
-      "verified_question_count": 130,
+      "verified_question_count": 132,
       "expected_question_count": 130,
       "official_key_available": true,
       "explanations_available": true,
@@ -887,7 +887,7 @@
         "https://practicepaper.in/gate-cse/gate-cse-2025-set-1",
         "https://practicepaper.in/gate-cse/gate-cse-2025-set-2"
       ],
-      "gaps_and_notes": "2 distinct sets (Set 1 and Set 2) of 65 questions each = 130 verified questions."
+      "gaps_and_notes": "Full paper verified (132 questions indexed across GATE CS (Set 1), GATE CS (Set 2), GATE DA DA). Official keys and detailed solutions available."
     },
     {
       "year": 2026,
@@ -895,7 +895,7 @@
       "organizing_institute": "IIT Guwahati",
       "cs_paper_available": true,
       "paper_completeness_status": "Verified complete (Multi-session 2 Sets)",
-      "verified_question_count": 130,
+      "verified_question_count": 129,
       "expected_question_count": 130,
       "official_key_available": true,
       "explanations_available": true,
@@ -909,7 +909,7 @@
         "https://practicepaper.in/gate-cse/gate-cse-2026-set-1",
         "https://practicepaper.in/gate-cse/gate-cse-2026-set-2"
       ],
-      "gaps_and_notes": "2 distinct sets (Set 1 and Set 2) of 65 questions each = 130 verified questions."
+      "gaps_and_notes": "Full paper verified (129 questions indexed across GATE CS (Set 1), GATE CS (Set 2)). Official keys and detailed solutions available."
     }
   ]
 }

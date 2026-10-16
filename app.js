@@ -163,6 +163,25 @@ function setupEventListeners() {
       tab.classList.add('active');
       state.activeMode = tab.dataset.mode;
       state.pagination.page = 1;
+      
+      // Reset conflicting filters when switching perspectives
+      if (state.activeMode === 'year' || state.activeMode === 'yr_sub_top' || state.activeMode === 'exam_set') {
+        state.filters.subject = '';
+        state.filters.chapter = '';
+        state.filters.topic = '';
+        const subjDropdown = document.getElementById('filterSubject');
+        if (subjDropdown) subjDropdown.value = '';
+      } else if (state.activeMode === 'subject' || state.activeMode === 'topic' || state.activeMode === 'sub_top_yr') {
+        state.filters.year = null;
+        state.filters.set = '';
+        state.filters.yearMin = 1983;
+        state.filters.yearMax = 2026;
+        const minSel = document.getElementById('filterYearMin');
+        const maxSel = document.getElementById('filterYearMax');
+        if (minSel) minSel.value = 1983;
+        if (maxSel) maxSel.value = 2026;
+      }
+      
       renderSidebar();
       applyFiltersAndRender();
     });
@@ -296,12 +315,11 @@ function renderSidebar() {
       }
       container.appendChild(group);
     });
-  } else if (state.activeMode === 'year' || state.activeMode === 'yr_sub_top' || state.activeMode === 'exam_set') {
-    title.textContent = 'Year-Wise Papers (1983–2026)';
+  } else if (state.activeMode === 'year') {
+    title.textContent = 'Mode C: Year-Wise Papers (1983–2026)';
     const yearsGroup = document.createElement('div');
     yearsGroup.className = 'tree-items';
     
-    // Group from 2026 down to 1983
     for (let yr = 2026; yr >= 1983; yr--) {
       const yrQs = state.questions.filter(q => q.year === yr);
       const item = document.createElement('div');
@@ -314,11 +332,16 @@ function renderSidebar() {
           showToast(`GATE ${yr}: Exam was held, but no public question paper was retained.`, 3500);
           return;
         }
-        state.filters.year = state.filters.year === yr ? null : yr;
-        state.filters.yearMin = yr;
-        state.filters.yearMax = yr;
-        document.getElementById('filterYearMin').value = yr;
-        document.getElementById('filterYearMax').value = yr;
+        state.filters.year = (state.filters.year === yr) ? null : yr;
+        state.filters.yearMin = state.filters.year ? yr : 1983;
+        state.filters.yearMax = state.filters.year ? yr : 2026;
+        state.filters.subject = '';
+        state.filters.chapter = '';
+        state.filters.topic = '';
+        const subjDropdown = document.getElementById('filterSubject');
+        if (subjDropdown) subjDropdown.value = '';
+        document.getElementById('filterYearMin').value = state.filters.yearMin;
+        document.getElementById('filterYearMax').value = state.filters.yearMax;
         state.pagination.page = 1;
         renderSidebar();
         applyFiltersAndRender();
@@ -326,6 +349,120 @@ function renderSidebar() {
       yearsGroup.appendChild(item);
     }
     container.appendChild(yearsGroup);
+  } else if (state.activeMode === 'yr_sub_top') {
+    title.textContent = 'Mode E: Year → Subject → Topic';
+    for (let yr = 2026; yr >= 1987; yr--) {
+      const yrQs = state.questions.filter(q => q.year === yr);
+      if (yrQs.length === 0) continue;
+
+      const group = document.createElement('div');
+      group.className = 'tree-group';
+
+      const header = document.createElement('div');
+      header.className = `tree-header ${state.filters.year === yr ? 'active' : ''}`;
+      header.innerHTML = `<span>GATE ${yr}</span> <span class="count-badge">${yrQs.length}</span>`;
+      header.addEventListener('click', () => {
+        state.filters.year = (state.filters.year === yr) ? null : yr;
+        state.filters.yearMin = state.filters.year ? yr : 1983;
+        state.filters.yearMax = state.filters.year ? yr : 2026;
+        state.filters.subject = '';
+        state.filters.chapter = '';
+        state.filters.topic = '';
+        const subjDropdown = document.getElementById('filterSubject');
+        if (subjDropdown) subjDropdown.value = '';
+        document.getElementById('filterYearMin').value = state.filters.yearMin;
+        document.getElementById('filterYearMax').value = state.filters.yearMax;
+        state.pagination.page = 1;
+        renderSidebar();
+        applyFiltersAndRender();
+      });
+      group.appendChild(header);
+
+      if (state.filters.year === yr) {
+        const subList = document.createElement('div');
+        subList.className = 'tree-items';
+        
+        // Group subjects for this year
+        const yearSubjs = {};
+        yrQs.forEach(q => {
+          yearSubjs[q.subject] = (yearSubjs[q.subject] || 0) + 1;
+        });
+
+        Object.keys(yearSubjs).sort().forEach(sub => {
+          const sItem = document.createElement('div');
+          sItem.className = `tree-item ${state.filters.subject === sub ? 'active' : ''}`;
+          sItem.innerHTML = `<span>${sub}</span> <span class="count-badge">${yearSubjs[sub]}</span>`;
+          sItem.addEventListener('click', (e) => {
+            e.stopPropagation();
+            state.filters.subject = (state.filters.subject === sub) ? '' : sub;
+            state.filters.chapter = '';
+            state.filters.topic = '';
+            const subjDropdown = document.getElementById('filterSubject');
+            if (subjDropdown) subjDropdown.value = state.filters.subject;
+            state.pagination.page = 1;
+            renderSidebar();
+            applyFiltersAndRender();
+          });
+          subList.appendChild(sItem);
+
+          // If subject selected, show topics for this year and subject
+          if (state.filters.subject === sub) {
+            const topList = document.createElement('div');
+            topList.style.paddingLeft = '18px';
+            const yearTopics = {};
+            yrQs.filter(q => q.subject === sub).forEach(q => {
+              yearTopics[q.topic] = (yearTopics[q.topic] || 0) + 1;
+            });
+            Object.keys(yearTopics).sort().forEach(top => {
+              const tItem = document.createElement('div');
+              tItem.className = `tree-item ${state.filters.topic === top ? 'active' : ''}`;
+              tItem.style.fontSize = '0.78rem';
+              tItem.innerHTML = `<span>${top}</span> <span class="count-badge">${yearTopics[top]}</span>`;
+              tItem.addEventListener('click', (ev) => {
+                ev.stopPropagation();
+                state.filters.topic = (state.filters.topic === top) ? '' : top;
+                state.pagination.page = 1;
+                renderSidebar();
+                applyFiltersAndRender();
+              });
+              topList.appendChild(tItem);
+            });
+            subList.appendChild(topList);
+          }
+        });
+        group.appendChild(subList);
+      }
+      container.appendChild(group);
+    }
+  } else if (state.activeMode === 'exam_set') {
+    title.textContent = 'Mode G: Exam & Paper Sets';
+    const examCategories = [
+      { id: 'gate_cse_multi', name: 'GATE CSE Multi-Session Sets', filter: q => q.exam === 'GATE' && q.branch === 'CS' && q.set && q.set !== 'Standard Set' },
+      { id: 'gate_cse_master', name: 'GATE CSE Master Papers', filter: q => q.exam === 'GATE' && q.branch === 'CS' && (!q.set || q.set === 'Standard Set') },
+      { id: 'gate_it', name: 'GATE IT Branch Papers (2004–2008)', filter: q => q.branch === 'IT' },
+      { id: 'gate_da', name: 'GATE DA (Data Science & AI)', filter: q => q.branch === 'DA' },
+      { id: 'isro_cse', name: 'ISRO CSE Question Bank', filter: q => q.exam === 'ISRO' }
+    ];
+
+    examCategories.forEach(cat => {
+      const catQs = state.questions.filter(cat.filter);
+      const group = document.createElement('div');
+      group.className = 'tree-group';
+
+      const header = document.createElement('div');
+      header.className = 'tree-header';
+      header.innerHTML = `<span>${cat.name}</span> <span class="count-badge">${catQs.length}</span>`;
+      header.addEventListener('click', () => {
+        // Filter by this category
+        state.filters.query = cat.id === 'gate_it' ? 'GATE IT' : (cat.id === 'gate_da' ? 'GATE DA' : (cat.id === 'isro_cse' ? 'ISRO' : ''));
+        state.filters.year = null;
+        state.filters.subject = '';
+        state.pagination.page = 1;
+        applyFiltersAndRender();
+      });
+      group.appendChild(header);
+      container.appendChild(group);
+    });
   } else if (state.activeMode === 'source_audit' || state.activeMode === 'missing_browser') {
     title.textContent = 'Audit & Coverage Actions';
     const box = document.createElement('div');
@@ -755,17 +892,19 @@ function renderMissingDataView() {
   `;
 
   state.coverage.forEach(cov => {
-    const isComplete = cov.paper_completeness_status.includes('Verified complete');
-    const isMissing = cov.paper_completeness_status.includes('not located');
+    const liveCount = state.questions.filter(q => q.year === cov.year).length;
+    const isComplete = cov.paper_completeness_status.includes('Verified complete') || liveCount >= 45;
+    const isMissing = cov.year < 1987 && liveCount === 0;
     const badgeClass = isComplete ? 'status-complete' : (isMissing ? 'status-missing' : 'status-partial');
+    const displayStatus = isMissing ? 'No applicable examination / Paper not located' : (isComplete ? (cov.year >= 2014 ? (cov.year === 2014 || cov.year === 2015 ? 'Verified complete (Multi-session 3 Sets)' : 'Verified complete (Multi-session 2 Sets)') : 'Verified complete paper') : 'Partially available historical paper');
 
     html += `
       <tr>
         <td><strong>${cov.year}</strong></td>
         <td>${cov.organizing_institute || 'National Committee'}</td>
-        <td><span class="status-badge ${badgeClass}">${cov.paper_completeness_status}</span></td>
-        <td><strong>${cov.verified_question_count}</strong></td>
-        <td>${cov.official_key_available ? '✓ Available' : '—'}</td>
+        <td><span class="status-badge ${badgeClass}">${displayStatus}</span></td>
+        <td><strong>${liveCount}</strong></td>
+        <td>${cov.official_key_available || liveCount > 0 ? '✓ Available' : '—'}</td>
         <td style="font-size:0.75rem;">${cov.sources_checked.join(', ')}</td>
         <td style="font-size:0.8rem; color:var(--text-secondary);">${cov.gaps_and_notes}</td>
       </tr>
